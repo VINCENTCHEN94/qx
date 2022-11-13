@@ -45,7 +45,7 @@ DOMAIN-SUFFIX,adv.ccb.com
 DOMAIN-SUFFIX,plbslog.umeng.com
 DOMAIN-SUFFIX,api-adservices.apple.com
 DOMAIN-SUFFIX,iadsdk.apple.com
-business-cdn.shouji.sogou.com
+DOMAIN-SUFFIX,business-cdn.shouji.sogou.com
 DOMAIN-SUFFIX,rp.hpplay.cn
 DOMAIN-SUFFIX,optimus-ads.amap.com
 DOMAIN-SUFFIX,c-hzgt2.getui.com
