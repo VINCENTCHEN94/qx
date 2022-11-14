@@ -1,6 +1,11 @@
-# > 2022年11月14日09:40:16
-HOST-KEYWORD,adservice
+# > update 2022年11月14日09:40:16
 
+# B站去广告(防止间歇性失效)
+ip-cidr,203.107.1.1/24
+# 贴吧屏蔽域名dns查询
+ip-cidr,180.76.76.200/32
+#个人筛选
+HOST-KEYWORD,adservice
 HOST-SUFFIX,ios-dc.51y5.net
 HOST-SUFFIX,c.51y5.net
 HOST-SUFFIX,app-measurement.com
@@ -53,7 +58,7 @@ HOST-SUFFIX,crashlytics.com
 HOST-SUFFIX,shuzilm.cn
 HOST-SUFFIX,advert.mafengwo.cn
 HOST-SUFFIX,pv.sohu.com
-# > Autohome
+# > Autohome 神机规则补充
 HOST-SUFFIX,adproxy.autohome.com.cn
 HOST-SUFFIX,rd.autohome.com.cn
 HOST-SUFFIX,al.autohome.com.cn
@@ -62,13 +67,13 @@ HOST,adm0.autoimg.cn
 HOST,adm1.autoimg.cn
 HOST,adm2.autoimg.cn
 HOST,adm3.autoimg.cn
-# > ByteDance
+# > ByteDance 神机规则补充
 HOST-SUFFIX,pangolin-sdk-toutiao.com
 HOST-SUFFIX,pangolin-sdk-toutiao-b.com
 HOST,ad.toutiao.com
 HOST,dsp.toutiao.com
 HOST,pangolin.snssdk.com
-# --- (Tencent) ---
+# --- (Tencent) ---神机规则补充
 HOST-SUFFIX,e.qq.com
 HOST-SUFFIX,gdt.qq.com
 HOST-SUFFIX,l.qq.com
@@ -82,7 +87,7 @@ HOST,pgdt.gtimg.com
 HOST,pgdt.ugdtimg.com
 HOST,splashqqlive.gtimg.com
 HOST,wa.gtimg.com
-# --- (Baidu) ---
+# --- (Baidu) --- 神机规则补充
 HOST,duapps.com
 HOST,cpro.baidu.com
 HOST,pos.baidu.com
