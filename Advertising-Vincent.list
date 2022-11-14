@@ -4,6 +4,13 @@
 ip-cidr,203.107.1.1/24
 # 贴吧屏蔽域名dns查询
 ip-cidr,180.76.76.200/32
+
+# Privacy
+# > Google
+HOST,safebrowsing.googleapis.com
+# > Tencent
+HOST,safebrowsing.urlsec.qq.com
+
 #个人筛选
 HOST-KEYWORD,adservice
 HOST-SUFFIX,ios-dc.51y5.net
