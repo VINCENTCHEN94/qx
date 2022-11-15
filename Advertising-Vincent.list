@@ -13,6 +13,20 @@ HOST,safebrowsing.urlsec.qq.com
 
 #个人筛选
 HOST-KEYWORD,adservice
+HOST-SUFFIX,dig.bdurl.net
+HOST-SUFFIX,data.bilibili.com
+HOST-SUFFIX,up-hl.3g.qq.com
+HOST-SUFFIX,yun-hl.3g.qq.com
+HOST,whoami.akamai.net
+HOST-SUFFIX,firebaselogging-pa.googleapis.com
+
+HOST-SUFFIX,wap.cmpassport.com
+HOST-SUFFIX,cm.bilibili.com
+HOST-SUFFIX,analytics-api.smzdm.com
+HOST-SUFFIX,log.aliyuncs.com
+HOST-SUFFIX,baichuan-sdk.alicdn.com
+HOST-SUFFIX,mon-va.byteoversea.com
+
 HOST-SUFFIX,ios-dc.51y5.net
 HOST-SUFFIX,c.51y5.net
 HOST-SUFFIX,app-measurement.com
