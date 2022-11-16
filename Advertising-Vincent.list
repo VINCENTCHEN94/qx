@@ -12,7 +12,14 @@ HOST,safebrowsing.googleapis.com
 HOST,safebrowsing.urlsec.qq.com
 
 #个人筛选
-HOST-KEYWORD,adservice
+HOST-KEYWORD,adservices
+HOST-KEYWORD,googleads
+HOST-SUFFIX,mtalk.google.com
+HOST-SUFFIX,btrace.qq.com
+HOST-SUFFIX,mtrace.qq.com
+HOST-SUFFIX,omgid.qq.com
+HOST-SUFFIX,dp3.qq.com
+HOST-SUFFIX,beacon.qq.com
 HOST-SUFFIX,dig.bdurl.net
 HOST-SUFFIX,get.sogou.com
 HOST-SUFFIX,crashlytics.com
@@ -22,7 +29,6 @@ HOST-SUFFIX,yun-hl.3g.qq.com
 HOST,whoami.akamai.net
 HOST-SUFFIX,firebaselogging-pa.googleapis.com
 HOST-SUFFIX,rtbapi.douyucdn.cn
-HOST-SUFFIX,getui.com
 HOST-SUFFIX,gepush.com
 HOST-SUFFIX,adash.man.aliyuncs.com
 HOST-SUFFIX,cmpassport.com
@@ -31,8 +37,8 @@ HOST-SUFFIX,analytics-api.smzdm.com
 HOST-SUFFIX,log.aliyuncs.com
 HOST-SUFFIX,baichuan-sdk.alicdn.com
 HOST-SUFFIX,mon-va.byteoversea.com
-
-
+HOST-SUFFIX,fengkongcloud.com
+HOST-SUFFIX,msg.douyu.com
 HOST-SUFFIX,umsns.com
 HOST-SUFFIX,px.ucweb.com
 HOST,issuecdn.baidupcs.com
@@ -90,7 +96,7 @@ HOST-SUFFIX,api-adservices.apple.com
 HOST-SUFFIX,business-cdn.shouji.sogou.com
 HOST-SUFFIX,rp.hpplay.cn
 HOST-SUFFIX,optimus-ads.amap.com
-HOST-SUFFIX,c-hzgt2.getui.com
+HOST-SUFFIX,getui.com
 HOST-SUFFIX,growingio.com
 HOST-SUFFIX,crashlytics.com
 HOST-SUFFIX,shuzilm.cn
@@ -120,9 +126,9 @@ HOST,adsmind.gdtimg.com
 HOST,adsmind.tc.qq.com
 HOST,adsmind.ugdtimg.com
 HOST,livep.l.t002.ottcn.com
-HOST,pgdt.gtimg.cn
-HOST,pgdt.gtimg.com
-HOST,pgdt.ugdtimg.com
+HOST-SUFFIX,pgdt.gtimg.cn
+HOST-SUFFIX,pgdt.gtimg.com
+HOST-SUFFIX,pgdt.ugdtimg.com
 HOST,splashqqlive.gtimg.com
 HOST,wa.gtimg.com
 # --- (Baidu) --- 神机规则补充
