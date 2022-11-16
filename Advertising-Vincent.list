@@ -32,6 +32,19 @@ HOST-SUFFIX,log.aliyuncs.com
 HOST-SUFFIX,baichuan-sdk.alicdn.com
 HOST-SUFFIX,mon-va.byteoversea.com
 
+
+HOST-SUFFIX,umsns.com
+HOST-SUFFIX,px.ucweb.com
+HOST,issuecdn.baidupcs.com
+HOST-SUFFIX,ufosdk.baidu.com
+HOST,ynuf.aliapp.org
+HOST,sofire.baidu.com
+HOST-SUFFIX,nsclick.baidu.com
+HOST,list.z.qingting.fm
+HOST-SUFFIX,pglstatp-toutiao.com
+HOST-SUFFIX,amdc.m.taobao.com
+HOST-SUFFIX,adashx.m.taobao.com
+HOST-SUFFIX,qchannel01.cn
 HOST-SUFFIX,ios-dc.51y5.net
 HOST-SUFFIX,c.51y5.net
 HOST-SUFFIX,app-measurement.com
