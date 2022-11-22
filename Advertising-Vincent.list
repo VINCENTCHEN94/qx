@@ -96,6 +96,8 @@ HOST-SUFFIX,advert.mafengwo.cn
 HOST-SUFFIX,analytics-api.smzdm.com
 # tieba
 ip-cidr,180.76.76.200/32
+# lianjia
+HOST-SUFFIX,dig.lianjia.com
 # other
 HOST-SUFFIX,uyunad.com
 HOST-SUFFIX,unilog.wostore.cn
