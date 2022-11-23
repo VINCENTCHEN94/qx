@@ -1,3 +1,5 @@
+#general
+HOST-KEYWORD,adservices
 # qq
 HOST-SUFFIX,yun-hl.3g.qq.com
 HOST-SUFFIX,up-hl.3g.qq.com
@@ -131,7 +133,6 @@ HOST-SUFFIX,applog.uc.cn
 HOST-SUFFIX,api-adservices.apple.com
 HOST-SUFFIX,api.shuzilm.cn
 HOST-SUFFIX,adv.ccb.com
-HOST-KEYWORD,adservices
 HOST,ynuf.aliapp.org
 HOST,whoami.akamai.net
 HOST,pangolin.snssdk.com
