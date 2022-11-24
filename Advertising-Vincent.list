@@ -65,7 +65,7 @@ HOST-SUFFIX,acs4baichuan.m.taobao.com
 # google
 HOST-SUFFIX,www.google-analytics.com
 HOST-SUFFIX,www.googleadservices.com
-HOST-SUFFIX,mtalk.google.com
+# HOST-SUFFIX,mtalk.google.com
 HOST-SUFFIX,firebaselogging-pa.googleapis.com
 HOST-KEYWORD,googleads
 # bilibili
