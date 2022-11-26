@@ -1,0 +1,35 @@
+
+# > TikTok
+HOST,p16-tiktokcdn-com.akamaized.net
+HOST-SUFFIX,byteoversea.com
+HOST-SUFFIX,ibytedtos.com
+HOST-SUFFIX,ibyteimg.com
+HOST-SUFFIX,ipstatp.com
+HOST-SUFFIX,isnssdk.com
+HOST-SUFFIX,muscdn.com
+HOST-SUFFIX,musical.ly
+HOST-SUFFIX,sgpstatp.com
+HOST-SUFFIX,snssdk.com
+HOST-SUFFIX,tik-tokapi.com
+HOST-SUFFIX,tiktok.com
+HOST-SUFFIX,tiktokcdn.com
+HOST-SUFFIX,tiktokv.com
+HOST-KEYWORD,musical.ly
+HOST-KEYWORD,tiktok
+USER-AGENT,TikTok*
+
+# > YouTube
+USER-AGENT,com.google.ios.youtube*
+USER-AGENT,YouTube*
+DOMAIN-SUFFIX,googlevideo.com
+DOMAIN-SUFFIX,withyoutube.com
+DOMAIN-SUFFIX,youtu.be
+DOMAIN-SUFFIX,youtube.com
+DOMAIN-SUFFIX,youtubeeducation.com
+DOMAIN-SUFFIX,youtubegaming.com
+DOMAIN-SUFFIX,youtubekids.com
+DOMAIN-SUFFIX,youtube-nocookie.com
+DOMAIN-SUFFIX,yt.be
+DOMAIN-SUFFIX,ytimg.com
+DOMAIN,youtubei.googleapis.com
+DOMAIN,yt3.ggpht.com
