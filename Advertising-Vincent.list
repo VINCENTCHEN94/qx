@@ -96,8 +96,6 @@ HOST-SUFFIX,optimus-ads.amap.com
 HOST-SUFFIX,advert.mafengwo.cn
 #SMZDM
 HOST-SUFFIX,analytics-api.smzdm.com
-# tieba
-ip-cidr,180.76.76.200/32
 # lianjia
 HOST-SUFFIX,dig.lianjia.com
 # other
