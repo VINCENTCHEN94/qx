@@ -133,7 +133,7 @@ DOMAIN-SUFFIX,redditstatic.com
 DOMAIN-SUFFIX,reuters.com
 DOMAIN-SUFFIX,reutersmedia.net
 # > Steam
-DOMAIN-SUFFIX,steamcommunity.com
+# DOMAIN-SUFFIX,steamcommunity.com
 # DOMAIN,store.steampowered.com
 # > Telegram
 DOMAIN-SUFFIX,legra.ph
@@ -195,11 +195,11 @@ DOMAIN-SUFFIX,wikiversity.org
 DOMAIN-SUFFIX,wikivoyage.org
 DOMAIN-SUFFIX,wiktionary.org
 # > Yahoo
-DOMAIN-SUFFIX,yahoo.com
-DOMAIN,search.yahoo.co.jp
+#DOMAIN-SUFFIX,yahoo.com
+#DOMAIN,search.yahoo.co.jp
 # > Yandex
-DOMAIN-SUFFIX,yadi.sk
-DOMAIN,disk.yandex.com
+#DOMAIN-SUFFIX,yadi.sk
+#DOMAIN,disk.yandex.com
 
 # (Region-Restricted Access Denied)
 DOMAIN-SUFFIX,aicoin.com
@@ -227,14 +227,14 @@ DOMAIN,books.apple.com
 DOMAIN,itunes.apple.com
 DOMAIN,tv.apple.com
 # > News
-DOMAIN,gateway.icloud.com
-DOMAIN-SUFFIX,apple.news
-DOMAIN,news-assets.apple.com
-DOMAIN,news-client.apple.com
-DOMAIN,news-client-search.apple.com
-DOMAIN,news-edge.apple.com
-DOMAIN,news-events.apple.com
-DOMAIN,apple.comscoreresearch.com
+#DOMAIN,gateway.icloud.com
+#DOMAIN-SUFFIX,apple.news
+#DOMAIN,news-assets.apple.com
+#DOMAIN,news-client.apple.com
+#DOMAIN,news-client-search.apple.com
+#DOMAIN,news-edge.apple.com
+#DOMAIN,news-events.apple.com
+#DOMAIN,apple.comscoreresearch.com
 # ------
 # > Microsoft
 DOMAIN-SUFFIX,bing.com
