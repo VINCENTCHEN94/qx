@@ -87,7 +87,6 @@ HOST-SUFFIX,plbslog.umeng.com
 HOST-SUFFIX,sis.jpush.io
 HOST-SUFFIX,jpush.cn
 # sogou
-HOST-SUFFIX,get.sogou.com
 HOST-SUFFIX,business-cdn.shouji.sogou.com
 # autohome
 HOST-SUFFIX,rd.autohome.com.cn
@@ -108,7 +107,7 @@ HOST-SUFFIX,dig.lianjia.com
 # aisi
 HOST-SUFFIX,d.image.i4.cn
 # youkantouad
-HOST-SUFFIX,net.rayjump.com
+# HOST-SUFFIX,net.rayjump.com
 # other
 HOST-SUFFIX,uyunad.com
 HOST-SUFFIX,unilog.wostore.cn
