@@ -23,7 +23,6 @@ DOMAIN-SUFFIX,getoutline.org
 DOMAIN-SUFFIX,ggpht.com
 DOMAIN-SUFFIX,gmail.com
 DOMAIN-SUFFIX,gmodules.com
-# DOMAIN-SUFFIX,gstatic.com
 DOMAIN-SUFFIX,gvt0.com
 DOMAIN-SUFFIX,gvt1.com
 DOMAIN-SUFFIX,gvt3.com
@@ -45,96 +44,6 @@ DOMAIN-SUFFIX,zynamics.com
 DOMAIN-KEYWORD,google
 DOMAIN-KEYWORD,.blogspot.
 DOMAIN-SUFFIX,goog
-# > Apple
-DOMAIN,testflight.apple.com
-# > Automattic
-DOMAIN-SUFFIX,gravatar.com
-DOMAIN-SUFFIX,tumblr.com
-DOMAIN-SUFFIX,videopress.com
-DOMAIN-SUFFIX,wordpress.com
-# > Bloomberg
-DOMAIN-SUFFIX,bloomberg.cn
-DOMAIN-SUFFIX,bloomberg.com
-DOMAIN-SUFFIX,bloomberg.de
-DOMAIN-SUFFIX,bloombergview.com
-# > Crypto
-DOMAIN-SUFFIX,aex.com
-DOMAIN-SUFFIX,bibox.com
-DOMAIN-SUFFIX,binance.cc
-DOMAIN-SUFFIX,binance.com
-DOMAIN-SUFFIX,binance.me
-DOMAIN-SUFFIX,binance.us
-DOMAIN-SUFFIX,bitcointalk.org
-DOMAIN-SUFFIX,bitfinex.com
-DOMAIN-SUFFIX,bithumb.com
-DOMAIN-SUFFIX,bitmex.com
-DOMAIN-SUFFIX,bitstamp.net
-DOMAIN-SUFFIX,bittrex.com
-DOMAIN-SUFFIX,bybit.com
-DOMAIN-SUFFIX,coinbase.com
-DOMAIN-SUFFIX,coincheck.com
-DOMAIN-SUFFIX,coingecko.com
-DOMAIN-SUFFIX,coinmarketcap.com
-DOMAIN-SUFFIX,coinone.co.kr
-DOMAIN-SUFFIX,etherscan.io
-DOMAIN-SUFFIX,ftx.com
-DOMAIN-SUFFIX,gate.io
-DOMAIN-SUFFIX,gemini.com
-DOMAIN-SUFFIX,huobi.com
-DOMAIN-SUFFIX,korbit.co.kr
-DOMAIN-SUFFIX,kraken.com
-DOMAIN-SUFFIX,kucoin.com
-DOMAIN-SUFFIX,liquid.com
-DOMAIN-SUFFIX,okex.com
-DOMAIN-SUFFIX,okx.com
-DOMAIN-SUFFIX,poloniex.com
-DOMAIN-SUFFIX,sushi.com
-DOMAIN-SUFFIX,uniswap.org
-DOMAIN-SUFFIX,zb.com
-# > Discord
-DOMAIN-SUFFIX,discord.com
-DOMAIN-SUFFIX,discordapp.com
-DOMAIN-SUFFIX,discordapp.net
-# > Dropbox
-DOMAIN-SUFFIX,dropbox.com
-DOMAIN-SUFFIX,dropboxapi.com
-DOMAIN-SUFFIX,dropboxusercontent.com
-# > Fastly
-DOMAIN-SUFFIX,freetls.fastly.net
-DOMAIN,cloud-cdn-digitalocean-com.global.ssl.fastly.net
-DOMAIN,github.global.ssl.fastly.net
-DOMAIN,nytimes.map.fastly.net
-# > Microsoft
-DOMAIN-SUFFIX,aka.ms
-DOMAIN-SUFFIX,github.blog
-DOMAIN-SUFFIX,github.com
-DOMAIN-SUFFIX,github.io
-DOMAIN-SUFFIX,githubassets.com
-DOMAIN-SUFFIX,githubusercontent.com
-DOMAIN-SUFFIX,onedrive.live.com
-DOMAIN-SUFFIX,streaming.mediaservices.windows.net
-DOMAIN,assets1.xboxlive.com
-DOMAIN,assets2.xboxlive.com
-DOMAIN,az416426.vo.msecnd.net
-DOMAIN,az668014.vo.msecnd.net
-# > Pinterest
-DOMAIN-SUFFIX,pinimg.com
-DOMAIN-KEYWORD,.pinterest.
-# > pixiv
-DOMAIN-SUFFIX,pixiv.net
-DOMAIN-SUFFIX,pixiv.org
-DOMAIN-SUFFIX,pximg.net
-# > Reddit
-DOMAIN-SUFFIX,redd.it
-DOMAIN-SUFFIX,reddit.com
-DOMAIN-SUFFIX,redditmedia.com
-DOMAIN-SUFFIX,redditstatic.com
-# > Reuters
-DOMAIN-SUFFIX,reuters.com
-DOMAIN-SUFFIX,reutersmedia.net
-# > Steam
-# DOMAIN-SUFFIX,steamcommunity.com
-# DOMAIN,store.steampowered.com
 # > Telegram
 DOMAIN-SUFFIX,legra.ph
 DOMAIN-SUFFIX,t.me
@@ -157,18 +66,6 @@ IP-CIDR6,2001:b28:f23f::/48,no-resolve
 IP-CIDR6,2001:67c:4e8::/48,no-resolve
 IP-CIDR6,2001:b28:f23c::/48,no-resolve
 IP-CIDR6,2a0a:f280::/32,no-resolve
-# > The Economist
-DOMAIN-SUFFIX,economist.com
-DOMAIN-SUFFIX,static-economist.com
-# > The New York Times
-DOMAIN-SUFFIX,newyorktimes.com
-DOMAIN-SUFFIX,nyt.com
-DOMAIN-SUFFIX,nytco.com
-DOMAIN-SUFFIX,nytimes.com
-DOMAIN-SUFFIX,nytimg.com
-DOMAIN-SUFFIX,nytlog.com
-DOMAIN-SUFFIX,nytstyle.com
-DOMAIN-SUFFIX,tmagazine.com
 # > Twitter
 DOMAIN-SUFFIX,periscope.tv
 DOMAIN-SUFFIX,pscp.tv
@@ -194,26 +91,7 @@ DOMAIN-SUFFIX,wikisource.org
 DOMAIN-SUFFIX,wikiversity.org
 DOMAIN-SUFFIX,wikivoyage.org
 DOMAIN-SUFFIX,wiktionary.org
-# > Yahoo
-#DOMAIN-SUFFIX,yahoo.com
-#DOMAIN,search.yahoo.co.jp
-# > Yandex
-#DOMAIN-SUFFIX,yadi.sk
-#DOMAIN,disk.yandex.com
-
-# (Region-Restricted Access Denied)
-DOMAIN-SUFFIX,aicoin.com
-DOMAIN-SUFFIX,aimoon.com
-DOMAIN-SUFFIX,engadget.com
-DOMAIN-SUFFIX,ifixit.com
-DOMAIN-SUFFIX,terabox.com
-DOMAIN-SUFFIX,zaobao.com.sg
-DOMAIN,addons.mozilla.org // Firefox Add-ons HTTP 451
-DOMAIN,wego.here.com
-# > Alphabet
-DOMAIN-SUFFIX,go.dev
-DOMAIN-SUFFIX,golang.org
-# ---(Apple)---
+# > Apple
 DOMAIN-SUFFIX,appsto.re // Apple URL Shortener
 DOMAIN-SUFFIX,smoot.apple.com // Spotlight
 DOMAIN,amp-api.podcasts.apple.com // Podcasts
@@ -221,24 +99,26 @@ DOMAIN,beta.music.apple.com // Apple Music Web
 DOMAIN,books.itunes.apple.com // iBooks Store download
 DOMAIN,lookup-api.apple.com // Look Up
 DOMAIN,radio.itunes.apple.com // Apple Music Radio
-# > Web Preview
+DOMAIN,testflight.apple.com
 DOMAIN,apps.apple.com
 DOMAIN,books.apple.com
 DOMAIN,itunes.apple.com
 DOMAIN,tv.apple.com
-# > News
-#DOMAIN,gateway.icloud.com
-#DOMAIN-SUFFIX,apple.news
-#DOMAIN,news-assets.apple.com
-#DOMAIN,news-client.apple.com
-#DOMAIN,news-client-search.apple.com
-#DOMAIN,news-edge.apple.com
-#DOMAIN,news-events.apple.com
-#DOMAIN,apple.comscoreresearch.com
-# ------
 # > Microsoft
 DOMAIN-SUFFIX,bing.com
 DOMAIN-SUFFIX,linkedin.com
 DOMAIN-SUFFIX,licdn.com
 DOMAIN-SUFFIX,msn.com
 DOMAIN-SUFFIX,skype.com
+DOMAIN-SUFFIX,aka.ms
+DOMAIN-SUFFIX,github.blog
+DOMAIN-SUFFIX,github.com
+DOMAIN-SUFFIX,github.io
+DOMAIN-SUFFIX,githubassets.com
+DOMAIN-SUFFIX,githubusercontent.com
+DOMAIN-SUFFIX,onedrive.live.com
+DOMAIN-SUFFIX,streaming.mediaservices.windows.net
+DOMAIN,assets1.xboxlive.com
+DOMAIN,assets2.xboxlive.com
+DOMAIN,az416426.vo.msecnd.net
+DOMAIN,az668014.vo.msecnd.net
