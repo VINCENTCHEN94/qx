@@ -105,6 +105,8 @@ HOST-SUFFIX,advert.mafengwo.cn
 HOST-SUFFIX,analytics-api.smzdm.com
 # lianjia
 HOST-SUFFIX,dig.lianjia.com
+# aisi
+HOST-SUFFIX,d.image.i4.cn
 # other
 HOST-SUFFIX,uyunad.com
 HOST-SUFFIX,unilog.wostore.cn
