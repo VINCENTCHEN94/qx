@@ -1,49 +1,5 @@
-# zhihu
-HOST,118.89.204.198,reject
-HOST,appcloud2.in.zhihu.com,reject
-HOST,mqtt.zhihu.com,reject
-IP-CIDR,118.89.204.198/32,reject
-IP6-CIDR,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,reject
-USER-AGENT,AVOS*,reject
-#general
+# general
 HOST-KEYWORD,adservices
-# qq
-HOST-SUFFIX,yun-hl.3g.qq.com
-HOST-SUFFIX,up-hl.3g.qq.com
-HOST-SUFFIX,rqd.qq.com
-HOST-SUFFIX,oth.str.mdt.qq.com
-HOST-SUFFIX,oth.eve.mdt.qq.com
-HOST-SUFFIX,omgid.qq.com
-HOST-SUFFIX,mtrace.qq.com
-HOST-SUFFIX,l.qq.com
-HOST-SUFFIX,ios.bugly.qq.com
-HOST-SUFFIX,gdt.qq.com
-HOST-SUFFIX,e.qq.com
-HOST-SUFFIX,dp3.qq.com
-HOST-SUFFIX,bugly.qq.com
-HOST-SUFFIX,btrace.qq.com
-HOST-SUFFIX,beacon.qq.com
-HOST,splashqqlive.gtimg.com
-HOST,safebrowsing.urlsec.qq.com
-HOST,adsmind.tc.qq.com
-HOST,adsmind.apdcdn.tc.qq.com
-HOST-SUFFIX,pgdt.ugdtimg.com
-HOST-SUFFIX,pgdt.gtimg.com
-HOST-SUFFIX,pgdt.gtimg.cn
-HOST,wa.gtimg.com
-HOST,adsmind.ugdtimg.com
-HOST,adsmind.gdtimg.com
-#  zijie
-HOST-SUFFIX,pglstatp-toutiao.com
-HOST-SUFFIX,pangolin-sdk-toutiao-b.com
-HOST-SUFFIX,pangolin-sdk-toutiao.com
-HOST-SUFFIX,dm.toutiao.com
-HOST-SUFFIX,api-access.pangolin-sdk-toutiao-b.com
-HOST,dsp.toutiao.com
-HOST,ad.toutiao.com
-# douyu
-HOST-SUFFIX,rtbapi.douyucdn.cn
-HOST-SUFFIX,msg.douyu.com
 # baidu
 HOST-SUFFIX,ufosdk.baidu.com
 HOST-SUFFIX,nsclick.baidu.com
@@ -72,12 +28,16 @@ HOST-SUFFIX,acs4baichuan.m.taobao.com
 # google
 HOST-SUFFIX,www.google-analytics.com
 HOST-SUFFIX,www.googleadservices.com
-# HOST-SUFFIX,mtalk.google.com
 HOST-SUFFIX,firebaselogging-pa.googleapis.com
 HOST-KEYWORD,googleads
+# zhihu
+HOST,118.89.204.198,reject
+HOST,appcloud2.in.zhihu.com,reject
+HOST,mqtt.zhihu.com,reject
+IP-CIDR,118.89.204.198/32,reject
+IP6-CIDR,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,reject
+USER-AGENT,AVOS*,reject
 # bilibili
-HOST-SUFFIX,data.bilibili.com
-HOST-SUFFIX,cm.bilibili.com
 ip-cidr,203.107.1.1/24
 # umeng
 HOST-SUFFIX,ulogs.umengcloud.com
@@ -86,64 +46,7 @@ HOST-SUFFIX,plbslog.umeng.com
 # jpush
 HOST-SUFFIX,sis.jpush.io
 HOST-SUFFIX,jpush.cn
-# sogou
-HOST-SUFFIX,business-cdn.shouji.sogou.com
-# autohome
-HOST-SUFFIX,rd.autohome.com.cn
-HOST-SUFFIX,applogapi.autohome.com.cn
-HOST-SUFFIX,al.autohome.com.cn
-HOST-SUFFIX,adproxy.autohome.com.cn
-#aliyun
-HOST-SUFFIX,log.aliyuncs.com
-HOST-SUFFIX,adash.man.aliyuncs.com
-#amap
-HOST-SUFFIX,optimus-ads.amap.com
-#mafengwo
-HOST-SUFFIX,advert.mafengwo.cn
-#SMZDM
+# SMZDM
 HOST-SUFFIX,analytics-api.smzdm.com
-# lianjia
-HOST-SUFFIX,dig.lianjia.com
-# aisi
-HOST-SUFFIX,d.image.i4.cn
-# youkantouad
-# HOST-SUFFIX,net.rayjump.com
-# other
-HOST-SUFFIX,uyunad.com
-HOST-SUFFIX,unilog.wostore.cn
-HOST-SUFFIX,umsns.com
-HOST-SUFFIX,tanx.com
-HOST-SUFFIX,shuzilm.cn
-HOST-SUFFIX,rp.hpplay.cn
-HOST-SUFFIX,qchannel01.cn
-HOST-SUFFIX,px.ucweb.com
-HOST-SUFFIX,pv.sohu.com
-HOST-SUFFIX,mon-va.byteoversea.com
-HOST-SUFFIX,mmstat.com
-HOST-SUFFIX,miaozhen.com
-HOST-SUFFIX,iyes.youku.com
-HOST-SUFFIX,ios-dc.51y5.net
-HOST-SUFFIX,iadsdk.apple.com
-HOST-SUFFIX,growingio.com
-HOST-SUFFIX,getui.com
-HOST-SUFFIX,gepush.com
-HOST-SUFFIX,fengkongcloud.com
-HOST-SUFFIX,doubleclick.com
-HOST-SUFFIX,dig.bdurl.net
-HOST-SUFFIX,crashlytics.com
-HOST-SUFFIX,cmpassport.com
-HOST-SUFFIX,c.51y5.net
-HOST-SUFFIX,baichuan-sdk.alicdn.com
-HOST-SUFFIX,b.bdstatic.com
-HOST-SUFFIX,appsflyer.com
-HOST-SUFFIX,app-measurement.com
-HOST-SUFFIX,applog.uc.cn
-HOST-SUFFIX,api-adservices.apple.com
-HOST-SUFFIX,api.shuzilm.cn
-HOST-SUFFIX,adv.ccb.com
-HOST,ynuf.aliapp.org
-HOST,whoami.akamai.net
-HOST,pangolin.snssdk.com
-HOST,livep.l.t002.ottcn.com
-HOST,list.z.qingting.fm
-HOST,duapps.com
+
+
