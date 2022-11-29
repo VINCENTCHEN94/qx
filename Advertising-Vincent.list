@@ -8,6 +8,8 @@ IP6-CIDR,2402:4e00:1200:ed00:0:9089:6dac:96b6/128
 USER-AGENT,AVOS*
 # B站
 ip-cidr,203.107.1.1/24
+# > 搜狗输入法
+host-keyword, business-cdn.shouji.sogou.com
 # 全民K歌
 host-suffix, gdc.kg.qq.com
 # 智行
