@@ -8,8 +8,6 @@ IP6-CIDR,2402:4e00:1200:ed00:0:9089:6dac:96b6/128
 USER-AGENT,AVOS*
 # B站
 ip-cidr,203.107.1.1/24
-# 搜狗输入法
-host-keyword, business-cdn.shouji.sogou.com
 # WiFi万能钥匙广告
 host-keyword, app.51y5.net
 host-keyword, apiinit.amap.com
@@ -29,10 +27,6 @@ host-keyword, insurance.lianwifi.com
 host-keyword, config.51y5.net
 host-keyword, static.wkanx.com
 host-keyword, config.y5en.com
-# > 抖音
-host-keyword,bds.snssdk.com
-host-keyword,p6-ad-sign.byteimg.com
-host-keyword,p3.pstatp.com
 # 全民K歌
 host-suffix, gdc.kg.qq.com
 # 智行
