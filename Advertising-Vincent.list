@@ -1,26 +1,51 @@
 #--------------------------------------------------------------------
 # 知乎
-HOST,118.89.204.198,reject
-HOST,appcloud2.in.zhihu.com,reject
-HOST,mqtt.zhihu.com,reject
-IP-CIDR,118.89.204.198/32,reject
-IP6-CIDR,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,reject
-USER-AGENT,AVOS*,reject
+HOST,118.89.204.198
+HOST,appcloud2.in.zhihu.com
+HOST,mqtt.zhihu.com
+IP-CIDR,118.89.204.198/32
+IP6-CIDR,2402:4e00:1200:ed00:0:9089:6dac:96b6/128
+USER-AGENT,AVOS*
 # B站
 ip-cidr,203.107.1.1/24
 # 全民K歌
-host-suffix, gdc.kg.qq.com, reject
+host-suffix, gdc.kg.qq.com
 # 智行
-host-suffix, dimg04.c-ctrip.com, reject
+host-suffix, dimg04.c-ctrip.com
 # 汽车之家
-HOST-SUFFIX,rd.autohome.com.cn
-HOST-SUFFIX,applogapi.autohome.com.cn
-HOST-SUFFIX,al.autohome.com.cn
-HOST-SUFFIX,adproxy.autohome.com.cn
+HOST,adproxy.autohome.com.cn
+HOST,rd.autohome.com.cn
+HOST,al.autohome.com.cn
+HOST,applogapi.autohome.com.cn
+HOST,adm0.autoimg.cn
+HOST,adm1.autoimg.cn
+HOST,adm2.autoimg.cn
+HOST,adm3.autoimg.cn
+# 谷歌
+HOST-SUFFIX,doubleclick.net
+HOST-SUFFIX,googleadservices.com
+HOST-SUFFIX,googleadsserving.cn
+HOST-SUFFIX,googlesyndication.com
+HOST-SUFFIX,googletagservices.com
+HOST,ads.youtube.com
 #--------------------------------------------------------------------
 # general
 HOST-KEYWORD,adservices
 HOST-KEYWORD,advertise
+# --- (Tencent) ---
+HOST-SUFFIX,e.qq.com
+HOST-SUFFIX,gdt.qq.com
+HOST-SUFFIX,l.qq.com
+HOST,adsmind.apdcdn.tc.qq.com
+HOST,adsmind.gdtimg.com
+HOST,adsmind.tc.qq.com
+HOST,pgdt.gtimg.cn
+HOST,pgdt.gtimg.com
+HOST,pgdt.ugdtimg.com
+HOST,splashqqlive.gtimg.com
+HOST,wa.gtimg.com
+HOST,wxsnsdy.wxs.qq.com
+HOST,wxsnsdythumb.wxs.qq.com
 # baidu
 HOST-SUFFIX,ufosdk.baidu.com
 HOST-SUFFIX,nsclick.baidu.com
@@ -46,11 +71,10 @@ HOST-SUFFIX,adashx.m.taobao.com
 HOST-SUFFIX,adash-c.ut.taobao.com
 HOST-SUFFIX,adashbc.ut.taobao.com
 HOST-SUFFIX,acs4baichuan.m.taobao.com
-# google
-HOST-SUFFIX,www.google-analytics.com
-HOST-SUFFIX,www.googleadservices.com
-HOST-SUFFIX,firebaselogging-pa.googleapis.com
-HOST-KEYWORD,googleads
+# ByteDance
+HOST-SUFFIX,pangolin-sdk-toutiao.com
+HOST,ad.toutiao.com
+HOST,pangolin.snssdk.com
 # umeng
 HOST-SUFFIX,ulogs.umengcloud.com
 HOST-SUFFIX,ulogs.umeng.com
