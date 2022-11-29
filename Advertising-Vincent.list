@@ -28,6 +28,8 @@ HOST-SUFFIX,googleadsserving.cn
 HOST-SUFFIX,googlesyndication.com
 HOST-SUFFIX,googletagservices.com
 HOST,ads.youtube.com
+# 数字联盟
+HOST-SUFFIX,shuzilm.cn
 #--------------------------------------------------------------------
 # general
 HOST-KEYWORD,adservices
