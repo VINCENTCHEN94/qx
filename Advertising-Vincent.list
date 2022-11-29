@@ -12,6 +12,11 @@ ip-cidr,203.107.1.1/24
 host-suffix, gdc.kg.qq.com, reject
 # 智行
 host-suffix, dimg04.c-ctrip.com, reject
+# 汽车之家
+HOST-SUFFIX,rd.autohome.com.cn
+HOST-SUFFIX,applogapi.autohome.com.cn
+HOST-SUFFIX,al.autohome.com.cn
+HOST-SUFFIX,adproxy.autohome.com.cn
 #--------------------------------------------------------------------
 # general
 HOST-KEYWORD,adservices
