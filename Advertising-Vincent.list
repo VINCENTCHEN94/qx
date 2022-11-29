@@ -29,6 +29,10 @@ host-keyword, insurance.lianwifi.com
 host-keyword, config.51y5.net
 host-keyword, static.wkanx.com
 host-keyword, config.y5en.com
+# > 抖音
+host-keyword,bds.snssdk.com
+host-keyword,p6-ad-sign.byteimg.com
+host-keyword,p3.pstatp.com
 # 全民K歌
 host-suffix, gdc.kg.qq.com
 # 智行
