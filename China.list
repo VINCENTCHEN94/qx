@@ -1,14 +1,1 @@
-# China Area Network
-DOMAIN-SUFFIX,flyert.com,DIRECT
-DOMAIN-SUFFIX,gandi.net,DIRECT
-DOMAIN-SUFFIX,snapdrop.net,DIRECT
-DOMAIN,download.jetbrains.com,DIRECT
-DOMAIN,origin-a.akamaihd.ne,DIRECT
-# > Tencent
-IP-CIDR,182.254.116.0/24,DIRECT
-IP-CIDR,203.205.238.0/23,DIRECT
-IP-CIDR,203.205.254.0/23,DIRECT
-# > Speed Test
-DOMAIN-SUFFIX,netspeedtestmaster.com,DIRECT
-DOMAIN,speedtest.macpaw.com,DIRECT
 GEOIP,CN,DIRECT
