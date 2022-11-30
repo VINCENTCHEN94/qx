@@ -8,6 +8,10 @@ IP6-CIDR,2402:4e00:1200:ed00:0:9089:6dac:96b6/128
 USER-AGENT,AVOS*
 # B站
 ip-cidr,203.107.1.1/24
+# 全民K歌
+host-suffix, gdc.kg.qq.com
+# 智行
+host-suffix, dimg04.c-ctrip.com
 # WiFi万能钥匙广告
 host-keyword, app.51y5.net
 host-keyword, apiinit.amap.com
@@ -27,77 +31,11 @@ host-keyword, insurance.lianwifi.com
 host-keyword, config.51y5.net
 host-keyword, static.wkanx.com
 host-keyword, config.y5en.com
-# 全民K歌
-host-suffix, gdc.kg.qq.com
-# 智行
-host-suffix, dimg04.c-ctrip.com
 # 汽车之家
 HOST,adproxy.autohome.com.cn
 HOST,rd.autohome.com.cn
 HOST,al.autohome.com.cn
 HOST,applogapi.autohome.com.cn
-HOST,adm0.autoimg.cn
-HOST,adm1.autoimg.cn
-HOST,adm2.autoimg.cn
-HOST,adm3.autoimg.cn
-# 谷歌
-HOST-SUFFIX,doubleclick.net
-HOST-SUFFIX,googleadservices.com
-HOST-SUFFIX,googleadsserving.cn
-HOST-SUFFIX,googlesyndication.com
-HOST-SUFFIX,googletagservices.com
-HOST,ads.youtube.com
-# 淘宝
-HOST-SUFFIX,h-adashx.ut.taobao.com
-HOST-SUFFIX,amdc.m.taobao.com
-HOST-SUFFIX,adashxgc.ut.taobao.com
-HOST-SUFFIX,adashx4yt.m.taobao.com
-HOST-SUFFIX,adashx.m.taobao.com
-HOST-SUFFIX,adash-c.ut.taobao.com
-HOST-SUFFIX,adashbc.ut.taobao.com
-HOST-SUFFIX,acs4baichuan.m.taobao.com
-# 数字联盟
-HOST-SUFFIX,shuzilm.cn
 #--------------------------------------------------------------------
 # general
 HOST-KEYWORD,adservices
-HOST-KEYWORD,advertise
-# Tencent
-HOST-SUFFIX,e.qq.com
-HOST-SUFFIX,gdt.qq.com
-HOST-SUFFIX,l.qq.com
-HOST,adsmind.apdcdn.tc.qq.com
-HOST,adsmind.gdtimg.com
-HOST,adsmind.tc.qq.com
-HOST,pgdt.gtimg.cn
-HOST,pgdt.gtimg.com
-HOST,pgdt.ugdtimg.com
-HOST,splashqqlive.gtimg.com
-HOST,wa.gtimg.com
-HOST,wxsnsdy.wxs.qq.com
-HOST,wxsnsdythumb.wxs.qq.com
-# baidu
-HOST-SUFFIX,ufosdk.baidu.com
-HOST-SUFFIX,nsclick.baidu.com
-HOST-SUFFIX,hpd.baidu.com
-HOST-SUFFIX,hm.baidu.com
-HOST-SUFFIX,feed.baidu.com
-HOST,sofire.baidu.com
-HOST,pos.baidu.com
-HOST,nsclick.baidu.com
-HOST,nadvideo2.baidu.com
-HOST,mobads-logs.baidu.com
-HOST,mobads.baidu.com
-HOST,issuecdn.baidupcs.com
-HOST,cpro.baidu.com
-HOST,als.baidu.com
-HOST,afd.baidu.com
-# umeng
-HOST-SUFFIX,ulogs.umengcloud.com
-HOST-SUFFIX,ulogs.umeng.com
-HOST-SUFFIX,plbslog.umeng.com
-# jpush
-HOST-SUFFIX,sis.jpush.io
-HOST-SUFFIX,jpush.cn
-# SMZDM
-HOST-SUFFIX,analytics-api.smzdm.com
