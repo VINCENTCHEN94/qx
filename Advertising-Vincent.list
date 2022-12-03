@@ -32,10 +32,10 @@ host-keyword, config.51y5.net
 host-keyword, static.wkanx.com
 host-keyword, config.y5en.com
 # 6汽车之家
-HOST,adproxy.autohome.com.cn
-HOST,rd.autohome.com.cn
-HOST,al.autohome.com.cn
-HOST,applogapi.autohome.com.cn
+#HOST,adproxy.autohome.com.cn
+#HOST,rd.autohome.com.cn
+#HOST,al.autohome.com.cn
+#HOST,applogapi.autohome.com.cn
 #--------------------------------------------------------------------
 # general
-HOST-KEYWORD,adservices
+#HOST-KEYWORD,adservices
