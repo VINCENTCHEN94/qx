@@ -1,1 +1,73 @@
-GEOIP,CN,DIRECT
+# China Area Network
+HOST-SUFFIX,flyert.com
+HOST-SUFFIX,gandi.net
+HOST-SUFFIX,snapdrop.net
+HOST,download.jetbrains.com
+HOST,origin-a.akamaihd.ne
+# ---(Microsoft)---
+# > Outlook
+HOST,outlook.office365.com
+HOST,smtp-mail.outlook.com
+HOST,smtp.office365.com
+# > Windows Server Update Services
+HOST-SUFFIX,dl.delivery.mp.microsoft.com
+HOST-SUFFIX,update.microsoft.com
+HOST-SUFFIX,windowsupdate.com
+HOST-SUFFIX,windowsupdate.microsoft.com
+HOST,download.microsoft.com
+HOST,wustat.windows.com
+HOST,ntservicepack.microsoft.com
+# ------
+# > PayPal
+HOST-SUFFIX,paypal.com
+HOST-SUFFIX,paypal.me
+HOST-SUFFIX,paypal-mktg.com
+HOST-SUFFIX,paypalobjects.com
+# > Steam
+HOST-SUFFIX,cm.steampowered.com
+HOST-SUFFIX,steamserver.net
+# > Tencent
+IP-CIDR,182.254.116.0/24
+IP-CIDR,203.205.238.0/23
+IP-CIDR,203.205.254.0/23
+# > IP Query
+HOST,ip.istatmenus.app
+HOST,sms.imagetasks.com
+# > Speed Test
+HOST-SUFFIX,netspeedtestmaster.com
+HOST,speedtest.macpaw.com
+# > Private Tracker
+HOST-SUFFIX,acg.rip
+HOST-SUFFIX,animebytes.tv
+HOST-SUFFIX,awesome-hd.me
+HOST-SUFFIX,broadcasthe.net
+HOST-SUFFIX,chdbits.co
+HOST-SUFFIX,classix-unlimited.co.uk
+HOST-SUFFIX,comicat.org
+HOST-SUFFIX,empornium.me
+HOST-SUFFIX,gazellegames.net
+HOST-SUFFIX,hdbits.org
+HOST-SUFFIX,hdchina.org
+HOST-SUFFIX,hddolby.com
+HOST-SUFFIX,hdhome.org
+HOST-SUFFIX,hdsky.me
+HOST-SUFFIX,icetorrent.org
+HOST-SUFFIX,jpopsuki.eu
+HOST-SUFFIX,keepfrds.com
+HOST-SUFFIX,madsrevolution.net
+HOST-SUFFIX,morethan.tv
+HOST-SUFFIX,m-team.cc
+HOST-SUFFIX,myanonamouse.net
+HOST-SUFFIX,nanyangpt.com
+HOST-SUFFIX,ncore.cc
+HOST-SUFFIX,open.cd
+HOST-SUFFIX,ourbits.club
+HOST-SUFFIX,passthepopcorn.me
+HOST-SUFFIX,privatehd.to
+HOST-SUFFIX,pterclub.com
+HOST-SUFFIX,redacted.ch
+HOST-SUFFIX,springsunday.net
+HOST-SUFFIX,tjupt.org
+HOST-SUFFIX,totheglory.im
+
+GEOIP,CN
