@@ -1,11 +1,11 @@
 #--------------------------------------------------------------------
-# 1知乎
-HOST,118.89.204.198
-HOST,appcloud2.in.zhihu.com
-HOST,mqtt.zhihu.com
-IP-CIDR,118.89.204.198/32
-IP6-CIDR,2402:4e00:1200:ed00:0:9089:6dac:96b6/128
-USER-AGENT,AVOS*
+# 1知乎(与神机重复)
+#HOST,118.89.204.198
+#HOST,appcloud2.in.zhihu.com
+#HOST,mqtt.zhihu.com
+#IP-CIDR,118.89.204.198/32
+#IP6-CIDR,2402:4e00:1200:ed00:0:9089:6dac:96b6/128
+#USER-AGENT,AVOS*
 # 2B站
 ip-cidr,203.107.1.1/24
 # 3全民K歌
@@ -31,11 +31,4 @@ host-keyword, insurance.lianwifi.com
 host-keyword, config.51y5.net
 host-keyword, static.wkanx.com
 host-keyword, config.y5en.com
-# 6汽车之家
-#HOST,adproxy.autohome.com.cn
-#HOST,rd.autohome.com.cn
-#HOST,al.autohome.com.cn
-#HOST,applogapi.autohome.com.cn
 #--------------------------------------------------------------------
-# general
-#HOST-KEYWORD,adservices
