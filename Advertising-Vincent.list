@@ -1,33 +1,6 @@
-
-# 知乎
-HOST,118.89.204.198
-HOST,appcloud2.in.zhihu.com
-HOST,mqtt.zhihu.com
-IP-CIDR,118.89.204.198/32
-IP6-CIDR,2402:4e00:1200:ed00:0:9089:6dac:96b6/128
-USER-AGENT,AVOS*
 # B站换区
 ip-cidr,203.107.1.1/24
 # 全民K歌
 host-suffix, gdc.kg.qq.com
 # 智行
 host-suffix, dimg04.c-ctrip.com
-# WiFi万能钥匙广告
-host-keyword, app.51y5.net
-host-keyword, apiinit.amap.com
-host-keyword, c.51y5.net
-host-keyword, msg.push.51y5.net
-host-keyword, a.wkanx.com
-host-keyword, c.wkanx.com
-host-keyword, c1.wkanx.com
-host-keyword, ap.51y5.net
-host-keyword, dc.51y5.net
-host-keyword, push-dc.51y5.net
-host-keyword, news-log.51y5.net
-host-keyword, login.push.51y5.net
-host-keyword, news.51y5.net
-host-keyword, cds.51y5.net
-host-keyword, insurance.lianwifi.com
-host-keyword, config.51y5.net
-host-keyword, static.wkanx.com
-host-keyword, config.y5en.com
