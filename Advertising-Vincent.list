@@ -1,6 +1,0 @@
-# B站换区
-ip-cidr,203.107.1.1/24
-# 全民K歌
-host-suffix, gdc.kg.qq.com
-# 智行
-host-suffix, dimg04.c-ctrip.com
