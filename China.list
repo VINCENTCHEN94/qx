@@ -69,5 +69,12 @@ HOST-SUFFIX,redacted.ch
 HOST-SUFFIX,springsunday.net
 HOST-SUFFIX,tjupt.org
 HOST-SUFFIX,totheglory.im
-
+##################直连✅###################
+# 12306
+host, ad.12306.cn,direct
+# 汉口银行
+host-suffix, hkbchina.com, direct
+# 中煤内网 
+ip-cidr, 192.168.31.0/24, direct
+ip-cidr, 155.155.155.0/16, direct
 GEOIP,CN
