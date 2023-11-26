@@ -14,18 +14,28 @@ host-suffix,free-mp3-download.net,全球加速
 host-suffix,install.cdn-sd.xyz,全球加速
 host-suffix,glados.rocks,全球加速
 host-suffix,cdn.jsdelivr.net,全球加速
+host-suffix,loading.cdn-sd.xyz, 全球加速
 #好孩子网址
 host-suffix,xianshangkan.cc,全球加速
 # picaapi漫画
 host-suffix,picaapi.picacomic.com, 全球加速
 host-keyword, picacomic.com, 全球加速
 # gitlab
-host-suffix,gitlab.com, 全球加速
+host-keyword,gitlab, 全球加速
 # nanbei.cloud
 host-suffix,nanbei.cloud, 全球加速
 # threejs.org
 host-suffix,threejs.org, 全球加速
 # iptv
 host-suffix,live.fanmingming.com, 全球加速
-#节点订阅
-host-suffix,loading.cdn-sd.xyz, 全球加速
+# > Twitter
+HOST-SUFFIX, periscope.tv, 全球加速
+HOST-SUFFIX, pscp.tv, 全球加速
+HOST-SUFFIX, t.co, 全球加速
+HOST-SUFFIX, tweetdeck.com, 全球加速
+HOST-SUFFIX, twimg.co, 全球加速
+HOST-SUFFIX, twimg.com, 全球加速
+HOST-SUFFIX, twitpic.com, 全球加速
+HOST-SUFFIX, twitter.com, 全球加速
+HOST-SUFFIX, twitter.jp, 全球加速
+HOST-SUFFIX, vine.co, 全球加速
