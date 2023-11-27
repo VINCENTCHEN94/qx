@@ -364,6 +364,7 @@ host-suffix, ossgw.alicdn.com, REJECT
 host-suffix, ems.youku.com, REJECT
 host-suffix, hudong.alicdn.com, REJECT
 host-suffix, h-adashx.ut.taobao.com, REJECT
+host-suffix, ut.taobao.com, REJECT
 # 谷歌app分析
 HOST-SUFFIX,app-measurement.com, REJECT
 # 京东净化，配合重写
