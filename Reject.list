@@ -1,0 +1,42 @@
+##################拒连❌###################
+
+# B站换区
+ip-cidr,203.107.1.1/24, reject
+# 全民K歌
+host-suffix, gdc.kg.qq.com, reject
+# 淘宝去广告
+host-suffix, adashx.m.taobao.com, REJECT
+host-suffix, ossgw.alicdn.com, REJECT
+host-suffix, ems.youku.com, REJECT
+host-suffix, hudong.alicdn.com, REJECT
+host-suffix, h-adashx.ut.taobao.com, REJECT
+# 谷歌app分析
+HOST-SUFFIX,app-measurement.com, REJECT
+# 京东净化，配合重写
+host-suffix, dns.jd.com, REJECT
+IP-CIDR, 101.124.19.122/32, REJECT
+IP6-CIDR, 2402:db40:5100:1011::5/128, REJECT
+# 云闪付，配合重写
+HOST, ads.95516.com, REJECT
+HOST, switch.cup.com.cn, REJECT
+HOST, tysdk.95516.com, REJECT
+# 广告联盟，配合重写
+HOST, ad.zijieapi.com, REJECT
+HOST, i.snssdk.com, REJECT
+HOST, is.snssdk.com, REJECT
+HOST, open.e.kuaishou.com, REJECT
+HOST-SUFFIX, miaozhen.com, REJECT
+HOST-KEYWORD, -ad-sign.byteimg.com, REJECT
+HOST-KEYWORD, -tos.pstatp.com, REJECT
+HOST-KEYWORD, asiad.byteactivity, REJECT
+HOST-KEYWORD, pangolin-sdk-toutiao, REJECT
+HOST-KEYWORD, pangolin.snssdk.com, REJECT
+HOST-KEYWORD, pglstatp-toutiao, REJECT
+HOST-KEYWORD, video-cn.snssdk.com, REJECT
+# 有看头，配合重写
+host-suffix, adx-cn.anythinktech.com, reject
+# 高德地图，配合重写
+host, amdc.m.taobao.com, reject
+HOST, amap-aos-info-nogw.amap.com, REJECT
+HOST, awaken.amap.com, REJECT
+HOST, free-aos-cdn-image.amap.com, REJECT
