@@ -14,7 +14,8 @@ host-keyword,steam,全球加速
 # journeyart.ai（AI绘画）
 host-keyword,journeyart, 全球加速
 
-
+# v2ex论坛
+host-suffix,v2ex.com, 全球加速
 # Postman 相关
 host-suffix,cloudinary.com,全球加速
 host-suffix,postman.co,全球加速
