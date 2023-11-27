@@ -1,34 +1,45 @@
 ##################全球加速🌍###################
+# google
+host-keyword,google, 全球加速
+# github
+host-keyword,github,全球加速
+# gitlab
+host-keyword,gitlab, 全球加速
+# jsdelivr
+host-keyword,jsdelivr, 全球加速
+# alfred
+host-keyword,alfred,全球加速
+# steam
+host-keyword,steam,全球加速
+# journeyart.ai（AI绘画）
+host-keyword,journeyart, 全球加速
+
+
 # Postman 相关
 host-suffix,cloudinary.com,全球加速
 host-suffix,postman.co,全球加速
-# omnigroup下载
-host-suffix,omnigroup.com,全球加速
-# typora下载
-host-suffix,typora.io,全球加速
-# bjango下载istat menus6
-host-suffix,bjango.com,全球加速
-# 音乐下载
-host-suffix,free-mp3-download.net,全球加速
-#相关订阅
-host-suffix,install.cdn-sd.xyz,全球加速
-host-suffix,glados.rocks,全球加速
-host-suffix,cdn.jsdelivr.net,全球加速
+# 相关订阅（闪电）
+host-suffix,shandianpro.com,全球加速
 host-suffix,loading.cdn-sd.xyz, 全球加速
-#好孩子网址
+# 好孩子网址
 host-suffix,xianshangkan.cc,全球加速
-# picaapi漫画
-host-suffix,picaapi.picacomic.com, 全球加速
-host-keyword, picacomic.com, 全球加速
-# gitlab
-host-keyword,gitlab, 全球加速
-# nanbei.cloud
-host-suffix,nanbei.cloud, 全球加速
-# threejs.org
-host-suffix,threejs.org, 全球加速
-# iptv
+host-keyword,iwara.tv,全球加速
+# 直播源
 host-suffix,live.fanmingming.com, 全球加速
-# > Twitter
+host-suffix,xhdwc.tk,全球加速
+
+
+# 常用软件下载官网（omnigroup、typora、istatmenus6、maven、threejs、wuzhi、mp3）
+host-suffix,omnigroup.com,全球加速
+host-suffix,typora.io,全球加速
+host-suffix,bjango.com,全球加速
+host-suffix,repo.maven.apache.org,全球加速
+host-suffix,threejs.org, 全球加速
+host-suffix,wuzhi.vercel.app,全球加速
+host-suffix,free-mp3-download.net,全球加速
+
+
+# Twitter
 HOST-SUFFIX, periscope.tv, 全球加速
 HOST-SUFFIX, pscp.tv, 全球加速
 HOST-SUFFIX, t.co, 全球加速
