@@ -30,6 +30,12 @@ host-suffix,live.fanmingming.com, 全球加速
 host-suffix,xhdwc.tk,全球加速
 
 
+# misaka（安装巨魔）
+host-suffix,discordapp.com,全球加速
+host,phucdo-repo.pages.dev,全球加速
+# 低代码在线demo
+host-suffix,rxdrag.vercel.app,全球加速
+
 # 常用软件下载官网（omnigroup、typora、istatmenus6、maven、threejs、wuzhi、mp3）
 host-suffix,omnigroup.com,全球加速
 host-suffix,typora.io,全球加速
@@ -38,6 +44,7 @@ host-suffix,repo.maven.apache.org,全球加速
 host-suffix,threejs.org, 全球加速
 host-suffix,wuzhi.vercel.app,全球加速
 host-suffix,free-mp3-download.net,全球加速
+
 
 
 # Twitter
