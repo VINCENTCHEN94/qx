@@ -347,16 +347,11 @@ DOMAIN,track.tenjin.io
 ip-cidr,203.107.1.1/24, reject
 # 全民K歌
 host-suffix, gdc.kg.qq.com, reject
-# 小程序通用规则
+
+# 微信小程序通用规则
 host-suffix, wxsnsdy.wxs.qq.com, REJECT
 host-suffix, wxsmsdy.video.qq.com, REJECT
 host-suffix, wxsnsdythumb.wxs.qq.com, REJECT
-# 小程序收钱吧广告
-host-suffix, ads-shopping.shouqianba.com, REJECT
-# 小程序猫眼电影
-host-suffix, ad.maoyan.com, REJECT
-# 小程序七麦
-host-suffix,logger.qmai.cn, REJECT
 
 # 淘宝去广告
 host-suffix, adashx.m.taobao.com, REJECT
