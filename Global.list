@@ -14,20 +14,23 @@ host-keyword,steam,全球加速
 # journeyart.ai（AI绘画）
 host-keyword,journeyart,全球加速
 
-# > Wikimedia Foundation
-DOMAIN-SUFFIX,mediawiki.org
-DOMAIN-SUFFIX,wikibooks.org
-DOMAIN-SUFFIX,wikidata.org
-DOMAIN-SUFFIX,wikileaks.org
-DOMAIN-SUFFIX,wikimedia.org
-DOMAIN-SUFFIX,wikimediafoundation.org
-DOMAIN-SUFFIX,wikinews.org
-DOMAIN-SUFFIX,wikipedia.org
-DOMAIN-SUFFIX,wikiquote.org
-DOMAIN-SUFFIX,wikisource.org
-DOMAIN-SUFFIX,wikiversity.org
-DOMAIN-SUFFIX,wikivoyage.org
-DOMAIN-SUFFIX,wiktionary.org
+# app降级软件 检索版本
+host-keyword,bilin.eu,全球加速
+host,uclient-api.itunes.apple.com,全球加速
+host-keyword,applovin,全球加速
+host-keyword,cokepokes,全球加速
+host-keyword,applvn,全球加速
+# swiftgram（已卸载，通知有问题，后续有需要再下）
+host-keyword,swiftgram,全球加速
+# reddit
+host-keyword,reddit,全球加速
+host-suffix,redd.it,全球加速
+# finalshell 官网
+host-suffix,hostbuf.com,全球加速
+# 骗子网站（此处警醒）
+host-suffix,fahaovx.com,全球加速
+# quantumult
+HOST-SUFFIX, quantumult.app,全球加速
 
 # v2ex论坛
 host-suffix,v2ex.com, 全球加速
@@ -74,6 +77,22 @@ HOST-SUFFIX, twitpic.com, 全球加速
 HOST-SUFFIX, twitter.com, 全球加速
 HOST-SUFFIX, twitter.jp, 全球加速
 HOST-SUFFIX, vine.co, 全球加速
+
+
+# > Wikimedia Foundation
+DOMAIN-SUFFIX,mediawiki.org
+DOMAIN-SUFFIX,wikibooks.org
+DOMAIN-SUFFIX,wikidata.org
+DOMAIN-SUFFIX,wikileaks.org
+DOMAIN-SUFFIX,wikimedia.org
+DOMAIN-SUFFIX,wikimediafoundation.org
+DOMAIN-SUFFIX,wikinews.org
+DOMAIN-SUFFIX,wikipedia.org
+DOMAIN-SUFFIX,wikiquote.org
+DOMAIN-SUFFIX,wikisource.org
+DOMAIN-SUFFIX,wikiversity.org
+DOMAIN-SUFFIX,wikivoyage.org
+DOMAIN-SUFFIX,wiktionary.org
 # TikTok
 DOMAIN-SUFFIX,byteoversea.com
 DOMAIN-SUFFIX,ibytedtos.com
