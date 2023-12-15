@@ -1,12 +1,12 @@
 ##################直连✅###################
 # 12306
-host, ad.12306.cn,direct
+host, ad.12306.cn
 # 汉口银行
-host-suffix, hkbchina.com, direct
+host-suffix, hkbchina.com
 # 中煤内网 
-ip-cidr, 192.168.31.0/24, direct
-ip-cidr, 155.155.155.0/16, direct
+ip-cidr, 192.168.31.0/24
+ip-cidr, 155.155.155.0/16
 # IP地址查询
-HOST, ip.istatmenus.app, DIRECT
-HOST, sms.imagetasks.com, DIRECT
+HOST, ip.istatmenus.app
+HOST, sms.imagetasks.com
 GEOIP,CN
