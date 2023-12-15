@@ -1,84 +1,84 @@
 ##################全球加速🌍###################
 # google
-host-keyword,google,全球加速
+host-keyword,google
 # github
-HOST-KEYWORD,github,全球加速
+HOST-KEYWORD,github
 # gitlab
-host-keyword,gitlab,全球加速
+host-keyword,gitlab
 # jsdelivr
-host-keyword,jsdelivr,全球加速
+host-keyword,jsdelivr
 # alfred
-host-keyword,alfred,全球加速
+host-keyword,alfred
 # steam
-host-keyword,steam,全球加速
+host-keyword,steam
 # journeyart.ai（AI绘画）
-host-keyword,journeyart,全球加速
+host-keyword,journeyart
 
 # app降级软件 检索版本
-host-keyword,bilin.eu,全球加速
-host,uclient-api.itunes.apple.com,全球加速
-host-keyword,applovin,全球加速
-host-keyword,cokepokes,全球加速
-host-keyword,applvn,全球加速
+host-keyword,bilin.eu
+host,uclient-api.itunes.apple.com
+host-keyword,applovin
+host-keyword,cokepokes
+host-keyword,applvn
 
 # swiftgram（已卸载，通知有问题，后续有需要再下）
-# host-keyword,swiftgram,全球加速
+# host-keyword,swiftgram
 # reddit
-host-keyword,reddit,全球加速
-host-suffix,redd.it,全球加速
+host-keyword,reddit
+host-suffix,redd.it
 # finalshell 官网
-host-suffix,hostbuf.com,全球加速
+host-suffix,hostbuf.com
 # 骗子网站（此处警醒）
-# host-suffix,fahaovx.com,全球加速
+# host-suffix,fahaovx.com
 # quantumult
-HOST-SUFFIX, quantumult.app,全球加速
+HOST-SUFFIX, quantumult.app
 
 # v2ex论坛
-host-suffix,v2ex.com, 全球加速
+host-suffix,v2ex.com
 # Postman 相关
-host-suffix,cloudinary.com,全球加速
-host-suffix,postman.co,全球加速
+host-suffix,cloudinary.com
+host-suffix,postman.co
 # 相关订阅（闪电）
-host-suffix,shandianpro.com,全球加速
-host-suffix,loading.cdn-sd.xyz, 全球加速
+host-suffix,shandianpro.com
+host-suffix,loading.cdn-sd.xyz
 # 好孩子网址
-host-suffix,xianshangkan.cc,全球加速
-host-keyword,iwara.tv,全球加速
-host-suffix,missav.com,全球加速
-host-suffix,4hu.tv,全球加速
-
+host-suffix,xianshangkan.cc
+host-keyword,iwara.tv
+host-suffix,missav.com
+host-suffix,4hu.tv
+host-suffix,cn.pornhub.com
 # 直播源
-host-suffix,live.fanmingming.com, 全球加速
-host-suffix,xhdwc.tk,全球加速
-host-suffix,m3u.ibert.me,全球加速
+host-suffix,live.fanmingming.com
+host-suffix,xhdwc.tk
+host-suffix,m3u.ibert.me
 # npm 的CDN 
-host-keyword,unpkg,全球加速
+host-keyword,unpkg
 # misaka（安装巨魔）
-host-suffix,discordapp.com,全球加速
-host,phucdo-repo.pages.dev,全球加速
+host-suffix,discordapp.com
+host,phucdo-repo.pages.dev
 # 低代码在线demo
-host-suffix,rxdrag.vercel.app,全球加速
+host-suffix,rxdrag.vercel.app
 
 # 常用软件下载官网（omnigroup、typora、istatmenus6、maven、threejs、wuzhi、mp3）
-host-suffix,omnigroup.com,全球加速
-host-suffix,typora.io,全球加速
-host-suffix,bjango.com,全球加速
-host-suffix,repo.maven.apache.org,全球加速
-host-suffix,threejs.org, 全球加速
-host-suffix,wuzhi.vercel.app,全球加速
-host-suffix,free-mp3-download.net,全球加速
+host-suffix,omnigroup.com
+host-suffix,typora.io
+host-suffix,bjango.com
+host-suffix,repo.maven.apache.org
+host-suffix,threejs.org
+host-suffix,wuzhi.vercel.app
+host-suffix,free-mp3-download.net
 
 # Twitter
-HOST-SUFFIX, periscope.tv, 全球加速
-HOST-SUFFIX, pscp.tv, 全球加速
-HOST-SUFFIX, t.co, 全球加速
-HOST-SUFFIX, tweetdeck.com, 全球加速
-HOST-SUFFIX, twimg.co, 全球加速
-HOST-SUFFIX, twimg.com, 全球加速
-HOST-SUFFIX, twitpic.com, 全球加速
-HOST-SUFFIX, twitter.com, 全球加速
-HOST-SUFFIX, twitter.jp, 全球加速
-HOST-SUFFIX, vine.co, 全球加速
+HOST-SUFFIX, periscope.tv
+HOST-SUFFIX, pscp.tv
+HOST-SUFFIX, t.co
+HOST-SUFFIX, tweetdeck.com
+HOST-SUFFIX, twimg.co
+HOST-SUFFIX, twimg.com
+HOST-SUFFIX, twitpic.com
+HOST-SUFFIX, twitter.com
+HOST-SUFFIX, twitter.jp
+HOST-SUFFIX, vine.co
 
 
 # > Wikimedia Foundation
@@ -126,17 +126,17 @@ DOMAIN-SUFFIX,telegra.ph
 DOMAIN-SUFFIX,telegram.me
 DOMAIN-SUFFIX,telegram.org
 DOMAIN-SUFFIX,telesco.pe
-IP-CIDR,91.108.4.0/22,no-resolve
-IP-CIDR,91.108.8.0/22,no-resolve
-IP-CIDR,91.108.12.0/22,no-resolve
-IP-CIDR,91.108.16.0/22,no-resolve
-IP-CIDR,91.108.20.0/22,no-resolve
-IP-CIDR,91.108.56.0/22,no-resolve
-IP-CIDR,91.105.192.0/23,no-resolve
-IP-CIDR,149.154.160.0/20,no-resolve
-IP-CIDR,185.76.151.0/24,no-resolve
-IP-CIDR6,2001:b28:f23d::/48,no-resolve
-IP-CIDR6,2001:b28:f23f::/48,no-resolve
-IP-CIDR6,2001:67c:4e8::/48,no-resolve
-IP-CIDR6,2001:b28:f23c::/48,no-resolve
-IP-CIDR6,2a0a:f280::/32,no-resolve
+IP-CIDR,91.108.4.0/22
+IP-CIDR,91.108.8.0/22
+IP-CIDR,91.108.12.0/22
+IP-CIDR,91.108.16.0/22
+IP-CIDR,91.108.20.0/22
+IP-CIDR,91.108.56.0/22
+IP-CIDR,91.105.192.0/23
+IP-CIDR,149.154.160.0/20
+IP-CIDR,185.76.151.0/24
+IP-CIDR6,2001:b28:f23d::/48
+IP-CIDR6,2001:b28:f23f::/48
+IP-CIDR6,2001:67c:4e8::/48
+IP-CIDR6,2001:b28:f23c::/48
+IP-CIDR6,2a0a:f280::/32
