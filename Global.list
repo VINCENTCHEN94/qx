@@ -20,15 +20,16 @@ host,uclient-api.itunes.apple.com,全球加速
 host-keyword,applovin,全球加速
 host-keyword,cokepokes,全球加速
 host-keyword,applvn,全球加速
+
 # swiftgram（已卸载，通知有问题，后续有需要再下）
-host-keyword,swiftgram,全球加速
+# host-keyword,swiftgram,全球加速
 # reddit
 host-keyword,reddit,全球加速
 host-suffix,redd.it,全球加速
 # finalshell 官网
 host-suffix,hostbuf.com,全球加速
 # 骗子网站（此处警醒）
-host-suffix,fahaovx.com,全球加速
+# host-suffix,fahaovx.com,全球加速
 # quantumult
 HOST-SUFFIX, quantumult.app,全球加速
 
@@ -49,8 +50,9 @@ host-suffix,4hu.tv,全球加速
 # 直播源
 host-suffix,live.fanmingming.com, 全球加速
 host-suffix,xhdwc.tk,全球加速
-
-
+host-suffix,m3u.ibert.me,全球加速
+# npm 的CDN 
+host-keyword,unpkg,全球加速
 # misaka（安装巨魔）
 host-suffix,discordapp.com,全球加速
 host,phucdo-repo.pages.dev,全球加速
