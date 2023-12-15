@@ -9,8 +9,11 @@ HOST,zxid-m.mobileservice.cn
 IP-CIDR,103.41.167.237/32
 IP-CIDR,118.89.204.198/32
 IP6-CIDR,2402:4e00:1200:ed00:0:9089:6dac:96b6/128
-# ios更新
-host,gdmf.apple.com
+# 禁止ios更新
+HOST,mesu.apple.com
+HOST,gdmf.apple.com
+HOST,updates-http.cdn-apple.com
+HOST,xp.apple.com
 # 谷歌app分析
 HOST-SUFFIX,app-measurement.com
 # 网易云音乐
