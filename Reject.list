@@ -1,60 +1,60 @@
 ##################拒连❌###################
 # 知乎
-HOST, appcloud.zhihu.com, REJECT
-HOST, appcloud2.in.zhihu.com, REJECT
-HOST, crash2.zhihu.com, REJECT
-HOST, mqtt.zhihu.com, REJECT
-HOST, sugar.zhihu.com, REJECT
-HOST, zxid-m.mobileservice.cn, REJECT
-IP-CIDR, 103.41.167.237/32, REJECT
-IP-CIDR, 118.89.204.198/32, REJECT
-IP6-CIDR, 2402:4e00:1200:ed00:0:9089:6dac:96b6/128, REJECT
+HOST,appcloud.zhihu.com
+HOST,appcloud2.in.zhihu.com
+HOST,crash2.zhihu.com
+HOST,mqtt.zhihu.com
+HOST,sugar.zhihu.com
+HOST,zxid-m.mobileservice.cn
+IP-CIDR,103.41.167.237/32
+IP-CIDR,118.89.204.198/32
+IP6-CIDR,2402:4e00:1200:ed00:0:9089:6dac:96b6/128
 # ios更新
-host,gdmf.apple.com,REJECT
+host,gdmf.apple.com
 # 谷歌app分析
-HOST-SUFFIX,app-measurement.com,REJECT
+HOST-SUFFIX,app-measurement.com
 # 网易云音乐
-HOST, iadmat.nosdn.127.net, REJECT
-HOST, iadmatapk.nosdn.127.net, REJECT
-HOST, iadmusicmat.music.126.net, REJECT
-HOST, iadmusicmatvideo.music.126.net, REJECT
-HOST-SUFFIX, 163jiasu.com, REJECT
+HOST,iadmat.nosdn.127.net
+HOST,iadmatapk.nosdn.127.net
+HOST,iadmusicmat.music.126.net
+HOST,iadmusicmatvideo.music.126.net
+HOST-SUFFIX,163jiasu.com
 # B站换区
-ip-cidr,203.107.1.1/24,reject
+ip-cidr,203.107.1.1/24
 # 全民K歌
-host-suffix,gdc.kg.qq.com,reject
+host-suffix,gdc.kg.qq.com
 # 淘宝去广告
-host-suffix,adashx.m.taobao.com,REJECT
-host-suffix,ossgw.alicdn.com,REJECT
-host-suffix,ems.youku.com,REJECT
-host-suffix,hudong.alicdn.com,REJECT
-host-suffix,h-adashx.ut.taobao.com,REJECT
-host-suffix,ut.taobao.com,REJECT
+host-suffix,adashx.m.taobao.com
+host-suffix,ossgw.alicdn.com
+host-suffix,ems.youku.com
+host-suffix,hudong.alicdn.com
+host-suffix,h-adashx.ut.taobao.com
+host-suffix,ut.taobao.com
 # 京东净化，配合重写
-host-suffix,dns.jd.com,REJECT
-IP-CIDR,101.124.19.122/32,REJECT
-IP6-CIDR,2402:db40:5100:1011::5/128,REJECT
+host-suffix,dns.jd.com
+IP-CIDR,101.124.19.122/32
+IP6-CIDR,2402:db40:5100:1011::5/128
 # 云闪付，配合重写
-HOST,ads.95516.com,REJECT
-HOST,switch.cup.com.cn,REJECT
-HOST,tysdk.95516.com,REJECT
+HOST,ads.95516.com
+HOST,switch.cup.com.cn
+HOST,tysdk.95516.com
 # 广告联盟，配合重写
-HOST,ad.zijieapi.com,REJECT
-HOST,i.snssdk.com,REJECT
-HOST,is.snssdk.com,REJECT
-HOST,open.e.kuaishou.com,REJECT
-HOST-SUFFIX, miaozhen.com,REJECT
-HOST-KEYWORD,-ad-sign.byteimg.com,REJECT
-HOST-KEYWORD,-tos.pstatp.com,REJECT
-HOST-KEYWORD,asiad.byteactivity,REJECT
-HOST-KEYWORD,pangolin-sdk-toutiao,REJECT
-HOST-KEYWORD,pangolin.snssdk.com,REJECT
-HOST-KEYWORD,pglstatp-toutiao,REJECT
-HOST-KEYWORD,video-cn.snssdk.com,REJECT
+HOST,ad.zijieapi.com
+HOST,i.snssdk.com
+HOST,is.snssdk.com
+HOST,open.e.kuaishou.com
+HOST-SUFFIX,miaozhen.com
+HOST-KEYWORD,-ad-sign.byteimg.com
+HOST-KEYWORD,-tos.pstatp.com
+HOST-KEYWORD,asiad.byteactivity
+HOST-KEYWORD,pangolin-sdk-toutiao
+HOST-KEYWORD,pangolin.snssdk.com
+HOST-KEYWORD,pglstatp-toutiao
+HOST-KEYWORD,video-cn.snssdk.com
 # 有看头，配合重写
-host-suffix,adx-cn.anythinktech.com,reject
+host-suffix,adx-cn.anythinktech.com
 # 高德地图，配合重写
-host,amdc.m.taobao.com,reject
-HOST,amap-aos-info-nogw.amap.com,REJECT
-HOST,awaken.amap.com,REJECT
-HOST,free-aos-cdn-image.amap.com,REJECT
+host,amdc.m.taobao.com
+HOST,amap-aos-info-nogw.amap.com
+HOST,awaken.amap.com
+HOST,free-aos-cdn-image.amap.com
