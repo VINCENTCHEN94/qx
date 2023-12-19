@@ -14,6 +14,15 @@ host-keyword,steam
 # journeyart.ai（AI绘画）
 host-keyword,journeyart
 
+
+# rss订阅
+host-suffix,rsshub.app
+host-suffix,cdn-telegram.org
+# 苹果证书检测
+host-suffix,ocsp.pki.goog
+# quantumult
+HOST-SUFFIX, quantumult.app
+
 # app降级软件 检索版本
 host-keyword,bilin.eu
 host,uclient-api.itunes.apple.com
@@ -22,30 +31,34 @@ host-keyword,cokepokes
 host-keyword,applvn
 
 # swiftgram（已卸载，通知有问题，后续有需要再下）
-# host-keyword,swiftgram
+host-keyword,swiftgram
+
 # reddit
 host-keyword,reddit
 host-suffix,redd.it
+
 # finalshell 官网
 host-suffix,hostbuf.com
-# 骗子网站（此处警醒）
-# host-suffix,fahaovx.com
-# quantumult
-HOST-SUFFIX, quantumult.app
 
 # v2ex论坛
 host-suffix,v2ex.com
+
 # Postman 相关
 host-suffix,cloudinary.com
 host-suffix,postman.co
+
 # 相关订阅（闪电）
 host-suffix,shandianpro.com
+host-suffix,cdn-sd.xyz
+
 # 好孩子网址
 host-suffix,xianshangkan.cc
 host-keyword,iwara.tv
 host-suffix,missav.com
 host-suffix,4hu.tv
 host-suffix,cn.pornhub.com
+host-suffix,phncdn.com
+
 # 直播源
 host-suffix,live.fanmingming.com
 host-suffix,xhdwc.tk
