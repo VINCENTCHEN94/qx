@@ -17,11 +17,13 @@ HOST,xp.apple.com
 # 谷歌app分析
 HOST-SUFFIX,app-measurement.com
 # 网易云音乐
-HOST,iadmat.nosdn.127.net
-HOST,iadmatapk.nosdn.127.net
-HOST,iadmusicmat.music.126.net
-HOST,iadmusicmatvideo.music.126.net
-HOST-SUFFIX,163jiasu.com
+HOST, iadmat.nosdn.127.net
+HOST, iadmatapk.nosdn.127.net
+HOST, iadmusicmat.music.126.net
+HOST, iadmusicmatvideo.music.126.net
+HOST, ipv4.music.163.com
+HOST, ipv6.music.163.com
+HOST-SUFFIX, 163jiasu.com
 # B站换区
 ip-cidr,203.107.1.1/24
 # 全民K歌
