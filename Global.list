@@ -13,7 +13,14 @@ host-keyword,alfred
 host-keyword,steam
 # journeyart.ai（AI绘画）
 host-keyword,journeyart
-
+# 常用软件下载官网（omnigroup、typora、istatmenus6、maven、threejs、wuzhi、mp3）
+host-suffix,omnigroup.com
+host-suffix,typora.io
+host-suffix,bjango.com
+host-suffix,repo.maven.apache.org
+host-suffix,threejs.org
+host-suffix,wuzhi.vercel.app
+host-suffix,free-mp3-download.net
 
 # rss订阅
 host-suffix,rsshub.app
@@ -72,29 +79,8 @@ host,phucdo-repo.pages.dev
 # 低代码在线demo
 host-suffix,rxdrag.vercel.app
 
-# 常用软件下载官网（omnigroup、typora、istatmenus6、maven、threejs、wuzhi、mp3）
-host-suffix,omnigroup.com
-host-suffix,typora.io
-host-suffix,bjango.com
-host-suffix,repo.maven.apache.org
-host-suffix,threejs.org
-host-suffix,wuzhi.vercel.app
-host-suffix,free-mp3-download.net
 
-# Twitter
-HOST-SUFFIX, periscope.tv
-HOST-SUFFIX, pscp.tv
-HOST-SUFFIX, t.co
-HOST-SUFFIX, tweetdeck.com
-HOST-SUFFIX, twimg.co
-HOST-SUFFIX, twimg.com
-HOST-SUFFIX, twitpic.com
-HOST-SUFFIX, twitter.com
-HOST-SUFFIX, twitter.jp
-HOST-SUFFIX, vine.co
-
-
-# > Wikimedia Foundation
+# Wiki
 DOMAIN-SUFFIX,mediawiki.org
 DOMAIN-SUFFIX,wikibooks.org
 DOMAIN-SUFFIX,wikidata.org
@@ -108,6 +94,43 @@ DOMAIN-SUFFIX,wikisource.org
 DOMAIN-SUFFIX,wikiversity.org
 DOMAIN-SUFFIX,wikivoyage.org
 DOMAIN-SUFFIX,wiktionary.org
+
+
+
+# Twitter
+HOST-SUFFIX,ads-twitter.com,Twitter
+HOST-SUFFIX,cms-twdigitalassets.com,Twitter
+HOST-SUFFIX,periscope.tv,Twitter
+HOST-SUFFIX,pscp.tv,Twitter
+HOST-SUFFIX,t.co,Twitter
+HOST-SUFFIX,tellapart.com,Twitter
+HOST-SUFFIX,tweetdeck.com,Twitter
+HOST-SUFFIX,twimg.co,Twitter
+HOST-SUFFIX,twimg.com,Twitter
+HOST-SUFFIX,twimg.org,Twitter
+HOST-SUFFIX,twitpic.com,Twitter
+HOST-SUFFIX,twitter.biz,Twitter
+HOST-SUFFIX,twitter.com,Twitter
+HOST-SUFFIX,twitter.jp,Twitter
+HOST-SUFFIX,twittercommunity.com,Twitter
+HOST-SUFFIX,twitterflightschool.com,Twitter
+HOST-SUFFIX,twitterinc.com,Twitter
+HOST-SUFFIX,twitteroauth.com,Twitter
+HOST-SUFFIX,twitterstat.us,Twitter
+HOST-SUFFIX,twtrdns.net,Twitter
+HOST-SUFFIX,twttr.com,Twitter
+HOST-SUFFIX,twttr.net,Twitter
+HOST-SUFFIX,twvid.com,Twitter
+HOST-SUFFIX,vine.co,Twitter
+HOST-SUFFIX,x.com,Twitter
+HOST-KEYWORD,twitter,Twitter
+IP-CIDR,192.133.76.0/22,Twitter
+IP-CIDR,199.16.156.0/22,Twitter
+IP-CIDR,199.59.148.0/22,Twitter
+IP-CIDR,199.96.56.0/21,Twitter
+IP-CIDR,202.160.128.0/22,Twitter
+IP-CIDR,209.237.192.0/19,Twitter
+IP-CIDR,69.195.160.0/19,Twitter
 # TikTok
 HOST,lf16-effectcdn.byteeffecttos-g.com,TikTok
 HOST,lf16-pkgcdn.pitaya-clientai.com,TikTok
@@ -136,18 +159,26 @@ HOST-KEYWORD,musical.ly,TikTok
 HOST-KEYWORD,tiktok,TikTok
 USER-AGENT,TikTok*,TikTok
 # YouTube
-DOMAIN-SUFFIX,googlevideo.com
-DOMAIN-SUFFIX,withyoutube.com
-DOMAIN-SUFFIX,youtu.be
-DOMAIN-SUFFIX,youtube.com
-DOMAIN-SUFFIX,youtubeeducation.com
-DOMAIN-SUFFIX,youtubegaming.com
-DOMAIN-SUFFIX,youtubekids.com
-DOMAIN-SUFFIX,youtube-nocookie.com
-DOMAIN-SUFFIX,yt.be
-DOMAIN-SUFFIX,ytimg.com
-DOMAIN,youtubei.googleapis.com
-DOMAIN,yt3.ggpht.com
+USER-AGENT,*youtube*,YouTube
+USER-AGENT,YouTube*,YouTube
+HOST-WILDCARD,youtube.*,YouTube
+HOST-WILDCARD,youtube.*.*,YouTube
+HOST-WILDCARD,youtube.com.*,YouTube
+HOST-SUFFIX,googlevideo.com,YouTube
+HOST-SUFFIX,gvt1.com,YouTube
+HOST-SUFFIX,video.google.com,YouTube
+HOST-SUFFIX,youtu.be,YouTube
+HOST-SUFFIX,youtube.com,YouTube
+HOST-SUFFIX,youtube.googleapis.com,YouTube
+HOST-SUFFIX,youtubeeducation.com,YouTube
+HOST-SUFFIX,youtubeembeddedplayer.googleapis.com,YouTube
+HOST-SUFFIX,youtubei.googleapis.com,YouTube
+HOST-SUFFIX,youtubekids.com,YouTube
+HOST-SUFFIX,youtube-nocookie.com,YouTube
+HOST-SUFFIX,youtube-ui.l.google.com,YouTube
+HOST-SUFFIX,yt.be,YouTube
+HOST-SUFFIX,yt3.ggpht.com,YouTube
+HOST-SUFFIX,ytimg.com,YouTube
 # Telegram
 HOST,api.swiftgram.app,Telegram
 HOST-SUFFIX,comments.app,Telegram
