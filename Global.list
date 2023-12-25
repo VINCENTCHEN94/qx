@@ -11,6 +11,8 @@ host-keyword,jsdelivr
 host-keyword,alfred
 # steam
 host-keyword,steam
+# jetbrains
+host-keyword,jetbrains
 # journeyart.ai（AI绘画）
 host-keyword,journeyart
 # 常用软件下载官网（omnigroup、typora、istatmenus6、maven、threejs、wuzhi、mp3）
