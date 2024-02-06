@@ -1,6 +1,4 @@
 ##################直连✅###################
-# ServerBee
-host-suffix,api.revenuecat.com,direct
 # 罗技
 host-keyword,logitech,direct
 # enpass
