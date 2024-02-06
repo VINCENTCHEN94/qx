@@ -11,11 +11,17 @@ host-keyword,jsdelivr
 host-keyword,alfred
 # steam
 host-keyword,steam
-# jetbrains
-host-keyword,jetbrains
+# gmail
+host-keyword,gmail,全球加速
+host,preview.app.goo.gl,全球加速
+# brew
+host-suffix,brew.sh,全球加速
+# adobe
+host-keyword,adobe,全球加速
 # journeyart.ai（AI绘画）
 host-keyword,journeyart
-# 常用软件下载官网（omnigroup、typora、istatmenus6、maven、threejs、wuzhi、mp3）
+# 常用软件下载官网（jetbrains、omnigroup、typora、istatmenus6、maven、threejs、wuzhi、mp3、finalshell）
+host-keyword,jetbrains
 host-suffix,omnigroup.com
 host-suffix,typora.io
 host-suffix,bjango.com
@@ -23,12 +29,8 @@ host-suffix,repo.maven.apache.org
 host-suffix,threejs.org
 host-suffix,wuzhi.vercel.app
 host-suffix,free-mp3-download.net
+host-suffix,hostbuf.com
 ###############################################################
-# rss订阅
-host-suffix,rsshub.app
-host-suffix,cdn-telegram.org
-# 苹果证书检测
-host-suffix,ocsp.pki.goog
 # quantumult
 HOST-SUFFIX, quantumult.app
 # app降级软件 检索版本
@@ -37,13 +39,6 @@ host,uclient-api.itunes.apple.com
 host-keyword,applovin
 host-keyword,cokepokes
 host-keyword,applvn
-# swiftgram（已卸载，通知有问题，后续有需要再下）
-host-keyword,swiftgram
-# reddit
-host-keyword,reddit
-host-suffix,redd.it
-# finalshell 官网
-host-suffix,hostbuf.com
 # v2ex论坛
 host-suffix,v2ex.com
 # Postman 相关
@@ -53,61 +48,14 @@ host-keyword,postman,全球加速
 # 相关订阅（闪电）
 host-suffix,shandianpro.com
 host-suffix,cdn-sd.xyz
-# 好孩子网址
-host-suffix,xianshangkan.cc
-host-keyword,iwara.tv
-host-suffix,missav.com
-host-suffix,4hu.tv
-host-suffix,cn.pornhub.com
-host-suffix,phncdn.com
-# 直播源
-host-suffix,live.fanmingming.com
-host-suffix,xhdwc.tk
-host-suffix,m3u.ibert.me
-# npm 的CDN 
+# npm的CDN 
 host-keyword,unpkg
-# misaka（安装巨魔）
-host-suffix,discordapp.com
-host,phucdo-repo.pages.dev
-# 低代码在线demo
-host-suffix,rxdrag.vercel.app
-host-keyword,muyan,全球加速
-# 前端代码在线展示网站
-host-suffix,jsfiddle.net,全球加速
-host-suffix,kaizou.org,全球加速
-# x图片
+# x图床
 host-suffix,idownloadblog.com,全球加速
-# brew下载
-host-suffix,brew.sh,全球加速
 # 无版权图片素材库
 host-suffix,pexels.com,全球加速
 # 鸡神脚本订阅
 host-suffix,gjds666.cf,全球加速
-# 开源三维地层建模软件
-host-keyword,loop3d,全球加速
-# 接码平台
-host-suffix,goinsms.xyz,全球加速
-# gmail
-host-keyword,gmail,全球加速
-host,preview.app.goo.gl,全球加速
-# adobe
-host-keyword,adobe,全球加速
-# 拷贝漫画
-host-keyword,copymanga,全球加速
-# 越狱源
-host-keyword,procurs,全球加速
-host-keyword,liam.page,全球加速
-host-keyword,ginsu,全球加速
-host-keyword,anamy,全球加速
-host-keyword,ikghd,全球加速
-host-keyword,lizynz,全球加速
-host-keyword,cydia,全球加速
-# 半越狱插件购买
-host-keyword,chariz,全球加速
-host-suffix,havoc.app,全球加速
-host-keyword,huayuarc,全球加速
-# 电影源
-host-suffix,huyaapi.com,全球加速
 ###############################################################
 # Wiki
 DOMAIN-SUFFIX,mediawiki.org
