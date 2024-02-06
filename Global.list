@@ -20,17 +20,6 @@ host-suffix,brew.sh,全球加速
 host-keyword,adobe,全球加速
 # journeyart.ai（AI绘画）
 host-keyword,journeyart
-# 常用软件下载官网（jetbrains、omnigroup、typora、istatmenus6、maven、threejs、wuzhi、mp3、finalshell）
-host-keyword,jetbrains
-host-suffix,omnigroup.com
-host-suffix,typora.io
-host-suffix,bjango.com
-host-suffix,repo.maven.apache.org
-host-suffix,threejs.org
-host-suffix,wuzhi.vercel.app
-host-suffix,free-mp3-download.net
-host-suffix,hostbuf.com
-###############################################################
 # quantumult
 HOST-SUFFIX, quantumult.app
 # app降级软件 检索版本
@@ -48,6 +37,16 @@ host-keyword,postman,全球加速
 # 相关订阅（闪电）
 host-suffix,shandianpro.com
 host-suffix,cdn-sd.xyz
+# 常用软件下载官网（jetbrains、omnigroup、typora、istatmenus6、maven、threejs、wuzhi、mp3、finalshell）
+host-keyword,jetbrains
+host-suffix,omnigroup.com
+host-suffix,typora.io
+host-suffix,bjango.com
+host-suffix,repo.maven.apache.org
+host-suffix,threejs.org
+host-suffix,wuzhi.vercel.app
+host-suffix,free-mp3-download.net
+host-suffix,hostbuf.com
 # npm的CDN 
 host-keyword,unpkg
 # x图床
