@@ -12,12 +12,12 @@ host-keyword,alfred
 # steam
 host-keyword,steam
 # gmail
-host-keyword,gmail,全球加速
-host,preview.app.goo.gl,全球加速
+host-keyword,gmail
+host,preview.app.goo.gl
 # brew
-host-suffix,brew.sh,全球加速
+host-suffix,brew.sh
 # adobe
-host-keyword,adobe,全球加速
+host-keyword,adobe
 # journeyart.ai（AI绘画）
 host-keyword,journeyart
 # quantumult
@@ -33,7 +33,7 @@ host-suffix,v2ex.com
 # Postman 相关
 host-suffix,cloudinary.com
 host-suffix,postman.co
-host-keyword,postman,全球加速
+host-keyword,postman
 # 相关订阅（闪电）
 host-suffix,shandianpro.com
 host-suffix,cdn-sd.xyz
@@ -50,11 +50,38 @@ host-suffix,hostbuf.com
 # npm的CDN 
 host-keyword,unpkg
 # x图床
-host-suffix,idownloadblog.com,全球加速
+host-suffix,idownloadblog.com
 # 无版权图片素材库
-host-suffix,pexels.com,全球加速
+host-suffix,pexels.com
+# 图片分享网站imgur
+host-keyword,imgur
 # 鸡神脚本订阅
-host-suffix,gjds666.cf,全球加速
+host-suffix,gjds666.cf
+# AlDente（Mac电池助手）
+host-suffix,apphousekitchen.com
+# codeium(在线AI写代码)
+host-suffix,codeium.com
+# 越狱源
+host-keyword,procurs
+host-keyword,huayuarc
+host-keyword,chariz
+host-suffix,havoc.app
+host-keyword,anamy
+host-keyword,thebigboss
+host-keyword,ikghd
+host-keyword,ginsu
+host-keyword,liam
+host-keyword,geometricsoftware
+host-keyword,zq666
+host-keyword,snailovet
+host-keyword,rob311
+host-keyword,ib-soft
+# 多巴胺越狱（在线更新）
+host-suffix,ellekit.space
+# paypal
+host-keyword,paypal
+# cloudflare-ipfs电子书下载
+host-keyword,cloudflare
 ###############################################################
 # Wiki
 DOMAIN-SUFFIX,mediawiki.org
