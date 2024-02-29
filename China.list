@@ -1,10 +1,10 @@
 ##################直连✅###################
+# 12306固定分流
+host, ad.12306.cn, direct
 # 罗技
 host-keyword,logitech,direct
 # enpass
 host-keyword,enpass,direct
-# 汉口银行
-host-suffix, hkbchina.com
 # 中煤内网 
 ip-cidr, 192.168.31.0/24
 ip-cidr, 155.155.155.0/16
