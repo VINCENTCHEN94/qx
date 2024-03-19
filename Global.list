@@ -68,18 +68,18 @@ host,byg.iosios.net
 host,xiangfeidexiaohuo.github.io
 host,apt.htv123.com
 host,apt.25mao.com
-host,lclrc.github.io/repo
-host,flyx099.github.io/repo
+host,lclrc.github.io
+host,flyx099.github.io
 host,repo.anamy.gay
-host,apt.thebigboss.org/repofiles/cydia
+host,apt.thebigboss.org
 host,repo.chariz.com
 host,ellekit.space
 host,havoc.app
 host,jailrepo.initnil.com
-host,invalidunit.github.io/netskao-archive
+host,invalidunit.github.io
 host,opa334.github.io
 host,apt.procurs.us
-host,invalidunit.github.io/repo
+host,invalidunit.github.io
 # 多巴胺越狱（在线更新）
 host-suffix,ellekit.space
 # paypal
