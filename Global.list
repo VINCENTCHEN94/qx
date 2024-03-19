@@ -62,22 +62,24 @@ host-suffix,apphousekitchen.com
 # codeium(在线AI写代码)
 host-suffix,codeium.com
 # 越狱源
-host-keyword,procurs
-host-keyword,huayuarc
-host-keyword,chariz
-host-suffix,havoc.app
-host-keyword,anamy
-host-keyword,thebigboss
-host-keyword,ikghd
-host-keyword,ginsu
-host-keyword,liam
-host-keyword,geometricsoftware
-host-keyword,zq666
-host-keyword,snailovet
-host-keyword,rob311
-host-keyword,ib-soft
-host-keyword,jailrepo
+host,wwg135.github.io
+host,rootless.zq666.eu.org
 host,byg.iosios.net
+host,xiangfeidexiaohuo.github.io
+host,apt.htv123.com
+host,apt.25mao.com
+host,lclrc.github.io/repo
+host,flyx099.github.io/repo
+host,repo.anamy.gay
+host,apt.thebigboss.org/repofiles/cydia
+host,repo.chariz.com
+host,ellekit.space
+host,havoc.app
+host,jailrepo.initnil.com
+host,invalidunit.github.io/netskao-archive
+host,opa334.github.io
+host,apt.procurs.us
+host,invalidunit.github.io/repo
 # 多巴胺越狱（在线更新）
 host-suffix,ellekit.space
 # paypal
