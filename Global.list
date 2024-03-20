@@ -62,30 +62,46 @@ host-suffix,apphousekitchen.com
 # codeium(在线AI写代码)
 host-suffix,codeium.com
 # 越狱源(多巴胺越狱)
-host,wwg135.github.io
-host,rootless.zq666.eu.org
-host,byg.iosios.net
-host,xiangfeidexiaohuo.github.io
-host,apt.htv123.com
-host,apt.25mao.com
-host,lclrc.github.io
-host,flyx099.github.io
-host,repo.anamy.gay
-host,apt.thebigboss.org
-host,repo.chariz.com
-host,ellekit.space
-host,havoc.app
-host,jailrepo.initnil.com
-host,invalidunit.github.io
-host,opa334.github.io
-host,apt.procurs.us
-host,invalidunit.github.io
+host-suffix,wwg135.github.io
+host-suffix,rootless.zq666.eu.org
+host-suffix,byg.iosios.net
+host-suffix,xiangfeidexiaohuo.github.io
+host-suffix,apt.htv123.com
+host-suffix,apt.25mao.com
+host-suffix,lclrc.github.io
+host-suffix,flyx099.github.io
+host-suffix,repo.anamy.gay
+host-suffix,apt.thebigboss.org
+host-suffix,repo.chariz.com
+host-suffix,ellekit.space
+host-keyword,havoc
+host-suffix,jailrepo.initnil.com
+host-suffix,invalidunit.github.io
+host-suffix,opa334.github.io
+host-suffix,apt.procurs.us
+host-suffix,invalidunit.github.io
+host-suffix,ib-soft.net
+host-suffix,tigisoftware.com
+host-suffix,chariz.com
+HOST,featuredpage.getsileo.app
+host-suffix, api2.amplitude.com
 # 多巴胺越狱（在线更新）
 host-suffix,ellekit.space
 # paypal
 host-keyword,paypal
 # cloudflare-ipfs电子书下载
 host-keyword,cloudflare
+# docker
+host-keyword,docker
+# orbstack 下载（docker管理器）
+host-keyword,orbstack
+# 网页去广告订阅
+HOST,limbopro.com
+# 大模型接口
+host-keyword,huggingface
+HOST,api.pwnedpasswords.com
+
+
 ###############################################################
 # Wiki
 DOMAIN-SUFFIX,mediawiki.org
