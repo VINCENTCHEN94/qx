@@ -82,7 +82,7 @@ host-suffix,apt.procurs.us
 host-suffix,invalidunit.github.io
 host-suffix,ib-soft.net
 host-suffix,tigisoftware.com
-host-suffix,chariz.com
+host-keyword,chariz
 HOST,featuredpage.getsileo.app
 host-suffix, api2.amplitude.com
 host-keyword,ginsu
