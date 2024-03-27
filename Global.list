@@ -21,7 +21,7 @@ host-keyword,adobe
 # journeyart.ai（AI绘画）
 host-keyword,journeyart
 # quantumult
-HOST-SUFFIX, quantumult.app
+# HOST-SUFFIX, quantumult.app
 # app降级软件 检索版本
 host-keyword,bilin.eu
 host,uclient-api.itunes.apple.com
