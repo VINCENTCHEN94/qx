@@ -5,10 +5,6 @@ host, ad.12306.cn, direct
 host-keyword,logitech,direct
 # enpass
 host-keyword,enpass,direct
-# 中煤内网 
-ip-cidr, 192.168.31.0/24
-ip-cidr, 155.155.155.0/16
-ip-cidr, 10.39.0.0/16
 # IP地址查询
 HOST, ip.istatmenus.app
 HOST, sms.imagetasks.com
