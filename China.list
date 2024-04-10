@@ -1,6 +1,8 @@
 ##################直连✅###################
 # 12306固定分流
 host, ad.12306.cn, direct
+# google DNS
+host-suffix, ocsp.pki.goog, direct
 # 罗技
 host-keyword,logitech,direct
 # enpass
