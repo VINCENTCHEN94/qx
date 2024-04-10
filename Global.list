@@ -1,4 +1,4 @@
-##################全球加速🌍###################
+#########################################常用#############################
 # google
 host-keyword,google
 # github
@@ -18,49 +18,35 @@ host,preview.app.goo.gl
 host-suffix,brew.sh
 # adobe
 host-keyword,adobe
-# journeyart.ai（AI绘画）
-host-keyword,journeyart
+# paypal
+host-keyword,paypal
+# docker
+host-keyword,docker
 # quantumult
-# HOST-SUFFIX, quantumult.app
-# app降级软件 检索版本
-host-keyword,bilin.eu
-host,uclient-api.itunes.apple.com
-host-keyword,applovin
-host-keyword,cokepokes
-host-keyword,applvn
-# v2ex论坛
+HOST-SUFFIX, quantumult.app
+# v2ex
 host-suffix,v2ex.com
-# Postman 相关
+# stackoverflow
+host-keyword, stackoverflow
+# Postman
 host-suffix,cloudinary.com
 host-suffix,postman.co
 host-keyword,postman
-# 相关订阅（闪电）
+#########################################相关订阅#############################
+# ✈️（闪电）
 host-suffix,shandianpro.com
 host-suffix,cdn-sd.xyz
-# 常用软件下载官网（jetbrains、omnigroup、typora、istatmenus6、maven、threejs、wuzhi、mp3、finalshell）
-host-keyword,jetbrains
-host-suffix,omnigroup.com
-host-suffix,typora.io
-host-suffix,bjango.com
-host-suffix,repo.maven.apache.org
-host-suffix,threejs.org
-host-suffix,wuzhi.vercel.app
-host-suffix,free-mp3-download.net
-host-suffix,hostbuf.com
-# npm的CDN 
-host-keyword,unpkg
-# x图床
-host-suffix,idownloadblog.com
-# 无版权图片素材库
-host-suffix,pexels.com
-# 图片分享网站imgur
-host-keyword,imgur
+# 网页去广告订阅
+HOST,limbopro.com
 # 鸡神脚本订阅
 host-suffix,gjds666.cf
-# AlDente（Mac电池助手）
-host-suffix,apphousekitchen.com
-# codeium(在线AI写代码)
-host-suffix,codeium.com
+#########################################ios越狱#############################
+# 多巴胺越狱（在线更新）
+host-suffix,ellekit.space
+# 越狱插件下载
+host-keyword, tomt.ooo
+host-suffix, getsileo.app
+host-suffix, api.canister.me
 # 越狱源(多巴胺越狱)
 host-suffix,wwg135.github.io
 host-suffix,rootless.zq666.eu.org
@@ -85,22 +71,71 @@ host-suffix,tigisoftware.com
 host-keyword,chariz
 HOST,featuredpage.getsileo.app
 host-suffix, api2.amplitude.com
+host-keyword, level3tjg
+host-suffix,0xkuj.yourepo.com
 host-keyword,ginsu
-# 多巴胺越狱（在线更新）
-host-suffix,ellekit.space
-# paypal
-host-keyword,paypal
+#########################################软件下载#############################
+# 常用软件下载官网（jetbrains、omnigroup、typora、istatmenus6、maven、threejs、wuzhi、mp3、finalshell）
+host-keyword,jetbrains
+host-suffix,omnigroup.com
+host-suffix,typora.io
+host-suffix,bjango.com
+host-suffix,repo.maven.apache.org
+host-suffix,threejs.org
+host-suffix,wuzhi.vercel.app
+host-suffix,free-mp3-download.net
+host-suffix,hostbuf.com
 # cloudflare-ipfs电子书下载
 host-keyword,cloudflare
-# docker
-host-keyword,docker
+# 物联网工具下载
+host-keyword, arduino
+# mqtt客户端工具下载
+host-suffix, packages.emqx.io
 # orbstack 下载（docker管理器）
 host-keyword,orbstack
-# 网页去广告订阅
-HOST,limbopro.com
+# app降级软件 检索版本
+host-keyword,bilin.eu
+host,uclient-api.itunes.apple.com
+host-keyword,applovin
+host-keyword,cokepokes
+host-keyword,applvn
+# 无版权图片素材库下载
+host-suffix,pexels.com
+# 图片分享网站imgur
+host-keyword,imgur
+# app降级软件 检索版本
+host-keyword,bilin.eu
+host,uclient-api.itunes.apple.com
+host-keyword,applovin
+host-keyword,cokepokes
+host-keyword,applvn
+# npm的CDN 
+host-keyword,unpkg
+# x图床
+host-suffix,idownloadblog.com
+#########################################其它#############################
+# AlDente（Mac电池助手）
+host-suffix,apphousekitchen.com
+# journeyart.ai（AI绘画）
+host-keyword,journeyart
+# codeium(在线AI写代码)
+host-suffix,codeium.com
 # 大模型接口
 host-keyword,huggingface
 HOST,api.pwnedpasswords.com
+# midjourney登陆
+host-keyword, hcaptcha
+host-keyword, discord
+host-keyword, midjourney
+# cydia2官网
+host-suffix, cydia2.com
+# threejs开源拓展试用
+host-suffix, opensource.icegl.cn
+
+
+
+
+
 
 
 ###############################################################
