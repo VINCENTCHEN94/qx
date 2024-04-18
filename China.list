@@ -4,6 +4,11 @@ host, ad.12306.cn, direct
 host-suffix, ocsp.pki.goog, direct
 # 罗技
 host-keyword,logitech,direct
+# 银联
+host-keyword, 95516
+host-keyword,unionpay
+host-keyword,airepay
+host-suffix,base.cup.com
 # enpass
 host-keyword,enpass,direct
 # IP地址查询
