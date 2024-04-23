@@ -2,8 +2,9 @@
 host, ad.12306.cn, direct
 # google DNS
 host-suffix, ocsp.pki.goog, direct
-# 订阅机
+# 订阅机场✈️
 host-suffix, 6d265caf-c394-4a1f-bcdc-94ba679d3c27.shandiannginx.com
+host-suffix, 2024.118620.xyz
 # 国内git镜像
 host-suffix, raw.gitmirror.com
 # 罗技
