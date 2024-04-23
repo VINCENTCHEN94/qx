@@ -2,6 +2,10 @@
 host, ad.12306.cn, direct
 # google DNS
 host-suffix, ocsp.pki.goog, direct
+# 订阅机
+host-suffix, 6d265caf-c394-4a1f-bcdc-94ba679d3c27.shandiannginx.com
+# 国内git镜像
+host-suffix, raw.gitmirror.com
 # 罗技
 host-keyword,logitech,direct
 # 银联
@@ -14,4 +18,5 @@ host-keyword,enpass,direct
 # IP地址查询
 HOST, ip.istatmenus.app
 HOST, sms.imagetasks.com
+host-suffix, ifconfig.me
 GEOIP,CN
