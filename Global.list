@@ -35,7 +35,6 @@ host-keyword,postman
 #########################################相关订阅#############################
 # ✈️（闪电）
 host-suffix,shandianpro.com
-host-suffix,cdn-sd.xyz
 # 网页去广告订阅
 HOST,limbopro.com
 # 鸡神脚本订阅
@@ -113,6 +112,15 @@ host-keyword,applvn
 host-keyword,unpkg
 # x图床
 host-suffix,idownloadblog.com
+# notepad下载
+host-suffix, notepad-plus-plus.org
+# 磁力网站 https://0cili.net/
+host-keyword, 0cili
+# UE下载
+host-keyword, unrealengine
+# ONS游戏资源库
+host-suffix, 05fx.glitch.me
+
 #########################################其它#############################
 # AlDente（Mac电池助手）
 host-suffix,apphousekitchen.com
