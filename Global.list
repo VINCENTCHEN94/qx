@@ -73,6 +73,7 @@ host-suffix, api2.amplitude.com
 host-keyword, level3tjg
 host-suffix,0xkuj.yourepo.com
 host-keyword,ginsu
+host-suffix, yourepo.com
 #########################################软件下载#############################
 # 常用软件下载官网（jetbrains、omnigroup、typora、istatmenus6、maven、threejs、wuzhi、mp3、finalshell）
 host-keyword,jetbrains
