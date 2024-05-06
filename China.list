@@ -1,21 +1,25 @@
 # 12306固定分流
-host, ad.12306.cn, direct
+host, ad.12306.cn
 # google DNS
-host-suffix, ocsp.pki.goog, direct
+host-suffix, ocsp.pki.goog
 # 订阅机场✈️
 host-suffix, 6d265caf-c394-4a1f-bcdc-94ba679d3c27.shandiannginx.com
 host-suffix, 2024.118620.xyz
 # 国内git镜像
 host-suffix, raw.gitmirror.com
 # 罗技
-host-keyword,logitech,direct
+host-keyword,logitech
 # 银联
 host-keyword, 95516
 host-keyword,unionpay
 host-keyword,airepay
 host-suffix,base.cup.com
 # enpass
-host-keyword,enpass,direct
+host-keyword,enpass
+# IPTV
+host-suffix, mirror.ghproxy.com
+host-suffix, ottrrs.hl.chinamobile.com
+host-keyword, fanmingming
 # IP地址查询
 HOST, ip.istatmenus.app
 HOST, sms.imagetasks.com
