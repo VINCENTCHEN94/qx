@@ -140,7 +140,20 @@ host-keyword, midjourney
 host-suffix, cydia2.com
 # threejs开源拓展试用
 host-suffix, opensource.icegl.cn
-
+# PMI证书
+host-keyword, pmi, 全球加速
+# blender（三维建模软件）
+host-keyword, blender, 全球加速
+# https://3daistudio.com/ImageTo3D  图片转3d模型
+host-keyword, 3daistudio, 全球加速
+# C站（二次元）
+host-keyword, clicli, 全球加速
+# https://yummy.best  新闻分享博客
+host-keyword, yummy, 全球加速
+# AI搜索引擎（非常好用）
+host-suffix, explorer.globe.engineer, 全球加速
+# flex3商店
+host-keyword, flex, 全球加速
 
 
 
