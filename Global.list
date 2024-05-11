@@ -154,7 +154,21 @@ host-keyword, yummy
 host-suffix, explorer.globe.engineer
 # flex3商店
 host-keyword, flex
-
+# IPTV epg
+host-suffix, epg.erw.cc, 全球加速
+host-suffix, epg.112114.xyz, 全球加速
+# 自动简历筛选软件（需订阅）
+host-suffix, hirematch.app, 全球加速
+# 美国媒体
+host-suffix, theverge.com, 全球加速
+# 奶昔（最贵✈️）
+host-suffix, nexitallysafe.com, 全球加速
+# 直播源节目单元数据
+host-suffix, epg.erw.cc, 全球加速
+# 谷歌搜索网页图片缩略图
+host-suffix, gstatic.com, 全球加速
+# 文字转语音接口
+host-suffix, rapidapi.com, 全球加速
 
 
 
