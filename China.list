@@ -21,4 +21,12 @@ host-keyword, fanmingming
 HOST, ip.istatmenus.app
 HOST, sms.imagetasks.com
 host-suffix, ifconfig.me
+# 12306 （实时车站信息）
+host-suffix, mobile.12306.cn, direct
+# 美团图片
+host-suffix, p0.meituan.net, direct
+host-suffix, img.meituan.net, direct
+host-suffix, p1.meituan.net, direct
+# 中国建筑导航网站（有标准下载链接）
+host-suffix, chinesebuilding.club, direct
 GEOIP,CN
