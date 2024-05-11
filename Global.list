@@ -22,6 +22,10 @@ host-keyword,adobe
 host-keyword,paypal
 # docker
 host-keyword,docker
+# nvidia
+host-keyword,nvidia,全球加速
+# ollama
+host-suffix,ollama.com,全球加速
 # quantumult
 HOST-SUFFIX, quantumult.app
 # v2ex
