@@ -167,13 +167,36 @@ host-suffix, hirematch.app, 全球加速
 host-suffix, theverge.com, 全球加速
 # 奶昔（最贵✈️）
 host-suffix, nexitallysafe.com, 全球加速
+# 筋斗云机场
+host-suffix, jindouyun88.life, 全球加速
+# 鳄鱼机场（貌似是骗子）
+host-suffix, eyujichang.com, 全球加速
+# 闪电机场✈️
+host-suffix, 6d265caf-c394-4a1f-bcdc-94ba679d3c27.shandiannginx.com,全球加速
 # 直播源节目单元数据
 host-suffix, epg.erw.cc, 全球加速
 # 谷歌搜索网页图片缩略图
 host-suffix, gstatic.com, 全球加速
 # 文字转语音接口
 host-suffix, rapidapi.com, 全球加速
-
+# 翻译插件
+host-suffix, translate.yandex.net, 全球加速
+# 字体转换
+host-keyword, fontconverter, 全球加速
+# 字体合并
+host-keyword, fontforge, 全球加速
+# 免费AI（未试用）
+host-suffix, g4f.ai, 全球加速
+# 乌大CopyVault激活
+host-suffix, squidforce.eu.org, 全球加速
+# alist
+host-suffix, alist.nn.ci, 全球加速
+# ue epicgames
+host-suffix, datarouter.ol.epicgames.com, 全球加速
+# 免费ai（可用gpt4）
+host-suffix, unione.ai, 全球加速
+# dropbox网盘
+host-keyword, dropbox, 全球加速
 
 
 
