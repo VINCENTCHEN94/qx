@@ -29,4 +29,6 @@ host-suffix, img.meituan.net, direct
 host-suffix, p1.meituan.net, direct
 # 中国建筑导航网站（有标准下载链接）
 host-suffix, chinesebuilding.club, direct
+# 节假日日历订阅
+host-suffix, shuyz.com, direct
 GEOIP,CN
