@@ -15,21 +15,21 @@ HOST-KEYWORD,pangolin-sdk-toutiao
 HOST-KEYWORD,pangolin.snssdk.com
 HOST-KEYWORD,pglstatp-toutiao
 HOST-KEYWORD,video-cn.snssdk.com
-host-suffix, adservice.sigmob.cn, reject
-host-suffix, open.e.kuaishou.com, reject
-host-suffix, mi.gdt.qq.com, reject
-HOST-SUFFIX, shuzilm.cn, REJECT
+host-suffix, adservice.sigmob.cn
+host-suffix, open.e.kuaishou.com
+host-suffix, mi.gdt.qq.com
+HOST-SUFFIX, shuzilm.cn
 # DNS 无响应
-HOST, adttrackingprd.hwwt8.com, REJECT
+HOST, adttrackingprd.hwwt8.com
 # 谷歌广告
-host, googleads.g.doubleclick.net, reject
+host, googleads.g.doubleclick.net
 # 广告服务
-host-suffix, micro.rubiconproject.com, reject
-host-suffix, vox-cdn.com, reject
-host-suffix, cdn.concert.io, reject
+host-suffix, micro.rubiconproject.com
+host-suffix, vox-cdn.com
+host-suffix, cdn.concert.io
 # bug反馈
-host-suffix, ios.bugly.qq.com,reject
+host-suffix, ios.bugly.qq.com
 # 类似有很多追踪器的网站
-host-suffix, census-app-x.scorecardresearch.com, reject
+host-suffix, census-app-x.scorecardresearch.com
 # IOS引流接口
-host-suffix, branch.io, reject
+host-suffix, branch.io
