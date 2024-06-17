@@ -23,9 +23,9 @@ host-keyword,paypal
 # docker
 host-keyword,docker
 # nvidia
-host-keyword,nvidia,全球加速
+host-keyword,nvidia
 # ollama
-host-suffix,ollama.com,全球加速
+host-suffix,ollama.com
 # quantumult
 HOST-SUFFIX, quantumult.app
 # v2ex
@@ -159,45 +159,69 @@ host-suffix, explorer.globe.engineer
 # flex3商店
 host-keyword, flex
 # IPTV epg
-host-suffix, epg.erw.cc, 全球加速
-host-suffix, epg.112114.xyz, 全球加速
+host-suffix, epg.erw.cc
+host-suffix, epg.112114.xyz
 # 自动简历筛选软件（需订阅）
-host-suffix, hirematch.app, 全球加速
+host-suffix, hirematch.app
 # 美国媒体
-host-suffix, theverge.com, 全球加速
+host-suffix, theverge.com
 # 奶昔（最贵✈️）
-host-suffix, nexitallysafe.com, 全球加速
+host-suffix, nexitallysafe.com
 # 筋斗云机场
-host-suffix, jindouyun88.life, 全球加速
+host-suffix, jindouyun88.life
 # 鳄鱼机场（貌似是骗子）
-host-suffix, eyujichang.com, 全球加速
+host-suffix, eyujichang.com
 # 闪电机场✈️
-host-suffix, 6d265caf-c394-4a1f-bcdc-94ba679d3c27.shandiannginx.com,全球加速
+host-suffix, 6d265caf-c394-4a1f-bcdc-94ba679d3c27.shandiannginx.com
 # 直播源节目单元数据
-host-suffix, epg.erw.cc, 全球加速
+host-suffix, epg.erw.cc
 # 谷歌搜索网页图片缩略图
-host-suffix, gstatic.com, 全球加速
+host-suffix, gstatic.com
 # 文字转语音接口
-host-suffix, rapidapi.com, 全球加速
+host-suffix, rapidapi.com
 # 翻译插件
-host-suffix, translate.yandex.net, 全球加速
+host-suffix, translate.yandex.net
 # 字体转换
-host-keyword, fontconverter, 全球加速
+host-keyword, fontconverter
 # 字体合并
-host-keyword, fontforge, 全球加速
+host-keyword, fontforge
 # 免费AI（未试用）
-host-suffix, g4f.ai, 全球加速
+host-suffix, g4f.ai
 # 乌大CopyVault激活
-host-suffix, squidforce.eu.org, 全球加速
+host-suffix, squidforce.eu.org
 # alist
-host-suffix, alist.nn.ci, 全球加速
+host-suffix, alist.nn.ci
 # ue epicgames
-host-suffix, datarouter.ol.epicgames.com, 全球加速
+host-suffix, datarouter.ol.epicgames.com
 # 免费ai（可用gpt4）
-host-suffix, unione.ai, 全球加速
+host-suffix, unione.ai
 # dropbox网盘
-host-keyword, dropbox, 全球加速
-
+host-keyword, dropbox
+# zlmediakit视频汇聚
+host-suffix, zlmediakit.com
+# 视频生成ai
+host-suffix, lumalabs.ai
+# 优土优木国外技术
+host-suffix, ctech.com
+# Cats-Team官网（分流广告）
+host, img.shields.io
+host-suffix, adrules.top
+# Mac破解软件下载
+host-suffix, macked.app
+# 免费gpt
+host-keyword, oaifree
+# python教程博客
+host-suffix, cuiqingcai.com
+# 翻译插件，浏览器使用
+host-suffix, translate.goog
+# snapper 上传图片
+host-keyword, postimg
+# 越狱源网址
+host-suffix, repo.cypwn.xyz
+# notion
+host-keyword, notion
+# 政策库
+host-suffix, zhengceku.fun
 
 
 
