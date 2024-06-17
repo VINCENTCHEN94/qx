@@ -1,15 +1,15 @@
 const version = 'V1.0.22';
 
 var obj = JSON.parse($request.body),
-12306 = {};
-"0007" == obj.placementNo ? (12306.materialsList = [{
+ddgksf2013 = {};
+"0007" == obj.placementNo ? (ddgksf2013.materialsList = [{
 	billMaterialsId: "6491",
-	filePath: "12306",
+	filePath: "ddgksf2013",
 	creativeType: 1
-}], 12306.advertParam = {
+}], ddgksf2013.advertParam = {
 	skipTime: 1
 },
-12306.code = "00") : 12306 = "G0054" == obj.placementNo ? {
+ddgksf2013.code = "00") : ddgksf2013 = "G0054" == obj.placementNo ? {
 	code: "00",
 	materialsList: [{}]
 }: {
@@ -17,5 +17,5 @@ var obj = JSON.parse($request.body),
 	message: "无广告返回"
 },
 $done({
-	body: JSON.stringify(12306)
+	body: JSON.stringify(ddgksf2013)
 });
