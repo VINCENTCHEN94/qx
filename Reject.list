@@ -1,53 +1,12 @@
-##################拒连❌###################
-# 知乎
-HOST,appcloud.zhihu.com
-HOST,appcloud2.in.zhihu.com
-HOST,crash2.zhihu.com
-HOST,mqtt.zhihu.com
-HOST,sugar.zhihu.com
-HOST,zxid-m.mobileservice.cn
-IP-CIDR,103.41.167.237/32
-IP-CIDR,118.89.204.198/32
-IP6-CIDR,2402:4e00:1200:ed00:0:9089:6dac:96b6/128
 # 禁止ios更新
 HOST,mesu.apple.com
 HOST,gdmf.apple.com
 HOST,updates-http.cdn-apple.com
 HOST,xp.apple.com
-# 谷歌app分析
-HOST-SUFFIX,app-measurement.com
-# 网易云音乐
-HOST, iadmat.nosdn.127.net
-HOST, iadmatapk.nosdn.127.net
-HOST, iadmusicmat.music.126.net
-HOST, iadmusicmatvideo.music.126.net
-HOST, ipv4.music.163.com
-HOST, ipv6.music.163.com
-HOST-SUFFIX, 163jiasu.com
-# B站换区
-ip-cidr,203.107.1.1/24
-# 全民K歌
-host-suffix,gdc.kg.qq.com
-# 淘宝去广告
-host-suffix,adashx.m.taobao.com
-host-suffix,ossgw.alicdn.com
-host-suffix,ems.youku.com
-host-suffix,hudong.alicdn.com
-host-suffix,h-adashx.ut.taobao.com
-host-suffix,ut.taobao.com
-# 京东净化，配合重写
-host-suffix,dns.jd.com
-IP-CIDR,101.124.19.122/32
-IP6-CIDR,2402:db40:5100:1011::5/128
-# 云闪付，配合重写
-HOST,ads.95516.com
-HOST,switch.cup.com.cn
-HOST,tysdk.95516.com
 # 广告联盟，配合重写
 HOST,ad.zijieapi.com
 HOST,i.snssdk.com
 HOST,is.snssdk.com
-HOST,open.e.kuaishou.com
 HOST-SUFFIX,miaozhen.com
 HOST-KEYWORD,-ad-sign.byteimg.com
 HOST-KEYWORD,-tos.pstatp.com
@@ -56,10 +15,21 @@ HOST-KEYWORD,pangolin-sdk-toutiao
 HOST-KEYWORD,pangolin.snssdk.com
 HOST-KEYWORD,pglstatp-toutiao
 HOST-KEYWORD,video-cn.snssdk.com
-# 有看头，配合重写
-host-suffix,adx-cn.anythinktech.com
-# 高德地图，配合重写
-host,amdc.m.taobao.com
-HOST,amap-aos-info-nogw.amap.com
-HOST,awaken.amap.com
-HOST,free-aos-cdn-image.amap.com
+host-suffix, adservice.sigmob.cn, reject
+host-suffix, open.e.kuaishou.com, reject
+host-suffix, mi.gdt.qq.com, reject
+HOST-SUFFIX, shuzilm.cn, REJECT
+# DNS 无响应
+HOST, adttrackingprd.hwwt8.com, REJECT
+# 谷歌广告
+host, googleads.g.doubleclick.net, reject
+# 广告服务
+host-suffix, micro.rubiconproject.com, reject
+host-suffix, vox-cdn.com, reject
+host-suffix, cdn.concert.io, reject
+# bug反馈
+host-suffix, ios.bugly.qq.com,reject
+# 类似有很多追踪器的网站
+host-suffix, census-app-x.scorecardresearch.com, reject
+# IOS引流接口
+host-suffix, branch.io, reject
