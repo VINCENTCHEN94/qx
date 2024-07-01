@@ -78,6 +78,8 @@ host-keyword, level3tjg
 host-suffix,0xkuj.yourepo.com
 host-keyword,ginsu
 host-suffix, yourepo.com
+host-suffix, repo.cypwn.xyz
+host-suffix, huayuarc.cn
 #########################################软件下载#############################
 # 常用软件下载官网（jetbrains、omnigroup、typora、istatmenus6、maven、threejs、wuzhi、mp3、finalshell）
 host-keyword,jetbrains
@@ -216,13 +218,15 @@ host-suffix, cuiqingcai.com
 host-suffix, translate.goog
 # snapper 上传图片
 host-keyword, postimg
-# 越狱源网址
-host-suffix, repo.cypwn.xyz
+
 # notion
 host-keyword, notion
 # 政策库
 host-suffix, zhengceku.fun
-
+# 宝玉分享博客
+host-suffix, baoyu.io
+# fastgpt文档
+host-suffix, doc.fastgpt.in
 
 
 ###############################################################
