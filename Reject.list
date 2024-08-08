@@ -8,8 +8,8 @@ HOST,ad.zijieapi.com
 HOST,i.snssdk.com
 HOST,is.snssdk.com
 HOST-SUFFIX,miaozhen.com
-HOST-KEYWORD,-ad-sign.byteimg.com
-HOST-KEYWORD,-tos.pstatp.com
+# HOST-KEYWORD,-ad-sign.byteimg.com
+# HOST-KEYWORD,-tos.pstatp.com
 HOST-KEYWORD,asiad.byteactivity
 HOST-KEYWORD,pangolin-sdk-toutiao
 HOST-KEYWORD,pangolin.snssdk.com
