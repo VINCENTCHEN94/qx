@@ -228,6 +228,14 @@ host-suffix, baoyu.io
 # fastgpt文档
 host-suffix, doc.fastgpt.in
 
+# pycharm下载包使用
+host-keyword, python
+host-keyword, pypi
+host-suffix, pypi.org
+# 在线模型骨骼体生成
+host-keyword, mixamo
+# 试用GeoTwin
+host-suffix, vr3d.cloud
 
 ###############################################################
 # Wiki
