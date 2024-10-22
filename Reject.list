@@ -1,35 +1,34 @@
-# 禁止ios更新
+# 阻止iOS更新
 HOST,mesu.apple.com
 HOST,gdmf.apple.com
 HOST,updates-http.cdn-apple.com
 HOST,xp.apple.com
-# 广告联盟，配合重写
-HOST,ad.zijieapi.com
-HOST,i.snssdk.com
-HOST,is.snssdk.com
+HOST,appldnld.apple.com
+HOST,oscp.apple.com
+
+# 广告联盟、重写规则
+HOST-SUFFIX,snssdk.com
+HOST-SUFFIX,byteimg.com
 HOST-SUFFIX,miaozhen.com
-# HOST-KEYWORD,-ad-sign.byteimg.com
-# HOST-KEYWORD,-tos.pstatp.com
-HOST-KEYWORD,asiad.byteactivity
-HOST-KEYWORD,pangolin-sdk-toutiao
-HOST-KEYWORD,pangolin.snssdk.com
-HOST-KEYWORD,pglstatp-toutiao
-HOST-KEYWORD,video-cn.snssdk.com
-host-suffix, adservice.sigmob.cn
-host-suffix, open.e.kuaishou.com
-host-suffix, mi.gdt.qq.com
-HOST-SUFFIX, shuzilm.cn
-# DNS 无响应
-HOST, adttrackingprd.hwwt8.com
-# 谷歌广告
-host, googleads.g.doubleclick.net
-# 广告服务
-host-suffix, micro.rubiconproject.com
-host-suffix, vox-cdn.com
-host-suffix, cdn.concert.io
-# bug反馈
-host-suffix, ios.bugly.qq.com
-# 类似有很多追踪器的网站
-host-suffix, census-app-x.scorecardresearch.com
-# IOS引流接口
-host-suffix, branch.io
+HOST-KEYWORD,asiad
+HOST-KEYWORD,pangolin
+HOST-SUFFIX,sigmob.cn
+HOST-SUFFIX,kuaishou.com
+HOST-SUFFIX,gdt.qq.com
+HOST-SUFFIX,shuzilm.cn
+
+# 广告及其他广告服务
+HOST-SUFFIX,googleads.g.doubleclick.net
+HOST-SUFFIX,rubiconproject.com
+HOST-SUFFIX,concert.io
+HOST-SUFFIX,ads.pubmatic.com
+HOST-SUFFIX,adserver.snapads.com
+
+# 用户行为追踪
+HOST-SUFFIX,adtrackingprd.hwwt8.com
+HOST-SUFFIX,flurry.com
+HOST-SUFFIX,adjust.com
+HOST-SUFFIX,scorecardresearch.com
+HOST-SUFFIX,analytics.google.com
+HOST-SUFFIX,facebook-analytics.com
+HOST-SUFFIX,mixpanel.com
