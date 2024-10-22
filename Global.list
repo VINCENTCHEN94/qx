@@ -104,12 +104,12 @@ DOMAIN-SUFFIX,wiktionary.org # WikiDictionary 字典资源
 ########################################
 # 与 Twitter 社交平台相关的服务，包括官方 API、图片存储、短链接等。
 
-HOST-SUFFIX,ads-twitter.com       # Twitter 广告服务
+# HOST-SUFFIX,ads-twitter.com       # Twitter 广告服务
 HOST-SUFFIX,cms-twdigitalassets.com # Twitter 数字资产
 HOST-SUFFIX,periscope.tv          # Twitter 直播平台 Periscope
 HOST-SUFFIX,pscp.tv               # Twitter 直播平台备用域名
 HOST-SUFFIX,t.co                  # Twitter 短链接
-HOST-SUFFIX,tellapart.com         # Twitter 广告平台
+# HOST-SUFFIX,tellapart.com         # Twitter 广告平台
 HOST-SUFFIX,tweetdeck.com         # Twitter 客户端 TweetDeck
 HOST-SUFFIX,twimg.co              # Twitter 图片资源
 HOST-SUFFIX,twimg.com             # Twitter 图片资源主域名
