@@ -1,100 +1,97 @@
 ########################################
 # 12306 固定分流
 ########################################
-# 与中国铁路 12306 网站相关的服务，包括广告和实时车站信息。
-
-HOST, ad.12306.cn            # 12306 广告资源
-HOST-SUFFIX, mobile.12306.cn  # 12306 实时车站信息
+# 12306 广告资源
+HOST, ad.12306.cn
+# 12306 实时车站信息
+HOST-SUFFIX, mobile.12306.cn
 
 ########################################
 # Google DNS
 ########################################
-# 使用 Google 的 OCSP 服务，用于验证 SSL 证书。
-
-HOST-SUFFIX, ocsp.pki.goog    # Google 公钥基础设施 OCSP 服务
+# Google 公钥基础设施 OCSP 服务，用于验证 SSL 证书
+HOST-SUFFIX, ocsp.pki.goog
 
 ########################################
 # 国内 Git 镜像
 ########################################
-# 提供 Git 仓库的国内镜像服务，加速 GitHub 等代码库的访问。
-
-HOST-SUFFIX, raw.gitmirror.com # Git 镜像服务
+# Git 镜像服务，加速 GitHub 等代码库访问
+HOST-SUFFIX, raw.gitmirror.com
 
 ########################################
 # 罗技相关服务
 ########################################
-# 与 Logitech（罗技）的外设驱动、固件更新等相关服务。
-
-HOST-KEYWORD, logitech         # 罗技设备相关服务
+# 罗技设备相关服务，如驱动、固件更新等
+HOST-KEYWORD, logitech
 
 ########################################
 # 银联支付服务
 ########################################
-# 涉及银联支付的相关域名，包括 95516、UnionPay 及 AirePay。
-
-HOST-KEYWORD, 95516            # 银联支付服务（95516）
-HOST-KEYWORD, unionpay         # 银联国际支付服务
-HOST-KEYWORD, airepay          # AirePay 支付服务
-HOST-SUFFIX, base.cup.com      # 银联支付相关服务
+# 银联支付服务（95516）
+HOST-KEYWORD, 95516
+# 银联国际支付服务
+HOST-KEYWORD, unionpay
+# AirePay 支付服务
+HOST-KEYWORD, airepay
+# 银联支付相关服务
+HOST-SUFFIX, base.cup.com
 
 ########################################
 # Enpass 密码管理器
 ########################################
-# 与 Enpass 密码管理器相关的域名，用于同步和验证。
-
-HOST-KEYWORD, enpass           # Enpass 密码管理器服务
+# Enpass 密码管理器服务
+HOST-KEYWORD, enpass
 
 ########################################
 # IPTV 服务
 ########################################
-# 相关的 IPTV 直播流媒体及加速服务。
-
-HOST-SUFFIX, mirror.ghproxy.com        # GitHub 镜像加速服务（IPTV 可能使用）
-HOST-SUFFIX, ottrrs.hl.chinamobile.com # 中国移动的 IPTV 资源
-HOST-KEYWORD, fanmingming              # 与 IPTV 相关的服务
+# GitHub 镜像加速服务，IPTV 可能使用
+HOST-SUFFIX, mirror.ghproxy.com
+# 中国移动的 IPTV 资源
+HOST-SUFFIX, ottrrs.hl.chinamobile.com
+# IPTV 相关服务
+HOST-KEYWORD, fanmingming
 
 ########################################
 # IP 地址查询
 ########################################
-# 提供 IP 地址查询的工具和 API 服务，用于获取网络信息。
-
-HOST, ip.istatmenus.app        # iStat Menus IP 地址查询
-HOST, sms.imagetasks.com       # 图像任务中的 IP 查询服务
-HOST-SUFFIX, ifconfig.me       # 通用 IP 地址查询服务
+# iStat Menus 的 IP 地址查询服务
+HOST, ip.istatmenus.app
+# 图像任务中的 IP 查询服务
+HOST, sms.imagetasks.com
+# 通用 IP 地址查询服务
+HOST-SUFFIX, ifconfig.me
 
 ########################################
 # 美团图片资源
 ########################################
-# 美团相关的图片存储服务，用于图片加载和显示。
-
-HOST-SUFFIX, p0.meituan.net    # 美团图片资源 0 号域名
-HOST-SUFFIX, img.meituan.net   # 美团图片资源主域名
-HOST-SUFFIX, p1.meituan.net    # 美团图片资源 1 号域名
+# 美团图片资源 0 号域名
+HOST-SUFFIX, p0.meituan.net
+# 美团图片资源主域名
+HOST-SUFFIX, img.meituan.net
+# 美团图片资源 1 号域名
+HOST-SUFFIX, p1.meituan.net
 
 ########################################
 # 中国建筑导航网站
 ########################################
-# 提供建筑标准和规范的下载服务网站。
-
-HOST-SUFFIX, chinesebuilding.club # 中国建筑导航网站
+# 中国建筑导航网站，提供标准下载链接
+HOST-SUFFIX, chinesebuilding.club
 
 ########################################
 # 节假日历订阅服务
 ########################################
-# 提供国内节假日历的订阅服务，方便用户获取放假安排。
-
-HOST-SUFFIX, shuyz.com         # 节假日历订阅服务
+# 节假日历订阅服务，提供国内节假日历
+HOST-SUFFIX, shuyz.com
 
 ########################################
 # 浮木云服务
 ########################################
-# 与知乎相关的资源加载服务。
-
-HOST, unpkg.zhihu.com          # 浮木云资源库
+# 浮木云资源库，与知乎相关资源
+HOST, unpkg.zhihu.com
 
 ########################################
 # GEOIP 分流至中国大陆
 ########################################
-# 所有来自中国大陆的 IP 流量将走此分流路径。
-
-GEOIP, CN                     # 定位中国大陆的 IP 地址
+# 定位中国大陆的 IP 地址
+GEOIP, CN
