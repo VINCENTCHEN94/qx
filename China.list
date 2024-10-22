@@ -1,97 +1,38 @@
-########################################
-# 12306 固定分流
-########################################
-# 12306 广告资源
-HOST, ad.12306.cn
-# 12306 实时车站信息
-HOST-SUFFIX, mobile.12306.cn
+# 12306固定分流
+host, ad.12306.cn
+# 12306 （实时车站信息）
+host-suffix, mobile.12306.cn
 
-########################################
-# Google DNS
-########################################
-# Google 公钥基础设施 OCSP 服务，用于验证 SSL 证书
-HOST-SUFFIX, ocsp.pki.goog
-
-########################################
-# 国内 Git 镜像
-########################################
-# Git 镜像服务，加速 GitHub 等代码库访问
-HOST-SUFFIX, raw.gitmirror.com
-
-########################################
-# 罗技相关服务
-########################################
-# 罗技设备相关服务，如驱动、固件更新等
-HOST-KEYWORD, logitech
-
-########################################
-# 银联支付服务
-########################################
-# 银联支付服务（95516）
-HOST-KEYWORD, 95516
-# 银联国际支付服务
-HOST-KEYWORD, unionpay
-# AirePay 支付服务
-HOST-KEYWORD, airepay
-# 银联支付相关服务
-HOST-SUFFIX, base.cup.com
-
-########################################
-# Enpass 密码管理器
-########################################
-# Enpass 密码管理器服务
-HOST-KEYWORD, enpass
-
-########################################
-# IPTV 服务
-########################################
-# GitHub 镜像加速服务，IPTV 可能使用
-HOST-SUFFIX, mirror.ghproxy.com
-# 中国移动的 IPTV 资源
-HOST-SUFFIX, ottrrs.hl.chinamobile.com
-# IPTV 相关服务
-HOST-KEYWORD, fanmingming
-
-########################################
-# IP 地址查询
-########################################
-# iStat Menus 的 IP 地址查询服务
+# google DNS
+host-suffix, ocsp.pki.goog
+# 国内git镜像
+host-suffix, raw.gitmirror.com
+# 罗技
+host-keyword,logitech
+# 银联
+host-keyword, 95516
+host-keyword,unionpay
+host-keyword,airepay
+host-suffix,base.cup.com
+# enpass
+host-keyword,enpass
+# IPTV
+host-suffix, mirror.ghproxy.com
+host-suffix, ottrrs.hl.chinamobile.com
+host-keyword, fanmingming
+# IP地址查询
 HOST, ip.istatmenus.app
-# 图像任务中的 IP 查询服务
 HOST, sms.imagetasks.com
-# 通用 IP 地址查询服务
-HOST-SUFFIX, ifconfig.me
+host-suffix, ifconfig.me
 
-########################################
-# 美团图片资源
-########################################
-# 美团图片资源 0 号域名
-HOST-SUFFIX, p0.meituan.net
-# 美团图片资源主域名
-HOST-SUFFIX, img.meituan.net
-# 美团图片资源 1 号域名
-HOST-SUFFIX, p1.meituan.net
-
-########################################
-# 中国建筑导航网站
-########################################
-# 中国建筑导航网站，提供标准下载链接
-HOST-SUFFIX, chinesebuilding.club
-
-########################################
-# 节假日历订阅服务
-########################################
-# 节假日历订阅服务，提供国内节假日历
-HOST-SUFFIX, shuyz.com
-
-########################################
-# 浮木云服务
-########################################
-# 浮木云资源库，与知乎相关资源
-HOST, unpkg.zhihu.com
-
-########################################
-# GEOIP 分流至中国大陆
-########################################
-# 定位中国大陆的 IP 地址
-GEOIP, CN
+# 美团图片
+host-suffix, p0.meituan.net
+host-suffix, img.meituan.net
+host-suffix, p1.meituan.net
+# 中国建筑导航网站（有标准下载链接）
+host-suffix, chinesebuilding.club
+# 节假日日历订阅
+host-suffix, shuyz.com
+# 浮木云
+host, unpkg.zhihu.com
+GEOIP,CN
