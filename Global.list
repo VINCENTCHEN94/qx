@@ -1,170 +1,349 @@
-########################################
-# 常用服务和工具
-########################################
-# 这部分包含日常使用的各种服务和工具，包括搜索引擎、代码托管、邮箱等。
+#########################################常用#############################
+# google
+host-keyword,google
+# github
+HOST-KEYWORD,github
+# gitlab
+host-keyword,gitlab
+# jsdelivr
+host-keyword,jsdelivr
+# alfred
+host-keyword,alfred
+# steam
+host-keyword,steam
+# gmail
+host-keyword,gmail
+host,preview.app.goo.gl
+# brew
+host-suffix,brew.sh
+# adobe
+host-keyword,adobe
+# paypal
+host-keyword,paypal
+# docker
+host-keyword,docker
+# nvidia
+host-keyword,nvidia
+# ollama
+host-suffix,ollama.com
+# quantumult
+HOST-SUFFIX, quantumult.app
+# v2ex
+host-suffix,v2ex.com
+# stackoverflow
+host-keyword, stackoverflow
+# Postman
+host-suffix,cloudinary.com
+host-suffix,postman.co
+host-keyword,postman
+#########################################相关订阅#############################
+# ✈️（闪电）
+host-suffix,shandianpro.com
+# 网页去广告订阅
+HOST,limbopro.com
+# 鸡神脚本订阅
+host-suffix,gjds666.cf
+#########################################ios越狱#############################
+# 多巴胺越狱（在线更新）
+host-suffix,ellekit.space
+# 越狱插件下载
+host-keyword, tomt.ooo
+host-suffix, getsileo.app
+host-suffix, api.canister.me
+# 越狱源(多巴胺越狱)
+host-suffix,wwg135.github.io
+host-suffix,rootless.zq666.eu.org
+host-suffix,byg.iosios.net
+host-suffix,xiangfeidexiaohuo.github.io
+host-suffix,apt.htv123.com
+host-suffix,apt.25mao.com
+host-suffix,lclrc.github.io
+host-suffix,flyx099.github.io
+host-suffix,repo.anamy.gay
+host-suffix,apt.thebigboss.org
+host-suffix,repo.chariz.com
+host-suffix,ellekit.space
+host-keyword,havoc
+host-suffix,jailrepo.initnil.com
+host-suffix,invalidunit.github.io
+host-suffix,opa334.github.io
+host-suffix,apt.procurs.us
+host-suffix,invalidunit.github.io
+host-suffix,ib-soft.net
+host-suffix,tigisoftware.com
+host-keyword,chariz
+HOST,featuredpage.getsileo.app
+host-suffix, api2.amplitude.com
+host-keyword, level3tjg
+host-suffix,0xkuj.yourepo.com
+host-keyword,ginsu
+host-suffix, yourepo.com
+host-suffix, repo.cypwn.xyz
+host-suffix, huayuarc.cn
+#########################################软件下载#############################
+# 常用软件下载官网（jetbrains、omnigroup、typora、istatmenus6、maven、threejs、wuzhi、mp3、finalshell）
+host-keyword,jetbrains
+host-suffix,omnigroup.com
+host-suffix,typora.io
+host-suffix,bjango.com
+host-suffix,repo.maven.apache.org
+host-suffix,threejs.org
+host-suffix,wuzhi.vercel.app
+host-suffix,free-mp3-download.net
+host-suffix,hostbuf.com
+# cloudflare-ipfs电子书下载
+host-keyword,cloudflare
+# 物联网工具下载
+host-keyword, arduino
+# mqtt客户端工具下载
+host-suffix, packages.emqx.io
+# orbstack 下载（docker管理器）
+host-keyword,orbstack
+# app降级软件 检索版本
+host-keyword,bilin.eu
+host,uclient-api.itunes.apple.com
+host-keyword,applovin
+host-keyword,cokepokes
+host-keyword,applvn
+# 无版权图片素材库下载
+host-suffix,pexels.com
+# 图片分享网站imgur
+host-keyword,imgur
+# app降级软件 检索版本
+host-keyword,bilin.eu
+host,uclient-api.itunes.apple.com
+host-keyword,applovin
+host-keyword,cokepokes
+host-keyword,applvn
+# npm的CDN 
+host-keyword,unpkg
+# x图床
+host-suffix,idownloadblog.com
+# notepad下载
+host-suffix, notepad-plus-plus.org
+# 磁力网站 https://0cili.net/
+host-keyword, 0cili
+# UE下载
+host-keyword, unrealengine
+# ONS游戏资源库
+host-suffix, 05fx.glitch.me
 
-HOST-KEYWORD,google        # 谷歌搜索和服务
-HOST-KEYWORD,github        # GitHub 代码托管
-HOST-KEYWORD,gitlab        # GitLab 代码托管
-HOST-KEYWORD,jsdelivr      # jsDelivr 静态资源加速
-HOST-KEYWORD,alfred        # Alfred 生产力工具
-HOST-KEYWORD,steam         # Steam 游戏平台
-HOST-KEYWORD,gmail         # Gmail 邮件服务
-HOST,preview.app.goo.gl    # 谷歌应用预览链接
-HOST-SUFFIX,brew.sh        # Homebrew 包管理工具
-HOST-KEYWORD,adobe         # Adobe 设计和创意软件
-HOST-KEYWORD,paypal        # PayPal 支付服务
-HOST-KEYWORD,docker        # Docker 容器化平台
-HOST-KEYWORD,nvidia        # NVIDIA 图形和计算服务
-HOST-SUFFIX,ollama.com     # Ollama AI 服务
-HOST-SUFFIX,quantumult.app # Quantumult 科学上网工具
-HOST-SUFFIX,v2ex.com       # V2EX 技术社区
-HOST-KEYWORD,stackoverflow # StackOverflow 技术问答社区
-HOST-SUFFIX,cloudinary.com # Cloudinary 图片存储和管理
-HOST-SUFFIX,postman.co     # Postman API 测试工具
-HOST-KEYWORD,postman       # Postman API 测试服务
+#########################################其它#############################
+# AlDente（Mac电池助手）
+host-suffix,apphousekitchen.com
+# journeyart.ai（AI绘画）
+host-keyword,journeyart
+# codeium(在线AI写代码)
+host-suffix,codeium.com
+# 大模型接口
+host-keyword,huggingface
+HOST,api.pwnedpasswords.com
+# midjourney登陆
+host-keyword, hcaptcha
+host-keyword, discord
+host-keyword, midjourney
+# cydia2官网
+host-suffix, cydia2.com
+# threejs开源拓展试用
+host-suffix, opensource.icegl.cn
+# PMI证书
+host-keyword, pmi
+# blender（三维建模软件）
+host-keyword, blender
+# 图片转3d模型
+host-keyword, 3daistudio
+# C站（二次元）
+host-keyword, clicli
+# 新闻分享博客
+host-keyword, yummy
+# AI搜索引擎（非常好用）
+host-suffix, explorer.globe.engineer
+# flex3商店
+host-keyword, flex
+# IPTV epg
+host-suffix, epg.erw.cc
+host-suffix, epg.112114.xyz
+# 自动简历筛选软件（需订阅）
+host-suffix, hirematch.app
+# 美国媒体
+host-suffix, theverge.com
+# 奶昔（最贵✈️）
+host-suffix, nexitallysafe.com
+# 筋斗云机场
+host-suffix, jindouyun88.life
+# 鳄鱼机场（貌似是骗子）
+host-suffix, eyujichang.com
+# 闪电机场✈️
+host-suffix, 6d265caf-c394-4a1f-bcdc-94ba679d3c27.shandiannginx.com
+# 直播源节目单元数据
+host-suffix, epg.erw.cc
+# 谷歌搜索网页图片缩略图
+host-suffix, gstatic.com
+# 文字转语音接口
+host-suffix, rapidapi.com
+# 翻译插件
+host-suffix, translate.yandex.net
+# 字体转换
+host-keyword, fontconverter
+# 字体合并
+host-keyword, fontforge
+# 免费AI（未试用）
+host-suffix, g4f.ai
+# 乌大CopyVault激活
+host-suffix, squidforce.eu.org
+# alist
+host-suffix, alist.nn.ci
+# ue epicgames
+host-suffix, datarouter.ol.epicgames.com
+# 免费ai（可用gpt4）
+host-suffix, unione.ai
+# dropbox网盘
+host-keyword, dropbox
+# zlmediakit视频汇聚
+host-suffix, zlmediakit.com
+# 视频生成ai
+host-suffix, lumalabs.ai
+# 优土优木国外技术
+host-suffix, ctech.com
+# Cats-Team官网（分流广告）
+host, img.shields.io
+host-suffix, adrules.top
+# Mac破解软件下载
+host-suffix, macked.app
+# 免费gpt
+host-keyword, oaifree
+# python教程博客
+host-suffix, cuiqingcai.com
+# 翻译插件，浏览器使用
+host-suffix, translate.goog
+# snapper 上传图片
+host-keyword, postimg
 
-########################################
-# 相关订阅和脚本
-########################################
-# 这里是一些与订阅和脚本相关的服务，主要用于软件的脚本订阅、配置管理等。
+# notion
+host-keyword, notion
+# 政策库
+host-suffix, zhengceku.fun
+# 宝玉分享博客
+host-suffix, baoyu.io
+# fastgpt文档
+host-suffix, doc.fastgpt.in
 
-HOST-SUFFIX,shandianpro.com # 闪电加速订阅服务
-HOST,limbopro.com           # Limbopro 订阅管理
-HOST-SUFFIX,gjds666.cf      # 订阅脚本服务
+# pycharm下载包使用
+host-keyword, python
+host-keyword, pypi
+host-suffix, pypi.org
+# 在线模型骨骼体生成
+host-keyword, mixamo
+# 试用GeoTwin
+host-suffix, vr3d.cloud
 
-########################################
-# iOS 越狱相关
-########################################
-# 与 iOS 越狱相关的网站和服务，主要用于获取越狱软件和插件。
-
-HOST-SUFFIX,ellekit.space   # ElleKit 越狱工具
-HOST-KEYWORD,tomt.ooo       # 越狱相关资源
-HOST-SUFFIX,getsileo.app    # Sileo 越狱应用商店
-HOST-SUFFIX,api.canister.me # 越狱插件仓库 Canister API
-HOST-SUFFIX,wwg135.github.io# 越狱插件仓库
-HOST-SUFFIX,rootless.zq666.eu.org # 无根越狱插件
-HOST-SUFFIX,byg.iosios.net  # 越狱相关资源站点
-HOST-SUFFIX,xiangfeidexiaohuo.github.io # 越狱插件仓库
-HOST-SUFFIX,apt.htv123.com  # HTV123 越狱插件
-HOST-SUFFIX,apt.25mao.com   # 25Mao 越狱插件
-HOST-SUFFIX,lclrc.github.io # 越狱插件仓库
-HOST-SUFFIX,flyx099.github.io# 越狱插件
-HOST-SUFFIX,repo.anamy.gay  # Anamy 越狱插件
-HOST-SUFFIX,apt.thebigboss.org # BigBoss 越狱插件源
-HOST-SUFFIX,repo.chariz.com # Chariz 越狱插件源
-HOST-SUFFIX,jailrepo.initnil.com # 越狱插件源
-HOST-SUFFIX,invalidunit.github.io # InvalidUnit 越狱插件源
-HOST-SUFFIX,opa334.github.io # 越狱插件开发者 Opa334
-HOST-SUFFIX,apt.procurs.us  # 越狱插件源 Procursus
-HOST-SUFFIX,ib-soft.net     # iB-Soft 越狱工具
-HOST-SUFFIX,tigisoftware.com# Tigi Software 越狱工具
-
-########################################
-# 软件下载相关
-########################################
-# 软件下载和开发资源，包括 IDE、设计工具、包管理工具等。
-
-HOST-KEYWORD,jetbrains      # JetBrains 开发工具（如 IntelliJ IDEA）
-HOST-SUFFIX,omnigroup.com   # OmniGroup 软件
-HOST-SUFFIX,typora.io       # Typora Markdown 编辑器
-HOST-SUFFIX,bjango.com      # Bjango 软件（如 iStat Menus）
-HOST-SUFFIX,repo.maven.apache.org # Maven 依赖仓库
-HOST-SUFFIX,threejs.org     # Three.js JavaScript 库
-HOST-SUFFIX,wuzhi.vercel.app# 开发工具和脚本托管
-HOST-SUFFIX,free-mp3-download.net # MP3 下载服务
-HOST-SUFFIX,hostbuf.com     # Hostbuf 软件下载
-HOST-KEYWORD,cloudflare     # Cloudflare CDN 和网络服务
-HOST-KEYWORD,arduino        # Arduino 开发工具和社区
-HOST-SUFFIX,packages.emqx.io# EMQX MQTT 服务器
-HOST-KEYWORD,orbstack       # OrbStack 容器管理
-HOST-KEYWORD,bilin.eu       # Bilin 软件资源
-
-########################################
-# Wiki 项目
-########################################
-# 与 Wiki 相关的所有网站，包括 Wikipedia 及其姊妹项目。
-
-DOMAIN-SUFFIX,mediawiki.org # MediaWiki 官方网站
-DOMAIN-SUFFIX,wikibooks.org # WikiBooks 书籍资源
-DOMAIN-SUFFIX,wikidata.org  # WikiData 数据资源
-DOMAIN-SUFFIX,wikileaks.org # WikiLeaks 泄密平台
-DOMAIN-SUFFIX,wikimedia.org # Wikimedia 基金会网站
-DOMAIN-SUFFIX,wikimediafoundation.org # Wikimedia 基金会官方
-DOMAIN-SUFFIX,wikinews.org  # WikiNews 新闻资源
-DOMAIN-SUFFIX,wikipedia.org # Wikipedia 在线百科
-DOMAIN-SUFFIX,wikiquote.org # WikiQuote 名言资源
-DOMAIN-SUFFIX,wikisource.org # WikiSource 原文资源
-DOMAIN-SUFFIX,wikiversity.org# WikiVersity 教育资源
-DOMAIN-SUFFIX,wikivoyage.org # WikiVoyage 旅游指南
-DOMAIN-SUFFIX,wiktionary.org # WikiDictionary 字典资源
-
-########################################
+###############################################################
+# Wiki
+DOMAIN-SUFFIX,mediawiki.org
+DOMAIN-SUFFIX,wikibooks.org
+DOMAIN-SUFFIX,wikidata.org
+DOMAIN-SUFFIX,wikileaks.org
+DOMAIN-SUFFIX,wikimedia.org
+DOMAIN-SUFFIX,wikimediafoundation.org
+DOMAIN-SUFFIX,wikinews.org
+DOMAIN-SUFFIX,wikipedia.org
+DOMAIN-SUFFIX,wikiquote.org
+DOMAIN-SUFFIX,wikisource.org
+DOMAIN-SUFFIX,wikiversity.org
+DOMAIN-SUFFIX,wikivoyage.org
+DOMAIN-SUFFIX,wiktionary.org
+###############################################################
 # Twitter
-########################################
-# 与 Twitter 社交平台相关的服务，包括官方 API、图片存储、短链接等。
-
-# HOST-SUFFIX,ads-twitter.com       # Twitter 广告服务
-HOST-SUFFIX,cms-twdigitalassets.com # Twitter 数字资产
-HOST-SUFFIX,periscope.tv          # Twitter 直播平台 Periscope
-HOST-SUFFIX,pscp.tv               # Twitter 直播平台备用域名
-HOST-SUFFIX,t.co                  # Twitter 短链接
-# HOST-SUFFIX,tellapart.com         # Twitter 广告平台
-HOST-SUFFIX,tweetdeck.com         # Twitter 客户端 TweetDeck
-HOST-SUFFIX,twimg.co              # Twitter 图片资源
-HOST-SUFFIX,twimg.com             # Twitter 图片资源主域名
-HOST-SUFFIX,twimg.org             # Twitter 图片资源备用域名
-HOST-SUFFIX,twitpic.com           # Twitter 图片分享服务 TwitPic
-HOST-SUFFIX,twitter.biz           # Twitter 商业服务
-HOST-SUFFIX,twitter.com           # Twitter 主网站
-HOST-SUFFIX,twitter.jp            # Twitter 日本站
-HOST-SUFFIX,twittercommunity.com  # Twitter 社区
-HOST-SUFFIX,twitterflightschool.com # Twitter 学习平台
-HOST-SUFFIX,twitterinc.com        # Twitter 公司
-HOST-SUFFIX,twitteroauth.com      # Twitter OAuth 服务
-HOST-SUFFIX,twitterstat.us        # Twitter 状态服务
-HOST-SUFFIX,twtrdns.net           # Twitter DNS
-HOST-SUFFIX,twttr.com             # Twitter 备用域名
-HOST-SUFFIX,twttr.net             # Twitter 备用域名
-HOST-SUFFIX,twvid.com             # Twitter 视频服务
-HOST-SUFFIX,vine.co               # Twitter 短视频平台 Vine
-HOST-SUFFIX,x.com                 # Twitter 新品牌域名（X）
-
-########################################
+# HOST-SUFFIX,ads-twitter.com,Twitter
+HOST-SUFFIX,cms-twdigitalassets.com,Twitter
+HOST-SUFFIX,periscope.tv,Twitter
+HOST-SUFFIX,pscp.tv,Twitter
+HOST-SUFFIX,t.co,Twitter
+# HOST-SUFFIX,tellapart.com,Twitter
+HOST-SUFFIX,tweetdeck.com,Twitter
+HOST-SUFFIX,twimg.co,Twitter
+HOST-SUFFIX,twimg.com,Twitter
+HOST-SUFFIX,twimg.org,Twitter
+HOST-SUFFIX,twitpic.com,Twitter
+HOST-SUFFIX,twitter.biz,Twitter
+HOST-SUFFIX,twitter.com,Twitter
+HOST-SUFFIX,twitter.jp,Twitter
+HOST-SUFFIX,twittercommunity.com,Twitter
+HOST-SUFFIX,twitterflightschool.com,Twitter
+HOST-SUFFIX,twitterinc.com,Twitter
+HOST-SUFFIX,twitteroauth.com,Twitter
+HOST-SUFFIX,twitterstat.us,Twitter
+HOST-SUFFIX,twtrdns.net,Twitter
+HOST-SUFFIX,twttr.com,Twitter
+HOST-SUFFIX,twttr.net,Twitter
+HOST-SUFFIX,twvid.com,Twitter
+HOST-SUFFIX,vine.co,Twitter
+HOST-SUFFIX,x.com,Twitter
+HOST-KEYWORD,twitter,Twitter
+IP-CIDR,192.133.76.0/22,Twitter
+IP-CIDR,199.16.156.0/22,Twitter
+IP-CIDR,199.59.148.0/22,Twitter
+IP-CIDR,199.96.56.0/21,Twitter
+IP-CIDR,202.160.128.0/22,Twitter
+IP-CIDR,209.237.192.0/19,Twitter
+IP-CIDR,69.195.160.0/19,Twitter
+###############################################################
 # YouTube
-########################################
-# 与 YouTube 相关的所有服务和视频流媒体资源，包括 Google Video。
-
-USER-AGENT,*youtube*             # 识别 YouTube 用户代理
-HOST-SUFFIX,youtube.com          # YouTube 主站
-HOST-SUFFIX,googlevideo.com      # Google Video，存储 YouTube 视频资源
-HOST-SUFFIX,gvt1.com             # Google Video 服务
-HOST-SUFFIX,youtu.be             # YouTube 短链接服务
-HOST-SUFFIX,youtube.googleapis.com # YouTube API
-HOST-SUFFIX,youtube-nocookie.com # YouTube 无 Cookie 视频嵌入
-HOST-SUFFIX,youtubei.googleapis.com # YouTube 接口服务
-HOST-SUFFIX,ytimg.com            # YouTube 图片资源
-
-########################################
+USER-AGENT,*youtube*,YouTube
+USER-AGENT,YouTube*,YouTube
+HOST-WILDCARD,youtube.*,YouTube
+HOST-WILDCARD,youtube.*.*,YouTube
+HOST-WILDCARD,youtube.com.*,YouTube
+HOST-SUFFIX,googlevideo.com,YouTube
+HOST-SUFFIX,gvt1.com,YouTube
+HOST-SUFFIX,video.google.com,YouTube
+HOST-SUFFIX,youtu.be,YouTube
+HOST-SUFFIX,youtube.com,YouTube
+HOST-SUFFIX,youtube.googleapis.com,YouTube
+HOST-SUFFIX,youtubeeducation.com,YouTube
+HOST-SUFFIX,youtubeembeddedplayer.googleapis.com,YouTube
+HOST-SUFFIX,youtubei.googleapis.com,YouTube
+HOST-SUFFIX,youtubekids.com,YouTube
+HOST-SUFFIX,youtube-nocookie.com,YouTube
+HOST-SUFFIX,youtube-ui.l.google.com,YouTube
+HOST-SUFFIX,yt.be,YouTube
+HOST-SUFFIX,yt3.ggpht.com,YouTube
+HOST-SUFFIX,ytimg.com,YouTube
+###############################################################
 # Telegram
-########################################
-# Telegram 消息平台相关的所有服务，包括机器人、API 以及媒体资源。
-
-HOST-SUFFIX,tdesktop.com         # Telegram 桌面客户端
-HOST-SUFFIX,telegram-cdn.org     # Telegram 媒体 CDN
-HOST-SUFFIX,telegram.me          # Telegram 用户和频道链接
-HOST-SUFFIX,telegram.org         # Telegram 官方网站
-HOST-SUFFIX,telesco.pe           # Telegram 短链接服务
-HOST-SUFFIX,tgstat.com           # Telegram 统计平台
-
-########################################
-# 娱乐和社交媒体
-########################################
-# 娱乐和社交媒体平台，包括视频分享、社交网络等。
-
-HOST-KEYWORD,twitch              # Twitch 游戏直播平台
-HOST-KEYWORD,tumblr              # Tumblr 博客平台
-HOST-KEYWORD,snapchat            # Snapchat 社交媒体
-HOST-SUFFIX,twitch.tv            # Twitch 主站
-HOST-SUFFIX,tiktok.com           # TikTok 短视频平台
-HOST-SUFFIX,espn.com             # ESPN 体育娱乐
+HOST,api.swiftgram.app,Telegram
+HOST-SUFFIX,comments.app,Telegram
+HOST-SUFFIX,contest.com,Telegram
+HOST-SUFFIX,graph.org,Telegram
+HOST-SUFFIX,legra.ph,Telegram
+HOST-SUFFIX,mbrx.app,Telegram
+HOST-SUFFIX,quiz.directory,Telegram
+HOST-SUFFIX,stel.com,Telegram
+HOST-SUFFIX,t.me,Telegram
+HOST-SUFFIX,tdesktop.com,Telegram
+HOST-SUFFIX,telega.one,Telegram
+HOST-SUFFIX,telegra.ph,Telegram
+HOST-SUFFIX,telegram-cdn.org,Telegram
+HOST-SUFFIX,telegram.dog,Telegram
+HOST-SUFFIX,telegram.me,Telegram
+HOST-SUFFIX,telegram.org,Telegram
+HOST-SUFFIX,telegram.space,Telegram
+HOST-SUFFIX,telegramdownload.com,Telegram
+HOST-SUFFIX,telesco.pe,Telegram
+HOST-SUFFIX,tg.dev,Telegram
+HOST-SUFFIX,tx.me,Telegram
+HOST-SUFFIX,usercontent.dev,Telegram
+HOST-KEYWORD,nicegram,Telegram
+IP-CIDR,109.239.140.0/24,Telegram
+IP-CIDR,149.154.160.0/20,Telegram
+IP-CIDR,5.28.192.0/18,Telegram
+IP-CIDR,91.108.0.0/16,Telegram
+IP6-CIDR,2001:67c:4e8::/48,Telegram
+IP6-CIDR,2001:b28:f23c::/47,Telegram
+IP6-CIDR,2001:b28:f23f::/48,Telegram
+IP6-CIDR,2a0a:f280::/32,Telegram
+IP-ASN,211157,Telegram
+IP-ASN,44907,Telegram
+IP-ASN,59930,Telegram
+IP-ASN,62014,Telegram
+IP-ASN,62041,Telegram
