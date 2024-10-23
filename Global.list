@@ -254,12 +254,12 @@ DOMAIN-SUFFIX,wikivoyage.org
 DOMAIN-SUFFIX,wiktionary.org
 ###############################################################
 # Twitter
-# HOST-SUFFIX,ads-twitter.com,Twitter
+HOST-SUFFIX,ads-twitter.com,Twitter
 HOST-SUFFIX,cms-twdigitalassets.com,Twitter
 HOST-SUFFIX,periscope.tv,Twitter
 HOST-SUFFIX,pscp.tv,Twitter
 HOST-SUFFIX,t.co,Twitter
-# HOST-SUFFIX,tellapart.com,Twitter
+HOST-SUFFIX,tellapart.com,Twitter
 HOST-SUFFIX,tweetdeck.com,Twitter
 HOST-SUFFIX,twimg.co,Twitter
 HOST-SUFFIX,twimg.com,Twitter
