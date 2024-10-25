@@ -237,6 +237,13 @@ host-keyword, mixamo
 # 试用GeoTwin
 host-suffix, vr3d.cloud
 
+# nasa数据下载
+host, igscb.jpl.nasa.gov
+# TW博客文章
+host, tw93.fun
+#注册即送的AI接口服务
+host-suffix, openrouter.ai
+
 ###############################################################
 # Wiki
 DOMAIN-SUFFIX,mediawiki.org
