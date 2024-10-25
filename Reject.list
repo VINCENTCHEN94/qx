@@ -23,6 +23,8 @@ HOST-SUFFIX,rubiconproject.com
 HOST-SUFFIX,concert.io
 HOST-SUFFIX,ads.pubmatic.com
 HOST-SUFFIX,adserver.snapads.com
+HOST,h-adashx.ut.taobao.com
+HOST,h-adashx.ut.cainiao.com
 
 # 用户行为追踪
 HOST-SUFFIX,adtrackingprd.hwwt8.com
