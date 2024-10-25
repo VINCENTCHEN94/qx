@@ -35,4 +35,12 @@ host-suffix, chinesebuilding.club
 host-suffix, shuyz.com
 # 浮木云
 host, unpkg.zhihu.com
+# 淘宝购买gpt代理接口
+host, api.openai99.top, direct
+# nasa数据下载
+host, igscb.jpl.nasa.gov, 全球加速
+# TW博客文章
+host, tw93.fun, 全球加速
+#注册即送的AI接口服务
+host-suffix, openrouter.ai, 全球加速
 GEOIP,CN
