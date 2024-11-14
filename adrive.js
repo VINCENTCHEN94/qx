@@ -2,7 +2,10 @@ const url = $request.url;
 if (!$response.body) $done({});
 let obj = JSON.parse($response.body);
 
-// 检查 obj.result 是否存在并打印
+// 打印整个 obj 以查看结构
+console.log("完整的 obj:", JSON.stringify(obj, null, 2));
+
+// 检查并打印 obj.result
 if (obj.result) {
   console.log("过滤前的 obj.result:", JSON.stringify(obj.result, null, 2));
 } else {
@@ -23,7 +26,7 @@ if (obj.result?.length > 0) {
   );
 }
 
-// 检查并打印过滤后的 obj.result
+// 打印过滤后的 obj.result
 if (obj.result) {
   console.log("过滤后的 obj.result:", JSON.stringify(obj.result, null, 2));
 } else {
