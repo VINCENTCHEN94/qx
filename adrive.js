@@ -2,8 +2,12 @@ const url = $request.url;
 if (!$response.body) $done({});
 let obj = JSON.parse($response.body);
 
-// 打印过滤前的 obj.result
-console.log("过滤前的 obj.result:", obj.result);
+// 检查 obj.result 是否存在并打印
+if (obj.result) {
+  console.log("过滤前的 obj.result:", JSON.stringify(obj.result, null, 2));
+} else {
+  console.log("obj.result 不存在或为空");
+}
 
 if (obj.result?.length > 0) {
   obj.result = obj.result.filter(
@@ -19,7 +23,11 @@ if (obj.result?.length > 0) {
   );
 }
 
-// 打印过滤后的 obj.result
-console.log("过滤后的 obj.result:", obj.result);
+// 检查并打印过滤后的 obj.result
+if (obj.result) {
+  console.log("过滤后的 obj.result:", JSON.stringify(obj.result, null, 2));
+} else {
+  console.log("过滤后的 obj.result 不存在或为空");
+}
 
 $done({ body: JSON.stringify(obj) });
