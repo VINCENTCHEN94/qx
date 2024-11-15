@@ -16,6 +16,8 @@ host-keyword,gmail
 host,preview.app.goo.gl
 # brew
 host-suffix,brew.sh
+# brew安装软件
+host-keyword, matrix
 # adobe
 host-keyword,adobe
 # paypal
