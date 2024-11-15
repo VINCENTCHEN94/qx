@@ -43,4 +43,6 @@ host, igscb.jpl.nasa.gov, 全球加速
 host, tw93.fun, 全球加速
 #注册即送的AI接口服务
 host-suffix, openrouter.ai, 全球加速
+# 北斗定位数据
+host-keyword, beidou, direct
 GEOIP,CN
