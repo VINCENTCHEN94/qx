@@ -245,6 +245,8 @@ host, igscb.jpl.nasa.gov
 host, tw93.fun
 #注册即送的AI接口服务
 host-suffix, openrouter.ai
+# 通讯录远程
+host-keyword, metowolf, 全球加速
 
 # Wiki百科
 DOMAIN-SUFFIX,mediawiki.org
