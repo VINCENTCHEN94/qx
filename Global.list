@@ -80,16 +80,6 @@ host-suffix, yourepo.com
 host-suffix, repo.cypwn.xyz
 host-suffix, huayuarc.cn
 #########################################软件下载#############################
-# 常用软件下载官网（jetbrains、omnigroup、typora、istatmenus6、maven、threejs、wuzhi、mp3、finalshell）
-host-keyword,jetbrains
-host-suffix,omnigroup.com
-host-suffix,typora.io
-host-suffix,bjango.com
-host-suffix,repo.maven.apache.org
-host-suffix,threejs.org
-host-suffix,wuzhi.vercel.app
-host-suffix,free-mp3-download.net
-host-suffix,hostbuf.com
 # cloudflare-ipfs电子书下载
 host-keyword,cloudflare
 # 物联网工具下载
