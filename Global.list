@@ -34,10 +34,7 @@ HOST-SUFFIX, quantumult.app
 host-suffix,v2ex.com
 # stackoverflow
 host-keyword, stackoverflow
-# Postman
-host-suffix,cloudinary.com
-host-suffix,postman.co
-host-keyword,postman
+
 #########################################相关订阅#############################
 # ✈️（闪电）
 host-suffix,shandianpro.com
