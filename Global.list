@@ -233,7 +233,7 @@ host, tw93.fun
 #注册即送的AI接口服务
 host-suffix, openrouter.ai
 # 通讯录远程
-host-keyword, metowolf, 全球加速
+host-keyword, metowolf
 
 # Wiki百科
 DOMAIN-SUFFIX,mediawiki.org
@@ -249,21 +249,7 @@ DOMAIN-SUFFIX,wikisource.org
 DOMAIN-SUFFIX,wikiversity.org
 DOMAIN-SUFFIX,wikivoyage.org
 DOMAIN-SUFFIX,wiktionary.org
-# > YouTube
-USER-AGENT,com.google.ios.youtube*
-USER-AGENT,YouTube*
-DOMAIN-SUFFIX,googlevideo.com
-DOMAIN-SUFFIX,withyoutube.com
-DOMAIN-SUFFIX,youtu.be
-DOMAIN-SUFFIX,youtube.com
-DOMAIN-SUFFIX,youtubeeducation.com
-DOMAIN-SUFFIX,youtubegaming.com
-DOMAIN-SUFFIX,youtubekids.com
-DOMAIN-SUFFIX,youtube-nocookie.com
-DOMAIN-SUFFIX,yt.be
-DOMAIN-SUFFIX,ytimg.com
-DOMAIN,youtubei.googleapis.com
-DOMAIN,yt3.ggpht.com
+
 # ---(Apple)---
 DOMAIN-SUFFIX,appsto.re // Apple URL Shortener
 DOMAIN-SUFFIX,smoot.apple.com // Spotlight
@@ -277,3 +263,37 @@ DOMAIN,apple-relay.apple.com // Apple Intelligence
 DOMAIN,apple-relay.cloudflare.com
 DOMAIN,apple-relay.fastly-edge.com
 DOMAIN,cp4.cloudflare.com
+###20250428新增#####
+# oracle官网
+host-suffix, oracle.com
+# 4k 壁纸
+host-keyword, desktophut
+# Little Snitch下载地址
+host-keyword, obdev
+# Bartender 下载地址
+host-keyword, macbartender
+# onedrive 网盘
+host-keyword, onedrive
+# 免费图床
+host-suffix, s2.loli.net
+# 领英网络
+host-suffix, linkedin.cn
+# 可汗学院大模型
+host-keyword, khan
+# 开源产品数据平台
+host-keyword, posthog
+# 麻豆
+host-keyword, madou
+# dify 大模型编排
+host-keyword, dify
+# SearXNG 搜素引擎
+host-suffix, search.inetol.net
+# 油猴插件
+host-suffix, greasyfork.org
+# anygo下载
+host-keyword, itoolab
+# 音色克隆 https://anyvoice.net/zh/ai-voice-cloning
+host-keyword, anyvoice
+# 开源实时数据库
+host-keyword, gtsdb
+
