@@ -1,0 +1,64 @@
+# > YouTube
+USER-AGENT,com.google.ios.youtube*
+USER-AGENT,YouTube*
+DOMAIN-SUFFIX,googlevideo.com
+DOMAIN-SUFFIX,withyoutube.com
+DOMAIN-SUFFIX,youtu.be
+DOMAIN-SUFFIX,youtube.com
+DOMAIN-SUFFIX,youtubeeducation.com
+DOMAIN-SUFFIX,youtubegaming.com
+DOMAIN-SUFFIX,youtubekids.com
+DOMAIN-SUFFIX,youtube-nocookie.com
+DOMAIN-SUFFIX,yt.be
+DOMAIN-SUFFIX,ytimg.com
+DOMAIN,youtubei.googleapis.com
+DOMAIN,yt3.ggpht.com
+
+# x 的大模型
+host-keyword, grok
+# 常用软件下载官网（omnigroup、typora、istatmenus6、maven、threejs、wuzhi、mp3、finalshell）
+host-suffix,omnigroup.com
+host-suffix,typora.io
+host-suffix,bjango.com
+host-suffix,repo.maven.apache.org
+host-suffix,threejs.org
+host-suffix,wuzhi.vercel.app
+host-suffix,free-mp3-download.net
+host-suffix,hostbuf.com
+# Google Voice
+host,lens.l.google.com
+# Postman
+host-suffix,cloudinary.com
+host-suffix,postman.co
+host-keyword,postman
+# 扣子ai国际版本
+host-suffix,coze.com
+# gemini
+HOST,ai.google.dev
+HOST,alkalimakersuite-pa.clients6.google.com
+HOST,makersuite.google.com
+HOST-SUFFIX,bard.google.com
+HOST-SUFFIX,deepmind.com
+HOST-SUFFIX,deepmind.google
+HOST-SUFFIX,gemini.google.com
+HOST-SUFFIX,generativeai.google
+HOST-SUFFIX,proactivebackend-pa.googleapis.com
+HOST-SUFFIX,apis.google.com
+HOST-KEYWORD,colab
+HOST-KEYWORD,developerprofiles
+HOST-KEYWORD,generativelanguage
+
+# 1password US
+HOST-SUFFIX,1password.com
+HOST-SUFFIX,1passwordservices.com
+HOST-SUFFIX,1passwordusercontent.com
+HOST,accounts.brex.com
+HOST,api.privacy.com
+HOST,api.pwnedpasswords.com
+HOST,cache.agilebits.com
+HOST,in.appcenter.ms
+HOST,jmap.fastmail.com
+HOST,platform.brex.com
+HOST-SUFFIX,1infra.net
+HOST-SUFFIX,fastmail.com
+HOST-SUFFIX,globalsign.com
