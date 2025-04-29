@@ -1,31 +1,31 @@
 #########################################常用#############################
 # google
-host-keyword,google
+HOST-KEYWORD,google
 # github
 HOST-KEYWORD,github
 # gitlab
-host-keyword,gitlab
+HOST-KEYWORD,gitlab
 # jsdelivr
-host-keyword,jsdelivr
+HOST-KEYWORD,jsdelivr
 # alfred
-host-keyword,alfred
+HOST-KEYWORD,alfred
 # steam
-host-keyword,steam
+HOST-KEYWORD,steam
 # gmail
-host-keyword,gmail
+HOST-KEYWORD,gmail
 host,preview.app.goo.gl
 # brew
 host-suffix,brew.sh
 # brew安装软件
-host-keyword, matrix
+HOST-KEYWORD, matrix
 # adobe
-host-keyword,adobe
+HOST-KEYWORD,adobe
 # paypal
-host-keyword,paypal
+HOST-KEYWORD,paypal
 # docker
-host-keyword,docker
+HOST-KEYWORD,docker
 # nvidia
-host-keyword,nvidia
+HOST-KEYWORD,nvidia
 # ollama
 host-suffix,ollama.com
 # quantumult
@@ -33,7 +33,7 @@ HOST-SUFFIX, quantumult.app
 # v2ex
 host-suffix,v2ex.com
 # stackoverflow
-host-keyword, stackoverflow
+HOST-KEYWORD, stackoverflow
 
 #########################################相关订阅#############################
 # ✈️（闪电）
@@ -46,7 +46,7 @@ host-suffix,gjds666.cf
 # 多巴胺越狱（在线更新）
 host-suffix,ellekit.space
 # 越狱插件下载
-host-keyword, tomt.ooo
+HOST-KEYWORD, tomt.ooo
 host-suffix, getsileo.app
 host-suffix, api.canister.me
 # 越狱源(多巴胺越狱)
@@ -62,7 +62,7 @@ host-suffix,repo.anamy.gay
 host-suffix,apt.thebigboss.org
 host-suffix,repo.chariz.com
 host-suffix,ellekit.space
-host-keyword,havoc
+HOST-KEYWORD,havoc
 host-suffix,jailrepo.initnil.com
 host-suffix,invalidunit.github.io
 host-suffix,opa334.github.io
@@ -70,50 +70,50 @@ host-suffix,apt.procurs.us
 host-suffix,invalidunit.github.io
 host-suffix,ib-soft.net
 host-suffix,tigisoftware.com
-host-keyword,chariz
+HOST-KEYWORD,chariz
 HOST,featuredpage.getsileo.app
 host-suffix, api2.amplitude.com
-host-keyword, level3tjg
+HOST-KEYWORD, level3tjg
 host-suffix,0xkuj.yourepo.com
-host-keyword,ginsu
+HOST-KEYWORD,ginsu
 host-suffix, yourepo.com
 host-suffix, repo.cypwn.xyz
 host-suffix, huayuarc.cn
 #########################################软件下载#############################
 # cloudflare-ipfs电子书下载
-host-keyword,cloudflare
+HOST-KEYWORD,cloudflare
 # 物联网工具下载
-host-keyword, arduino
+HOST-KEYWORD, arduino
 # mqtt客户端工具下载
 host-suffix, packages.emqx.io
 # orbstack 下载（docker管理器）
-host-keyword,orbstack
+HOST-KEYWORD,orbstack
 # app降级软件 检索版本
-host-keyword,bilin.eu
+HOST-KEYWORD,bilin.eu
 host,uclient-api.itunes.apple.com
-host-keyword,applovin
-host-keyword,cokepokes
-host-keyword,applvn
+HOST-KEYWORD,applovin
+HOST-KEYWORD,cokepokes
+HOST-KEYWORD,applvn
 # 无版权图片素材库下载
 host-suffix,pexels.com
 # 图片分享网站imgur
-host-keyword,imgur
+HOST-KEYWORD,imgur
 # app降级软件 检索版本
-host-keyword,bilin.eu
+HOST-KEYWORD,bilin.eu
 host,uclient-api.itunes.apple.com
-host-keyword,applovin
-host-keyword,cokepokes
-host-keyword,applvn
+HOST-KEYWORD,applovin
+HOST-KEYWORD,cokepokes
+HOST-KEYWORD,applvn
 # npm的CDN 
-host-keyword,unpkg
+HOST-KEYWORD,unpkg
 # x图床
 host-suffix,idownloadblog.com
 # notepad下载
 host-suffix, notepad-plus-plus.org
 # 磁力网站 https://0cili.net/
-host-keyword, 0cili
+HOST-KEYWORD, 0cili
 # UE下载
-host-keyword, unrealengine
+HOST-KEYWORD, unrealengine
 # ONS游戏资源库
 host-suffix, 05fx.glitch.me
 
@@ -121,34 +121,34 @@ host-suffix, 05fx.glitch.me
 # AlDente（Mac电池助手）
 host-suffix,apphousekitchen.com
 # journeyart.ai（AI绘画）
-host-keyword,journeyart
+HOST-KEYWORD,journeyart
 # codeium(在线AI写代码)
 host-suffix,codeium.com
 # 大模型接口
-host-keyword,huggingface
+HOST-KEYWORD,huggingface
 HOST,api.pwnedpasswords.com
 # midjourney登陆
-host-keyword, hcaptcha
-host-keyword, discord
-host-keyword, midjourney
+HOST-KEYWORD, hcaptcha
+HOST-KEYWORD, discord
+HOST-KEYWORD, midjourney
 # cydia2官网
 host-suffix, cydia2.com
 # threejs开源拓展试用
 host-suffix, opensource.icegl.cn
 # PMI证书
-host-keyword, pmi
+HOST-KEYWORD, pmi
 # blender（三维建模软件）
-host-keyword, blender
+HOST-KEYWORD, blender
 # 图片转3d模型
-host-keyword, 3daistudio
+HOST-KEYWORD, 3daistudio
 # C站（二次元）
-host-keyword, clicli
+HOST-KEYWORD, clicli
 # 新闻分享博客
-host-keyword, yummy
+HOST-KEYWORD, yummy
 # AI搜索引擎（非常好用）
 host-suffix, explorer.globe.engineer
 # flex3商店
-host-keyword, flex
+HOST-KEYWORD, flex
 # IPTV epg
 host-suffix, epg.erw.cc
 host-suffix, epg.112114.xyz
@@ -173,9 +173,9 @@ host-suffix, rapidapi.com
 # 翻译插件
 host-suffix, translate.yandex.net
 # 字体转换
-host-keyword, fontconverter
+HOST-KEYWORD, fontconverter
 # 字体合并
-host-keyword, fontforge
+HOST-KEYWORD, fontforge
 # 免费AI（未试用）
 host-suffix, g4f.ai
 # 乌大CopyVault激活
@@ -187,7 +187,7 @@ host-suffix, datarouter.ol.epicgames.com
 # 免费ai（可用gpt4）
 host-suffix, unione.ai
 # dropbox网盘
-host-keyword, dropbox
+HOST-KEYWORD, dropbox
 # zlmediakit视频汇聚
 host-suffix, zlmediakit.com
 # 视频生成ai
@@ -200,16 +200,16 @@ host-suffix, adrules.top
 # Mac破解软件下载
 host-suffix, macked.app
 # 免费gpt
-host-keyword, oaifree
+HOST-KEYWORD, oaifree
 # python教程博客
 host-suffix, cuiqingcai.com
 # 翻译插件，浏览器使用
 host-suffix, translate.goog
 # snapper 上传图片
-host-keyword, postimg
+HOST-KEYWORD, postimg
 
 # notion
-host-keyword, notion
+HOST-KEYWORD, notion
 # 政策库
 host-suffix, zhengceku.fun
 # 宝玉分享博客
@@ -218,11 +218,11 @@ host-suffix, baoyu.io
 host-suffix, doc.fastgpt.in
 
 # pycharm下载包使用
-host-keyword, python
-host-keyword, pypi
+HOST-KEYWORD, python
+HOST-KEYWORD, pypi
 host-suffix, pypi.org
 # 在线模型骨骼体生成
-host-keyword, mixamo
+HOST-KEYWORD, mixamo
 # 试用GeoTwin
 host-suffix, vr3d.cloud
 
@@ -233,67 +233,67 @@ host, tw93.fun
 #注册即送的AI接口服务
 host-suffix, openrouter.ai
 # 通讯录远程
-host-keyword, metowolf
+HOST-KEYWORD, metowolf
 
 # Wiki百科
-DOMAIN-SUFFIX,mediawiki.org
-DOMAIN-SUFFIX,wikibooks.org
-DOMAIN-SUFFIX,wikidata.org
-DOMAIN-SUFFIX,wikileaks.org
-DOMAIN-SUFFIX,wikimedia.org
-DOMAIN-SUFFIX,wikimediafoundation.org
-DOMAIN-SUFFIX,wikinews.org
-DOMAIN-SUFFIX,wikipedia.org
-DOMAIN-SUFFIX,wikiquote.org
-DOMAIN-SUFFIX,wikisource.org
-DOMAIN-SUFFIX,wikiversity.org
-DOMAIN-SUFFIX,wikivoyage.org
-DOMAIN-SUFFIX,wiktionary.org
+HOST-SUFFIX,mediawiki.org
+HOST-SUFFIX,wikibooks.org
+HOST-SUFFIX,wikidata.org
+HOST-SUFFIX,wikileaks.org
+HOST-SUFFIX,wikimedia.org
+HOST-SUFFIX,wikimediafoundation.org
+HOST-SUFFIX,wikinews.org
+HOST-SUFFIX,wikipedia.org
+HOST-SUFFIX,wikiquote.org
+HOST-SUFFIX,wikisource.org
+HOST-SUFFIX,wikiversity.org
+HOST-SUFFIX,wikivoyage.org
+HOST-SUFFIX,wiktionary.org
 
 # ---(Apple)---
-DOMAIN-SUFFIX,appsto.re // Apple URL Shortener
-DOMAIN-SUFFIX,smoot.apple.com // Spotlight
-DOMAIN,amp-api.podcasts.apple.com // Podcasts
-DOMAIN,beta.music.apple.com // Apple Music Web
-DOMAIN,books.itunes.apple.com // iBooks Store download
-DOMAIN,facetime.apple.com // FaceTime Links
-DOMAIN,lookup-api.apple.com // Look Up
-DOMAIN,radio.itunes.apple.com // Apple Music Radio
-DOMAIN,apple-relay.apple.com // Apple Intelligence
-DOMAIN,apple-relay.cloudflare.com
-DOMAIN,apple-relay.fastly-edge.com
-DOMAIN,cp4.cloudflare.com
+HOST-SUFFIX,appsto.re // Apple URL Shortener
+HOST-SUFFIX,smoot.apple.com // Spotlight
+HOST,amp-api.podcasts.apple.com // Podcasts
+HOST,beta.music.apple.com // Apple Music Web
+HOST,books.itunes.apple.com // iBooks Store download
+HOST,facetime.apple.com // FaceTime Links
+HOST,lookup-api.apple.com // Look Up
+HOST,radio.itunes.apple.com // Apple Music Radio
+HOST,apple-relay.apple.com // Apple Intelligence
+HOST,apple-relay.cloudflare.com
+HOST,apple-relay.fastly-edge.com
+HOST,cp4.cloudflare.com
 ###20250428新增#####
 # oracle官网
 host-suffix, oracle.com
 # 4k 壁纸
-host-keyword, desktophut
+HOST-KEYWORD, desktophut
 # Little Snitch下载地址
-host-keyword, obdev
+HOST-KEYWORD, obdev
 # Bartender 下载地址
-host-keyword, macbartender
+HOST-KEYWORD, macbartender
 # onedrive 网盘
-host-keyword, onedrive
+HOST-KEYWORD, onedrive
 # 免费图床
 host-suffix, s2.loli.net
 # 领英网络
 host-suffix, linkedin.cn
 # 可汗学院大模型
-host-keyword, khan
+HOST-KEYWORD, khan
 # 开源产品数据平台
-host-keyword, posthog
+HOST-KEYWORD, posthog
 # 麻豆
-host-keyword, madou
+HOST-KEYWORD, madou
 # dify 大模型编排
-host-keyword, dify
+HOST-KEYWORD, dify
 # SearXNG 搜素引擎
 host-suffix, search.inetol.net
 # 油猴插件
 host-suffix, greasyfork.org
 # anygo下载
-host-keyword, itoolab
+HOST-KEYWORD, itoolab
 # 音色克隆 https://anyvoice.net/zh/ai-voice-cloning
-host-keyword, anyvoice
+HOST-KEYWORD, anyvoice
 # 开源实时数据库
-host-keyword, gtsdb
+HOST-KEYWORD, gtsdb
 
