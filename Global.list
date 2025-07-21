@@ -34,7 +34,15 @@ HOST-SUFFIX, quantumult.app
 host-suffix,v2ex.com
 # stackoverflow
 HOST-KEYWORD, stackoverflow
-
+# 常用软件下载官网（omnigroup、typora、istatmenus6、maven、threejs、wuzhi、mp3、finalshell）
+host-suffix,omnigroup.com
+host-suffix,typora.io
+host-suffix,bjango.com
+host-suffix,repo.maven.apache.org
+host-suffix,threejs.org
+host-suffix,wuzhi.vercel.app
+host-suffix,free-mp3-download.net
+host-suffix,hostbuf.com
 #########################################相关订阅#############################
 # ✈️（闪电）
 host-suffix,shandianpro.com
@@ -296,4 +304,54 @@ HOST-KEYWORD, itoolab
 HOST-KEYWORD, anyvoice
 # 开源实时数据库
 HOST-KEYWORD, gtsdb
+###2025-07-21新增#####
+# npm下载
+host-suffix, npmjs.org
+# 苹果的人工智能服务
+host-suffix, apple-relay.apple.com
+# 人工智能编码助手
+host-suffix, augmentcode.com
+# plexamp音乐播放器
+host-keyword, plex
+# 谷歌浏览器驱动下载
+host-suffix, developer.chrome.com
+# 3d打印资源下载
+host-keyword, jbp3d
+# 脸书
+host-keyword, facebook
 
+# 电视直播源IPTV
+host-suffix, tonkiang.us
+# ui设计（没有https://v0.dev/ 好使）
+host-keyword, uizard
+# 浏览器mcp
+host-keyword, playwright
+# ollama下载
+host-keyword, ollama
+# manus AI
+host-keyword, manus
+# UE5模型下载
+host-keyword, artstation
+# USB 启动盘
+host-suffix, rufus.ie
+# 读书派电子书下载
+host-keyword, dushupai
+# 书葵网电子书下载
+host-keyword, shukui
+# onedrive下载
+host-suffix, onedrive.live.com
+# 测试app下载
+host-suffix, testflight.apple.com
+# Dvel’s Blog
+host-suffix, dvel.me
+# rime输入法
+host-keyword, rime
+
+# one switch下载
+host-suffix, fireball.studio
+# 免费下载bim模型
+host-keyword, bimobject
+
+# go环境配置（下载软件包）
+host-suffix, go.dev
+host-keyword, golang
