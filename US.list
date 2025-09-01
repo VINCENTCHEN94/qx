@@ -22,6 +22,13 @@ HOST-SUFFIX,apis.google.com
 HOST-KEYWORD,colab
 HOST-KEYWORD,developerprofiles
 HOST-KEYWORD,generativelanguage
+# GitHub Copilot
+DOMAIN-SUFFIX,github-copilot.com
+DOMAIN-SUFFIX,copilot-proxy.githubusercontent.com
+DOMAIN-SUFFIX,githubusercontent.com
+# 补充 copilot 相关的 API 域名
+DOMAIN,api.githubcopilot.com
+DOMAIN,api.copilot.microsoft.com
 
 # 1password US
 HOST-SUFFIX,1password.com
