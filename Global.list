@@ -353,6 +353,8 @@ host-suffix, go.dev
 host-keyword, golang
 
 ######### 2025-09-16 ########
+# nasa数据下载
+host, igscb.jpl.nasa.gov
 #v2ex 评论区
 host, ocsp.digicert.com
 # debian系统软件源下载
