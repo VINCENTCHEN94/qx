@@ -351,3 +351,20 @@ host-keyword, bimobject
 # go环境配置（下载软件包）
 host-suffix, go.dev
 host-keyword, golang
+
+#v2ex 评论区
+host, ocsp.digicert.com, 全球加速
+# debian系统软件源下载
+host-keyword, debian, 全球加速
+# 树先生规则
+host, klraw.pages.dev, 全球加速
+# 闪电官网
+host-suffix, shandiancn.com, 全球加速
+# webgl cesium
+host-suffix, cesium.com, 全球加速
+#Google one
+host-suffix, g.co, 全球加速
+# 安卓模拟器
+host-keyword, bluestacks, 全球加速
+# 文件托管和存储服务的网站
+host-suffix, mediafire.com, 全球加速
