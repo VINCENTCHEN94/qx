@@ -47,11 +47,6 @@ host-keyword, beidou
 host-suffix, kelee.one
 # jetbrains 下载
 host-keyword,jetbrains
-# 飞机场订阅
- host-keyword, subxiandan
-# cladue 本地代理
-host-suffix, claudechn.com
-
 
 ###2025-09-16##
 # 闪电订阅
