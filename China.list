@@ -36,26 +36,26 @@ host-suffix, shuyz.com
 # 浮木云
 host, unpkg.zhihu.com
 # 淘宝购买gpt代理接口
-host, api.openai99.top, direct
+host, api.openai99.top
 # nasa数据下载
-host, igscb.jpl.nasa.gov, 全球加速
+host, igscb.jpl.nasa.gov
 # TW博客文章
 host, tw93.fun, 全球加速
-#注册即送的AI接口服务
-host-suffix, openrouter.ai, 全球加速
+# 注册即送的AI接口服务
+host-suffix, openrouter.ai
 # 北斗定位数据
-host-keyword, beidou, direct
+host-keyword, beidou
 # 可莉去广告
-host-suffix, kelee.one,direct
+host-suffix, kelee.one
 # jetbrains 下载
-host-keyword,jetbrains,direct
+host-keyword,jetbrains
 # 飞机场订阅
- host-keyword, subxiandan,direct
+ host-keyword, subxiandan
 # cladue 本地代理
-host-suffix, claudechn.com, direct
+host-suffix, claudechn.com
 
 
 ###2025-09-16##
 # 闪电订阅
-host-suffix, subxiandan.top, direct
+host-suffix, subxiandan.top
 GEOIP,CN
