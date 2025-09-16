@@ -37,10 +37,8 @@ host-suffix, shuyz.com
 host, unpkg.zhihu.com
 # 淘宝购买gpt代理接口
 host, api.openai99.top
-# nasa数据下载
-host, igscb.jpl.nasa.gov
 # TW博客文章
-host, tw93.fun, 全球加速
+host, tw93.fun
 # 注册即送的AI接口服务
 host-suffix, openrouter.ai
 # 北斗定位数据
