@@ -14,3 +14,12 @@ DOMAIN-SUFFIX,copilot-proxy.githubusercontent.com
 DOMAIN-SUFFIX,githubusercontent.com
 DOMAIN,api.githubcopilot.com
 DOMAIN,api.copilot.microsoft.com
+# cursor AI 
+host-keyword, workos
+host-keyword, cursor
+# sora AI
+host-suffix, sora.com
+# Claude大模型
+host-keyword, claude
+# 声破天相声（这个稍微特殊，香港节点不行）
+host-suffix, audio4.redcircle.com
