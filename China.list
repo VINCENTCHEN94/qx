@@ -2,7 +2,6 @@
 host, ad.12306.cn
 # 12306 （实时车站信息）
 host-suffix, mobile.12306.cn
-
 # google DNS
 host-suffix, ocsp.pki.goog
 # 国内git镜像
@@ -14,8 +13,6 @@ host-keyword, 95516
 host-keyword,unionpay
 host-keyword,airepay
 host-suffix,base.cup.com
-# enpass
-host-keyword,enpass
 # IPTV
 host-suffix, mirror.ghproxy.com
 host-suffix, ottrrs.hl.chinamobile.com
@@ -24,7 +21,6 @@ host-keyword, fanmingming
 HOST, ip.istatmenus.app
 HOST, sms.imagetasks.com
 host-suffix, ifconfig.me
-
 # 美团图片
 host-suffix, p0.meituan.net
 host-suffix, img.meituan.net
