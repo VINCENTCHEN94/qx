@@ -13,13 +13,16 @@
 # 常用服务 (Common Services)
 ########################################
 HOST-KEYWORD, google
-HOST-SUFFIX, g.co                 # Google one & URL Shortener
-HOST-SUFFIX, gstatic.com          # 谷歌静态资源
+# Google one & URL Shortener
+HOST-SUFFIX, g.co
+# 谷歌静态资源
+HOST-SUFFIX, gstatic.com
 HOST-KEYWORD, paypal
 HOST-KEYWORD, dropbox
 HOST-KEYWORD, onedrive
 HOST-SUFFIX, onedrive.live.com
-HOST-SUFFIX, mediafire.com        # 文件托管和存储服务
+# 文件托管和存储服务
+HOST-SUFFIX, mediafire.com
 
 
 ########################################
@@ -28,76 +31,116 @@ HOST-SUFFIX, mediafire.com        # 文件托管和存储服务
 # --- Git & Code ---
 HOST-KEYWORD, github
 HOST-KEYWORD, gitlab
-HOST-SUFFIX, greasyfork.org       # 油猴插件
+# 油猴插件
+HOST-SUFFIX, greasyfork.org
 HOST-KEYWORD, stackoverflow
 HOST-KEYWORD, jsdelivr
-HOST-KEYWORD, unpkg               # npm 的 CDN
+# npm 的 CDN
+HOST-KEYWORD, unpkg
 
 # --- Google Dev ---
-HOST-SUFFIX, developer.chrome.com # 谷歌浏览器驱动下载
+# 谷歌浏览器驱动下载
+HOST-SUFFIX, developer.chrome.com
 
 # --- Package Managers ---
-HOST-SUFFIX, brew.sh              # Homebrew 官网
-HOST-SUFFIX, repo.maven.apache.org# Maven
+# Homebrew 官网
+HOST-SUFFIX, brew.sh
+# Maven
+HOST-SUFFIX, repo.maven.apache.org
 HOST-SUFFIX, npmjs.org
-HOST-KEYWORD, pypi                # Python PyPI
+# Python PyPI
+HOST-KEYWORD, pypi
 HOST-SUFFIX, pypi.org
-HOST-KEYWORD, debian              # Debian 系统软件源
+# Debian 系统软件源
+HOST-KEYWORD, debian
 
 # --- Go Lang ---
 HOST-SUFFIX, go.dev
 HOST-KEYWORD, golang
 
 # --- Database & Backend ---
-HOST-SUFFIX, oracle.com           # Oracle 官网
-HOST-KEYWORD, gtsdb               # 开源实时数据库
-HOST-SUFFIX, packages.emqx.io     # MQTT 客户端工具
+# Oracle 官网
+HOST-SUFFIX, oracle.com
+# 开源实时数据库
+HOST-KEYWORD, gtsdb
+# MQTT 客户端工具
+HOST-SUFFIX, packages.emqx.io
 
 # --- Frontend & 3D ---
 HOST-SUFFIX, threejs.org
-HOST-SUFFIX, opensource.icegl.cn  # Three.js 开源拓展
-HOST-SUFFIX, cesium.com           # WebGL Cesium
+# Three.js 开源拓展
+HOST-SUFFIX, opensource.icegl.cn
+# WebGL Cesium
+HOST-SUFFIX, cesium.com
 
 # --- Others ---
-HOST-KEYWORD, arduino             # 物联网工具
+# 物联网工具
+HOST-KEYWORD, arduino
 HOST-KEYWORD, docker
 HOST-KEYWORD, nvidia
-HOST-KEYWORD, playwright          # 浏览器自动化 MCP
-HOST, api.pwnedpasswords.com      # HIBP API
-HOST-SUFFIX, posthog              # 开源产品数据平台
-HOST-SUFFIX, cuiqingcai.com       # Python 教程博客
-HOST-SUFFIX, baoyu.io             # 宝玉分享博客
-HOST, tw93.fun                    # TW 博客文章
-HOST-SUFFIX, dvel.me              # Dvel’s Blog
+# 浏览器自动化 MCP
+HOST-KEYWORD, playwright
+# HIBP API
+HOST, api.pwnedpasswords.com
+# 开源产品数据平台
+HOST-SUFFIX, posthog
+# Python 教程博客
+HOST-SUFFIX, cuiqingcai.com
+# 宝玉分享博客
+HOST-SUFFIX, baoyu.io
+# TW 博客文章
+HOST, tw93.fun
+# Dvel’s Blog
+HOST-SUFFIX, dvel.me
 
 ########################################
 # AI 相关 (AI Services)
 ########################################
 # --- LLM & Platforms ---
-HOST-SUFFIX, ollama.com           # Ollama
+# Ollama
+HOST-SUFFIX, ollama.com
 HOST-KEYWORD, ollama
-HOST-KEYWORD, huggingface         # Hugging Face
-HOST-SUFFIX, codeium.com          # AI 代码助手
-HOST-SUFFIX, augmentcode.com      # AI 代码助手
-HOST-SUFFIX, openrouter.ai        # AI 接口服务
-HOST-SUFFIX, unione.ai            # 免费 AI (可用 GPT4)
-HOST-SUFFIX, g4f.ai               # 免费 AI
-HOST-KEYWORD, oaifree             # 免费 GPT
-HOST-KEYWORD, dify                # 大模型编排
-HOST-SUFFIX, doc.fastgpt.in       # FastGPT 文档
-HOST-KEYWORD, khan                # 可汗学院大模型
+# Hugging Face
+HOST-KEYWORD, huggingface
+# AI 代码助手
+HOST-SUFFIX, codeium.com
+# AI 代码助手
+HOST-SUFFIX, augmentcode.com
+# AI 接口服务
+HOST-SUFFIX, openrouter.ai
+# 免费 AI (可用 GPT4)
+HOST-SUFFIX, unione.ai
+# 免费 AI
+HOST-SUFFIX, g4f.ai
+# 免费 GPT
+HOST-KEYWORD, oaifree
+# 大模型编排
+HOST-KEYWORD, dify
+# FastGPT 文档
+HOST-SUFFIX, doc.fastgpt.in
+# 可汗学院大模型
+HOST-KEYWORD, khan
 
 # --- AI Tools & Services ---
 HOST-KEYWORD, midjourney
-HOST-KEYWORD, discord             # Midjourney 依赖
-HOST-KEYWORD, hcaptcha            # Midjourney 依赖
-HOST-KEYWORD, journeyart          # AI 绘画
-HOST-KEYWORD, 3daistudio          # 图片转 3D 模型
-HOST-KEYWORD, mixamo              # 在线模型骨骼生成
-HOST-SUFFIX, lumalabs.ai          # 视频生成 AI
-HOST-SUFFIX, explorer.globe.engineer # AI 搜索引擎
-HOST-KEYWORD, anyvoice            # AI 音色克隆
-HOST-KEYWORD, manus               # Manus AI
+# Midjourney 依赖
+HOST-KEYWORD, discord
+# Midjourney 依赖
+HOST-KEYWORD, hcaptcha
+# AI 绘画
+HOST-KEYWORD, journeyart
+# 图片转 3D 模型
+HOST-KEYWORD, 3daistudio
+# 在线模型骨骼生成
+HOST-KEYWORD, mixamo
+# 视频生成 AI
+HOST-SUFFIX, lumalabs.ai
+# AI 搜索引擎
+HOST-SUFFIX, explorer.globe.engineer
+# AI 音色克隆
+HOST-KEYWORD, anyvoice
+# Manus AI
+HOST-KEYWORD, manus
 
 # --- Apple Intelligence ---
 HOST-SUFFIX, apple-relay.apple.com
@@ -109,26 +152,40 @@ HOST, cp4.cloudflare.com
 ########################################
 # 苹果生态 (Apple Ecosystem)
 ########################################
-HOST-SUFFIX, appsto.re            # Apple URL Shortener
-HOST-SUFFIX, testflight.apple.com # TestFlight
-HOST, uclient-api.itunes.apple.com# App 降级检索版本
-HOST, amp-api.podcasts.apple.com  # Podcasts
-HOST, beta.music.apple.com        # Apple Music Web
-HOST, books.itunes.apple.com      # iBooks Store download
-HOST, facetime.apple.com          # FaceTime Links
-HOST, lookup-api.apple.com        # Look Up
-HOST, radio.itunes.apple.com      # Apple Music Radio
-HOST, smoot.apple.com             # Spotlight
+# Apple URL Shortener
+HOST-SUFFIX, appsto.re
+# TestFlight
+HOST-SUFFIX, testflight.apple.com
+# App 降级检索版本
+HOST, uclient-api.itunes.apple.com
+# Podcasts
+HOST, amp-api.podcasts.apple.com
+# Apple Music Web
+HOST, beta.music.apple.com
+# iBooks Store download
+HOST, books.itunes.apple.com
+# FaceTime Links
+HOST, facetime.apple.com
+# Look Up
+HOST, lookup-api.apple.com
+# Apple Music Radio
+HOST, radio.itunes.apple.com
+# Spotlight
+HOST, smoot.apple.com
 
 
 ########################################
 # iOS 越狱 (iOS Jailbreak)
 ########################################
 # --- 核心服务与商店 ---
-HOST-SUFFIX, ellekit.space        # 多巴胺越狱 (在线更新)
-HOST-SUFFIX, getsileo.app         # Sileo 商店
-HOST, featuredpage.getsileo.app   # Sileo 商店
-HOST-SUFFIX, cydia2.com           # Cydia2 官网
+# 多巴胺越狱 (在线更新)
+HOST-SUFFIX, ellekit.space
+# Sileo 商店
+HOST-SUFFIX, getsileo.app
+# Sileo 商店
+HOST, featuredpage.getsileo.app
+# Cydia2 官网
+HOST-SUFFIX, cydia2.com
 
 # --- 越狱源 ---
 HOST-KEYWORD, havoc
@@ -162,44 +219,65 @@ HOST-SUFFIX, api2.amplitude.com
 HOST-KEYWORD, level3tjg
 HOST-KEYWORD, ginsu
 HOST-KEYWORD, cokepokes
-HOST-SUFFIX, squidforce.eu.org    # 乌大 CopyVault 激活
-HOST-KEYWORD, flex                # Flex3 商店
+# 乌大 CopyVault 激活
+HOST-SUFFIX, squidforce.eu.org
+# Flex3 商店
+HOST-KEYWORD, flex
 
 ########################################
 # 软件与应用 (Software & Apps)
 ########################################
 # --- Mac ---
 HOST-KEYWORD, alfred
-HOST-SUFFIX, apphousekitchen.com  # AlDente Mac 电池助手
-HOST-SUFFIX, macked.app           # Mac 破解软件下载
-HOST-KEYWORD, obdev               # Little Snitch 下载
-HOST-KEYWORD, macbartender        # Bartender 下载
-HOST-SUFFIX, fireball.studio      # One Switch 下载
-HOST-KEYWORD, itoolab             # AnyGo 下载
-HOST-KEYWORD, bluestacks          # 安卓模拟器
+# AlDente Mac 电池助手
+HOST-SUFFIX, apphousekitchen.com
+# Mac 破解软件下载
+HOST-SUFFIX, macked.app
+# Little Snitch 下载
+HOST-KEYWORD, obdev
+# Bartender 下载
+HOST-KEYWORD, macbartender
+# One Switch 下载
+HOST-SUFFIX, fireball.studio
+# AnyGo 下载
+HOST-KEYWORD, itoolab
+# 安卓模拟器
+HOST-KEYWORD, bluestacks
 
 # --- 设计与编辑 ---
 HOST-KEYWORD, adobe
 HOST-SUFFIX, omnigroup.com
 HOST-SUFFIX, typora.io
-HOST-SUFFIX, bjango.com           # iStat Menus
+# iStat Menus
+HOST-SUFFIX, bjango.com
 HOST-SUFFIX, notepad-plus-plus.org
-HOST-KEYWORD, blender             # 3D 建模
-HOST-KEYWORD, unrealengine        # UE 虚幻引擎
-HOST-SUFFIX, datarouter.ol.epicgames.com # UE EpicGames
-HOST-KEYWORD, artstation          # UE5 模型下载
-HOST-KEYWORD, uizard              # UI 设计网站
+# 3D 建模
+HOST-KEYWORD, blender
+# UE 虚幻引擎
+HOST-KEYWORD, unrealengine
+# UE EpicGames
+HOST-SUFFIX, datarouter.ol.epicgames.com
+# UE5 模型下载
+HOST-KEYWORD, artstation
+# UI 设计网站
+HOST-KEYWORD, uizard
 
 # --- 效率与工具 ---
 HOST-KEYWORD, notion
-HOST-KEYWORD, orbstack            # Docker 管理器
-HOST-SUFFIX, hirematch.app        # 自动简历筛选软件
-HOST-SUFFIX, rufus.ie             # USB 启动盘
-HOST-KEYWORD, rime                # Rime 输入法
+# Docker 管理器
+HOST-KEYWORD, orbstack
+# 自动简历筛选软件
+HOST-SUFFIX, hirematch.app
+# USB 启动盘
+HOST-SUFFIX, rufus.ie
+# Rime 输入法
+HOST-KEYWORD, rime
 
 # --- 其它 ---
-HOST-KEYWORD, pmi                 # PMI 证书
-HOST-SUFFIX, zhengceku.fun        # 政策库
+# PMI 证书
+HOST-KEYWORD, pmi
+# 政策库
+HOST-SUFFIX, zhengceku.fun
 
 
 ########################################
@@ -208,33 +286,53 @@ HOST-SUFFIX, zhengceku.fun        # 政策库
 # --- 游戏 ---
 HOST-KEYWORD, steam
 HOST, preview.app.goo.gl
-HOST-SUFFIX, 05fx.glitch.me       # ONS 游戏资源库
+# ONS 游戏资源库
+HOST-SUFFIX, 05fx.glitch.me
 
 # --- 图片与素材 ---
-HOST-KEYWORD, cloudflare          # Cloudflare-IPFS
-HOST-SUFFIX, pexels.com           # 无版权图片素材库
-HOST-KEYWORD, imgur               # 图片分享网站
-HOST-KEYWORD, postimg             # Snapper 上传图床
-HOST-SUFFIX, s2.loli.net          # 免费图床
-HOST-SUFFIX, idownloadblog.com    # X 图床
-HOST-KEYWORD, desktophut          # 4K 壁纸
-HOST-KEYWORD, bimobject           # 免费 BIM 模型下载
-HOST-KEYWORD, jbp3d               # 3D 打印资源下载
+# Cloudflare-IPFS
+HOST-KEYWORD, cloudflare
+# 无版权图片素材库
+HOST-SUFFIX, pexels.com
+# 图片分享网站
+HOST-KEYWORD, imgur
+# Snapper 上传图床
+HOST-KEYWORD, postimg
+# 免费图床
+HOST-SUFFIX, s2.loli.net
+# X 图床
+HOST-SUFFIX, idownloadblog.com
+# 4K 壁纸
+HOST-KEYWORD, desktophut
+# 免费 BIM 模型下载
+HOST-KEYWORD, bimobject
+# 3D 打印资源下载
+HOST-KEYWORD, jbp3d
 
 # --- 电子书 ---
-HOST-KEYWORD, dushupai            # 读书派电子书下载
-HOST-KEYWORD, shukui              # 书葵网电子书下载
+# 读书派电子书下载
+HOST-KEYWORD, dushupai
+# 书葵网电子书下载
+HOST-KEYWORD, shukui
 
 # --- 影音与直播 ---
-HOST-KEYWORD, 0cili               # 磁力网站
+# 磁力网站
+HOST-KEYWORD, 0cili
 HOST-SUFFIX, free-mp3-download.net
-HOST-KEYWORD, clicli              # C 站（二次元）
-HOST-KEYWORD, plex                # Plexamp 音乐播放器
-HOST-SUFFIX, zlmediakit.com       # zlmediakit 视频汇聚
-HOST-SUFFIX, epg.erw.cc           # IPTV EPG
-HOST-SUFFIX, epg.112114.xyz       # IPTV EPG
-HOST-SUFFIX, tonkiang.us          # IPTV 电视直播源
-HOST-KEYWORD, madou               # 麻豆
+# C 站（二次元）
+HOST-KEYWORD, clicli
+# Plexamp 音乐播放器
+HOST-KEYWORD, plex
+# zlmediakit 视频汇聚
+HOST-SUFFIX, zlmediakit.com
+# IPTV EPG
+HOST-SUFFIX, epg.erw.cc
+# IPTV EPG
+HOST-SUFFIX, epg.112114.xyz
+# IPTV 电视直播源
+HOST-SUFFIX, tonkiang.us
+# 麻豆
+HOST-KEYWORD, madou
 
 # --- 维基百科 (Wikipedia) ---
 HOST-SUFFIX, mediawiki.org
@@ -255,49 +353,75 @@ HOST-SUFFIX, wiktionary.org
 # 社交与通讯 (Social & Communication)
 ########################################
 HOST-SUFFIX, v2ex.com
-HOST, ocsp.digicert.com           # V2EX 评论区证书
+# V2EX 评论区证书
+HOST, ocsp.digicert.com
 HOST-KEYWORD, facebook
-HOST-SUFFIX, linkedin.cn          # 领英
+# 领英
+HOST-SUFFIX, linkedin.cn
 
 
 ########################################
 # 订阅与规则 (Subscriptions & Rules)
 ########################################
-HOST, limbopro.com                # 网页去广告订阅
-HOST-SUFFIX, gjds666.cf           # 鸡神脚本订阅
-HOST-SUFFIX, adrules.top          # Cats-Team 规则
-HOST, klraw.pages.dev             # 树先生规则
-HOST, img.shields.io              # 规则图标
+# 网页去广告订阅
+HOST, limbopro.com
+# 鸡神脚本订阅
+HOST-SUFFIX, gjds666.cf
+# Cats-Team 规则
+HOST-SUFFIX, adrules.top
+# 树先生规则
+HOST, klraw.pages.dev
+# 规则图标
+HOST, img.shields.io
 
 ########################################
 # 其他 (Miscellaneous)
 ########################################
 # --- 软件服务 ---
-HOST-SUFFIX, finalshell.com       # FinalShell (旧域名 hostbuf.com)
-HOST-SUFFIX, hostbuf.com          # FinalShell
+# FinalShell (旧域名 hostbuf.com)
+HOST-SUFFIX, finalshell.com
+# FinalShell
+HOST-SUFFIX, hostbuf.com
 HOST-KEYWORD, applovin
 HOST-KEYWORD, applvn
-HOST-KEYWORD, bilin.eu            # App 降级软件检索版本
-HOST-KEYWORD, fontconverter       # 字体转换
-HOST-KEYWORD, fontforge           # 字体合并
+# App 降级软件检索版本
+HOST-KEYWORD, bilin.eu
+# 字体转换
+HOST-KEYWORD, fontconverter
+# 字体合并
+HOST-KEYWORD, fontforge
 HOST-SUFFIX, wuzhi.vercel.app
-HOST-SUFFIX, quantumult.app       # Quantumult 官网
-HOST-SUFFIX, translate.yandex.net # 翻译插件
-HOST-SUFFIX, translate.goog       # 翻译插件
-HOST-SUFFIX, rapidapi.com         # 文字转语音接口
-HOST-SUFFIX, alist.nn.ci          # Alist
-HOST-SUFFIX, vr3d.cloud           # GeoTwin 试用
-HOST-KEYWORD, metowolf            # 通讯录远程
+# Quantumult 官网
+HOST-SUFFIX, quantumult.app
+# 翻译插件
+HOST-SUFFIX, translate.yandex.net
+# 翻译插件
+HOST-SUFFIX, translate.goog
+# 文字转语音接口
+HOST-SUFFIX, rapidapi.com
+# Alist
+HOST-SUFFIX, alist.nn.ci
+# GeoTwin 试用
+HOST-SUFFIX, vr3d.cloud
+# 通讯录远程
+HOST-KEYWORD, metowolf
 
 # --- 新闻与博客 ---
-HOST-KEYWORD, yummy               # 新闻分享博客
-HOST-SUFFIX, theverge.com         # 美国科技媒体
-HOST-SUFFIX, ctech.com            # 优土优木国外技术
-HOST, edition.cnn.com             # CNN
+# 新闻分享博客
+HOST-KEYWORD, yummy
+# 美国科技媒体
+HOST-SUFFIX, theverge.com
+# 优土优木国外技术
+HOST-SUFFIX, ctech.com
+# CNN
+HOST, edition.cnn.com
 
 # --- 数据与下载 ---
-HOST, igscb.jpl.nasa.gov          # NASA 数据下载
+# NASA 数据下载
+HOST, igscb.jpl.nasa.gov
 
 # --- 浏览器与搜索 ---
-HOST-SUFFIX, search.inetol.net    # SearXNG 搜索引擎
-HOST-KEYWORD, brave               # Brave 浏览器
+# SearXNG 搜索引擎
+HOST-SUFFIX, search.inetol.net
+# Brave 浏览器
+HOST-KEYWORD, brave
