@@ -1,373 +1,303 @@
-#########################################常用#############################
-# google
-HOST-KEYWORD,google
-# github
-HOST-KEYWORD,github
-# gitlab
-HOST-KEYWORD,gitlab
-# jsdelivr
-HOST-KEYWORD,jsdelivr
-# alfred
-HOST-KEYWORD,alfred
-# steam
-HOST-KEYWORD,steam
-# gmail
-HOST-KEYWORD,gmail
-host,preview.app.goo.gl
-# brew
-host-suffix,brew.sh
-# brew安装软件
-HOST-KEYWORD, matrix
-# adobe
-HOST-KEYWORD,adobe
-# paypal
-HOST-KEYWORD,paypal
-# docker
-HOST-KEYWORD,docker
-# nvidia
-HOST-KEYWORD,nvidia
-# ollama
-host-suffix,ollama.com
-# quantumult
-HOST-SUFFIX, quantumult.app
-# v2ex
-host-suffix,v2ex.com
-# stackoverflow
-HOST-KEYWORD, stackoverflow
-# 常用软件下载官网（omnigroup、typora、istatmenus6、maven、threejs、wuzhi、mp3、finalshell）
-host-suffix,omnigroup.com
-host-suffix,typora.io
-host-suffix,bjango.com
-host-suffix,repo.maven.apache.org
-host-suffix,threejs.org
-host-suffix,wuzhi.vercel.app
-host-suffix,free-mp3-download.net
-host-suffix,hostbuf.com
-#########################################相关订阅#############################
-# 网页去广告订阅
-HOST,limbopro.com
-# 鸡神脚本订阅
-host-suffix,gjds666.cf
-#########################################ios越狱#############################
-# 多巴胺越狱（在线更新）
-host-suffix,ellekit.space
-# 越狱插件下载
-HOST-KEYWORD, tomt.ooo
-host-suffix, getsileo.app
-host-suffix, api.canister.me
-# 越狱源(多巴胺越狱)
-host-suffix,wwg135.github.io
-host-suffix,rootless.zq666.eu.org
-host-suffix,byg.iosios.net
-host-suffix,xiangfeidexiaohuo.github.io
-host-suffix,apt.htv123.com
-host-suffix,apt.25mao.com
-host-suffix,lclrc.github.io
-host-suffix,flyx099.github.io
-host-suffix,repo.anamy.gay
-host-suffix,apt.thebigboss.org
-host-suffix,repo.chariz.com
-host-suffix,ellekit.space
-HOST-KEYWORD,havoc
-host-suffix,jailrepo.initnil.com
-host-suffix,invalidunit.github.io
-host-suffix,opa334.github.io
-host-suffix,apt.procurs.us
-host-suffix,invalidunit.github.io
-host-suffix,ib-soft.net
-host-suffix,tigisoftware.com
-HOST-KEYWORD,chariz
-HOST,featuredpage.getsileo.app
-host-suffix, api2.amplitude.com
-HOST-KEYWORD, level3tjg
-host-suffix,0xkuj.yourepo.com
-HOST-KEYWORD,ginsu
-host-suffix, yourepo.com
-host-suffix, repo.cypwn.xyz
-host-suffix, huayuarc.cn
-#########################################软件下载#############################
-# cloudflare-ipfs电子书下载
-HOST-KEYWORD,cloudflare
-# 物联网工具下载
-HOST-KEYWORD, arduino
-# mqtt客户端工具下载
-host-suffix, packages.emqx.io
-# orbstack 下载（docker管理器）
-HOST-KEYWORD,orbstack
-# app降级软件 检索版本
-HOST-KEYWORD,bilin.eu
-host,uclient-api.itunes.apple.com
-HOST-KEYWORD,applovin
-HOST-KEYWORD,cokepokes
-HOST-KEYWORD,applvn
-# 无版权图片素材库下载
-host-suffix,pexels.com
-# 图片分享网站imgur
-HOST-KEYWORD,imgur
-# app降级软件 检索版本
-HOST-KEYWORD,bilin.eu
-host,uclient-api.itunes.apple.com
-HOST-KEYWORD,applovin
-HOST-KEYWORD,cokepokes
-HOST-KEYWORD,applvn
-# npm的CDN 
-HOST-KEYWORD,unpkg
-# x图床
-host-suffix,idownloadblog.com
-# notepad下载
-host-suffix, notepad-plus-plus.org
-# 磁力网站 https://0cili.net/
-HOST-KEYWORD, 0cili
-# UE下载
-HOST-KEYWORD, unrealengine
-# ONS游戏资源库
-host-suffix, 05fx.glitch.me
+#################################################################
+#
+#                         远程代理分流规则
+#
+# - 说明：此为个人定制，仅供个人使用。
+# - 适用于需要通过代理访问的域名列表。
+# - 更新时间：2025-10-10
+#
+#################################################################
 
-#########################################其它#############################
-# AlDente（Mac电池助手）
-host-suffix,apphousekitchen.com
-# journeyart.ai（AI绘画）
-HOST-KEYWORD,journeyart
-# codeium(在线AI写代码)
-host-suffix,codeium.com
-# 大模型接口
-HOST-KEYWORD,huggingface
-HOST,api.pwnedpasswords.com
-# midjourney登陆
-HOST-KEYWORD, hcaptcha
-HOST-KEYWORD, discord
-HOST-KEYWORD, midjourney
-# cydia2官网
-host-suffix, cydia2.com
-# threejs开源拓展试用
-host-suffix, opensource.icegl.cn
-# PMI证书
-HOST-KEYWORD, pmi
-# blender（三维建模软件）
-HOST-KEYWORD, blender
-# 图片转3d模型
-HOST-KEYWORD, 3daistudio
-# C站（二次元）
-HOST-KEYWORD, clicli
-# 新闻分享博客
-HOST-KEYWORD, yummy
-# AI搜索引擎（非常好用）
-host-suffix, explorer.globe.engineer
-# flex3商店
-HOST-KEYWORD, flex
-# IPTV epg
-host-suffix, epg.erw.cc
-host-suffix, epg.112114.xyz
-# 自动简历筛选软件（需订阅）
-host-suffix, hirematch.app
-# 美国媒体
-host-suffix, theverge.com
-# 奶昔（最贵✈️）
-host-suffix, nexitallysafe.com
-# 筋斗云机场
-host-suffix, jindouyun88.life
-# 鳄鱼机场（貌似是骗子）
-host-suffix, eyujichang.com
-# 直播源节目单元数据
-host-suffix, epg.erw.cc
-# 谷歌搜索网页图片缩略图
-host-suffix, gstatic.com
-# 文字转语音接口
-host-suffix, rapidapi.com
-# 翻译插件
-host-suffix, translate.yandex.net
-# 字体转换
-HOST-KEYWORD, fontconverter
-# 字体合并
-HOST-KEYWORD, fontforge
-# 免费AI（未试用）
-host-suffix, g4f.ai
-# 乌大CopyVault激活
-host-suffix, squidforce.eu.org
-# alist
-host-suffix, alist.nn.ci
-# ue epicgames
-host-suffix, datarouter.ol.epicgames.com
-# 免费ai（可用gpt4）
-host-suffix, unione.ai
-# dropbox网盘
+
+########################################
+# 常用服务 (Common Services)
+########################################
+HOST-KEYWORD, google
+HOST-SUFFIX, g.co                 # Google one & URL Shortener
+HOST-SUFFIX, gstatic.com          # 谷歌静态资源
+HOST-KEYWORD, paypal
 HOST-KEYWORD, dropbox
-# zlmediakit视频汇聚
-host-suffix, zlmediakit.com
-# 视频生成ai
-host-suffix, lumalabs.ai
-# 优土优木国外技术
-host-suffix, ctech.com
-# Cats-Team官网（分流广告）
-host, img.shields.io
-host-suffix, adrules.top
-# Mac破解软件下载
-host-suffix, macked.app
-# 免费gpt
-HOST-KEYWORD, oaifree
-# python教程博客
-host-suffix, cuiqingcai.com
-# 翻译插件，浏览器使用
-host-suffix, translate.goog
-# snapper 上传图片
-HOST-KEYWORD, postimg
-
-# notion
-HOST-KEYWORD, notion
-# 政策库
-host-suffix, zhengceku.fun
-# 宝玉分享博客
-host-suffix, baoyu.io
-# fastgpt文档
-host-suffix, doc.fastgpt.in
-
-# pycharm下载包使用
-HOST-KEYWORD, python
-HOST-KEYWORD, pypi
-host-suffix, pypi.org
-# 在线模型骨骼体生成
-HOST-KEYWORD, mixamo
-# 试用GeoTwin
-host-suffix, vr3d.cloud
-
-# nasa数据下载
-host, igscb.jpl.nasa.gov
-# TW博客文章
-host, tw93.fun
-#注册即送的AI接口服务
-host-suffix, openrouter.ai
-# 通讯录远程
-HOST-KEYWORD, metowolf
-
-# Wiki百科
-HOST-SUFFIX,mediawiki.org
-HOST-SUFFIX,wikibooks.org
-HOST-SUFFIX,wikidata.org
-HOST-SUFFIX,wikileaks.org
-HOST-SUFFIX,wikimedia.org
-HOST-SUFFIX,wikimediafoundation.org
-HOST-SUFFIX,wikinews.org
-HOST-SUFFIX,wikipedia.org
-HOST-SUFFIX,wikiquote.org
-HOST-SUFFIX,wikisource.org
-HOST-SUFFIX,wikiversity.org
-HOST-SUFFIX,wikivoyage.org
-HOST-SUFFIX,wiktionary.org
-
-# ---(Apple)---
-HOST-SUFFIX,appsto.re // Apple URL Shortener
-HOST-SUFFIX,smoot.apple.com // Spotlight
-HOST,amp-api.podcasts.apple.com // Podcasts
-HOST,beta.music.apple.com // Apple Music Web
-HOST,books.itunes.apple.com // iBooks Store download
-HOST,facetime.apple.com // FaceTime Links
-HOST,lookup-api.apple.com // Look Up
-HOST,radio.itunes.apple.com // Apple Music Radio
-HOST,apple-relay.apple.com // Apple Intelligence
-HOST,apple-relay.cloudflare.com
-HOST,apple-relay.fastly-edge.com
-HOST,cp4.cloudflare.com
-###20250428新增#####
-# oracle官网
-host-suffix, oracle.com
-# 4k 壁纸
-HOST-KEYWORD, desktophut
-# Little Snitch下载地址
-HOST-KEYWORD, obdev
-# Bartender 下载地址
-HOST-KEYWORD, macbartender
-# onedrive 网盘
 HOST-KEYWORD, onedrive
-# 免费图床
-host-suffix, s2.loli.net
-# 领英网络
-host-suffix, linkedin.cn
-# 可汗学院大模型
-HOST-KEYWORD, khan
-# 开源产品数据平台
-HOST-KEYWORD, posthog
-# 麻豆
-HOST-KEYWORD, madou
-# dify 大模型编排
-HOST-KEYWORD, dify
-# SearXNG 搜素引擎
-host-suffix, search.inetol.net
-# 油猴插件
-host-suffix, greasyfork.org
-# anygo下载
-HOST-KEYWORD, itoolab
-# 音色克隆 https://anyvoice.net/zh/ai-voice-cloning
-HOST-KEYWORD, anyvoice
-# 开源实时数据库
-HOST-KEYWORD, gtsdb
-###2025-07-21新增#####
-# npm下载
-host-suffix, npmjs.org
-# 苹果的人工智能服务
-host-suffix, apple-relay.apple.com
-# 人工智能编码助手
-host-suffix, augmentcode.com
-# plexamp音乐播放器
-host-keyword, plex
-# 谷歌浏览器驱动下载
-host-suffix, developer.chrome.com
-# 3d打印资源下载
-host-keyword, jbp3d
-# 脸书
-host-keyword, facebook
+HOST-SUFFIX, onedrive.live.com
+HOST-SUFFIX, mediafire.com        # 文件托管和存储服务
 
-# 电视直播源IPTV
-host-suffix, tonkiang.us
-# ui设计（没有https://v0.dev/ 好使）
-host-keyword, uizard
-# 浏览器mcp
-host-keyword, playwright
-# ollama下载
-host-keyword, ollama
-# manus AI
-host-keyword, manus
-# UE5模型下载
-host-keyword, artstation
-# USB 启动盘
-host-suffix, rufus.ie
-# 读书派电子书下载
-host-keyword, dushupai
-# 书葵网电子书下载
-host-keyword, shukui
-# onedrive下载
-host-suffix, onedrive.live.com
-# 测试app下载
-host-suffix, testflight.apple.com
-# Dvel’s Blog
-host-suffix, dvel.me
-# rime输入法
-host-keyword, rime
 
-# one switch下载
-host-suffix, fireball.studio
-# 免费下载bim模型
-host-keyword, bimobject
+########################################
+# 技术开发 (Tech & Development)
+########################################
+# --- Git & Code ---
+HOST-KEYWORD, github
+HOST-KEYWORD, gitlab
+HOST-SUFFIX, greasyfork.org       # 油猴插件
+HOST-KEYWORD, stackoverflow
+HOST-KEYWORD, jsdelivr
+HOST-KEYWORD, unpkg               # npm 的 CDN
 
-# go环境配置（下载软件包）
-host-suffix, go.dev
-host-keyword, golang
+# --- Google Dev ---
+HOST-SUFFIX, developer.chrome.com # 谷歌浏览器驱动下载
 
-######### 2025-09-16 ########
-# nasa数据下载
-host, igscb.jpl.nasa.gov
-#v2ex 评论区
-host, ocsp.digicert.com
-# debian系统软件源下载
-host-keyword, debian
-# 树先生规则
-host, klraw.pages.dev
-# 闪电官网
-host-suffix, shandiancn.com
-# webgl cesium
-host-suffix, cesium.com
-#Google one
-host-suffix, g.co
-# 安卓模拟器
-host-keyword, bluestacks
-# 文件托管和存储服务的网站
-host-suffix, mediafire.com
+# --- Package Managers ---
+HOST-SUFFIX, brew.sh              # Homebrew 官网
+HOST-SUFFIX, repo.maven.apache.org# Maven
+HOST-SUFFIX, npmjs.org
+HOST-KEYWORD, pypi                # Python PyPI
+HOST-SUFFIX, pypi.org
+HOST-KEYWORD, debian              # Debian 系统软件源
+
+# --- Go Lang ---
+HOST-SUFFIX, go.dev
+HOST-KEYWORD, golang
+
+# --- Database & Backend ---
+HOST-SUFFIX, oracle.com           # Oracle 官网
+HOST-KEYWORD, gtsdb               # 开源实时数据库
+HOST-SUFFIX, packages.emqx.io     # MQTT 客户端工具
+
+# --- Frontend & 3D ---
+HOST-SUFFIX, threejs.org
+HOST-SUFFIX, opensource.icegl.cn  # Three.js 开源拓展
+HOST-SUFFIX, cesium.com           # WebGL Cesium
+
+# --- Others ---
+HOST-KEYWORD, arduino             # 物联网工具
+HOST-KEYWORD, docker
+HOST-KEYWORD, nvidia
+HOST-KEYWORD, playwright          # 浏览器自动化 MCP
+HOST, api.pwnedpasswords.com      # HIBP API
+HOST-SUFFIX, posthog              # 开源产品数据平台
+HOST-SUFFIX, cuiqingcai.com       # Python 教程博客
+HOST-SUFFIX, baoyu.io             # 宝玉分享博客
+HOST, tw93.fun                    # TW 博客文章
+HOST-SUFFIX, dvel.me              # Dvel’s Blog
+
+########################################
+# AI 相关 (AI Services)
+########################################
+# --- LLM & Platforms ---
+HOST-SUFFIX, ollama.com           # Ollama
+HOST-KEYWORD, ollama
+HOST-KEYWORD, huggingface         # Hugging Face
+HOST-SUFFIX, codeium.com          # AI 代码助手
+HOST-SUFFIX, augmentcode.com      # AI 代码助手
+HOST-SUFFIX, openrouter.ai        # AI 接口服务
+HOST-SUFFIX, unione.ai            # 免费 AI (可用 GPT4)
+HOST-SUFFIX, g4f.ai               # 免费 AI
+HOST-KEYWORD, oaifree             # 免费 GPT
+HOST-KEYWORD, dify                # 大模型编排
+HOST-SUFFIX, doc.fastgpt.in       # FastGPT 文档
+HOST-KEYWORD, khan                # 可汗学院大模型
+
+# --- AI Tools & Services ---
+HOST-KEYWORD, midjourney
+HOST-KEYWORD, discord             # Midjourney 依赖
+HOST-KEYWORD, hcaptcha            # Midjourney 依赖
+HOST-KEYWORD, journeyart          # AI 绘画
+HOST-KEYWORD, 3daistudio          # 图片转 3D 模型
+HOST-KEYWORD, mixamo              # 在线模型骨骼生成
+HOST-SUFFIX, lumalabs.ai          # 视频生成 AI
+HOST-SUFFIX, explorer.globe.engineer # AI 搜索引擎
+HOST-KEYWORD, anyvoice            # AI 音色克隆
+HOST-KEYWORD, manus               # Manus AI
+
+# --- Apple Intelligence ---
+HOST-SUFFIX, apple-relay.apple.com
+HOST, apple-relay.apple.com
+HOST, apple-relay.cloudflare.com
+HOST, apple-relay.fastly-edge.com
+HOST, cp4.cloudflare.com
+
+########################################
+# 苹果生态 (Apple Ecosystem)
+########################################
+HOST-SUFFIX, appsto.re            # Apple URL Shortener
+HOST-SUFFIX, testflight.apple.com # TestFlight
+HOST, uclient-api.itunes.apple.com# App 降级检索版本
+HOST, amp-api.podcasts.apple.com  # Podcasts
+HOST, beta.music.apple.com        # Apple Music Web
+HOST, books.itunes.apple.com      # iBooks Store download
+HOST, facetime.apple.com          # FaceTime Links
+HOST, lookup-api.apple.com        # Look Up
+HOST, radio.itunes.apple.com      # Apple Music Radio
+HOST, smoot.apple.com             # Spotlight
+
+
+########################################
+# iOS 越狱 (iOS Jailbreak)
+########################################
+# --- 核心服务与商店 ---
+HOST-SUFFIX, ellekit.space        # 多巴胺越狱 (在线更新)
+HOST-SUFFIX, getsileo.app         # Sileo 商店
+HOST, featuredpage.getsileo.app   # Sileo 商店
+HOST-SUFFIX, cydia2.com           # Cydia2 官网
+
+# --- 越狱源 ---
+HOST-KEYWORD, havoc
+HOST-KEYWORD, chariz
+HOST-SUFFIX, repo.chariz.com
+HOST-SUFFIX, apt.thebigboss.org
+HOST-SUFFIX, apt.procurs.us
+HOST-SUFFIX, wwg135.github.io
+HOST-SUFFIX, rootless.zq666.eu.org
+HOST-SUFFIX, byg.iosios.net
+HOST-SUFFIX, xiangfeidexiaohuo.github.io
+HOST-SUFFIX, apt.htv123.com
+HOST-SUFFIX, apt.25mao.com
+HOST-SUFFIX, lclrc.github.io
+HOST-SUFFIX, flyx099.github.io
+HOST-SUFFIX, repo.anamy.gay
+HOST-SUFFIX, jailrepo.initnil.com
+HOST-SUFFIX, invalidunit.github.io
+HOST-SUFFIX, opa334.github.io
+HOST-SUFFIX, ib-soft.net
+HOST-SUFFIX, tigisoftware.com
+HOST-SUFFIX, 0xkuj.yourepo.com
+HOST-SUFFIX, yourepo.com
+HOST-SUFFIX, repo.cypwn.xyz
+HOST-SUFFIX, huayuarc.cn
+
+# --- 越狱插件与依赖 ---
+HOST-KEYWORD, tomt.ooo
+HOST-SUFFIX, api.canister.me
+HOST-SUFFIX, api2.amplitude.com
+HOST-KEYWORD, level3tjg
+HOST-KEYWORD, ginsu
+HOST-KEYWORD, cokepokes
+HOST-SUFFIX, squidforce.eu.org    # 乌大 CopyVault 激活
+HOST-KEYWORD, flex                # Flex3 商店
+
+########################################
+# 软件与应用 (Software & Apps)
+########################################
+# --- Mac ---
+HOST-KEYWORD, alfred
+HOST-SUFFIX, apphousekitchen.com  # AlDente Mac 电池助手
+HOST-SUFFIX, macked.app           # Mac 破解软件下载
+HOST-KEYWORD, obdev               # Little Snitch 下载
+HOST-KEYWORD, macbartender        # Bartender 下载
+HOST-SUFFIX, fireball.studio      # One Switch 下载
+HOST-KEYWORD, itoolab             # AnyGo 下载
+HOST-KEYWORD, bluestacks          # 安卓模拟器
+
+# --- 设计与编辑 ---
+HOST-KEYWORD, adobe
+HOST-SUFFIX, omnigroup.com
+HOST-SUFFIX, typora.io
+HOST-SUFFIX, bjango.com           # iStat Menus
+HOST-SUFFIX, notepad-plus-plus.org
+HOST-KEYWORD, blender             # 3D 建模
+HOST-KEYWORD, unrealengine        # UE 虚幻引擎
+HOST-SUFFIX, datarouter.ol.epicgames.com # UE EpicGames
+HOST-KEYWORD, artstation          # UE5 模型下载
+HOST-KEYWORD, uizard              # UI 设计网站
+
+# --- 效率与工具 ---
+HOST-KEYWORD, notion
+HOST-KEYWORD, orbstack            # Docker 管理器
+HOST-SUFFIX, hirematch.app        # 自动简历筛选软件
+HOST-SUFFIX, rufus.ie             # USB 启动盘
+HOST-KEYWORD, rime                # Rime 输入法
+
+# --- 其它 ---
+HOST-KEYWORD, pmi                 # PMI 证书
+HOST-SUFFIX, zhengceku.fun        # 政策库
+
+
+########################################
+# 媒体与资源 (Media & Resources)
+########################################
+# --- 游戏 ---
+HOST-KEYWORD, steam
+HOST, preview.app.goo.gl
+HOST-SUFFIX, 05fx.glitch.me       # ONS 游戏资源库
+
+# --- 图片与素材 ---
+HOST-KEYWORD, cloudflare          # Cloudflare-IPFS
+HOST-SUFFIX, pexels.com           # 无版权图片素材库
+HOST-KEYWORD, imgur               # 图片分享网站
+HOST-KEYWORD, postimg             # Snapper 上传图床
+HOST-SUFFIX, s2.loli.net          # 免费图床
+HOST-SUFFIX, idownloadblog.com    # X 图床
+HOST-KEYWORD, desktophut          # 4K 壁纸
+HOST-KEYWORD, bimobject           # 免费 BIM 模型下载
+HOST-KEYWORD, jbp3d               # 3D 打印资源下载
+
+# --- 电子书 ---
+HOST-KEYWORD, dushupai            # 读书派电子书下载
+HOST-KEYWORD, shukui              # 书葵网电子书下载
+
+# --- 影音与直播 ---
+HOST-KEYWORD, 0cili               # 磁力网站
+HOST-SUFFIX, free-mp3-download.net
+HOST-KEYWORD, clicli              # C 站（二次元）
+HOST-KEYWORD, plex                # Plexamp 音乐播放器
+HOST-SUFFIX, zlmediakit.com       # zlmediakit 视频汇聚
+HOST-SUFFIX, epg.erw.cc           # IPTV EPG
+HOST-SUFFIX, epg.112114.xyz       # IPTV EPG
+HOST-SUFFIX, tonkiang.us          # IPTV 电视直播源
+HOST-KEYWORD, madou               # 麻豆
+
+# --- 维基百科 (Wikipedia) ---
+HOST-SUFFIX, mediawiki.org
+HOST-SUFFIX, wikibooks.org
+HOST-SUFFIX, wikidata.org
+HOST-SUFFIX, wikileaks.org
+HOST-SUFFIX, wikimedia.org
+HOST-SUFFIX, wikimediafoundation.org
+HOST-SUFFIX, wikinews.org
+HOST-SUFFIX, wikipedia.org
+HOST-SUFFIX, wikiquote.org
+HOST-SUFFIX, wikisource.org
+HOST-SUFFIX, wikiversity.org
+HOST-SUFFIX, wikivoyage.org
+HOST-SUFFIX, wiktionary.org
+
+########################################
+# 社交与通讯 (Social & Communication)
+########################################
+HOST-SUFFIX, v2ex.com
+HOST, ocsp.digicert.com           # V2EX 评论区证书
+HOST-KEYWORD, facebook
+HOST-SUFFIX, linkedin.cn          # 领英
+
+
+########################################
+# 订阅与规则 (Subscriptions & Rules)
+########################################
+HOST, limbopro.com                # 网页去广告订阅
+HOST-SUFFIX, gjds666.cf           # 鸡神脚本订阅
+HOST-SUFFIX, adrules.top          # Cats-Team 规则
+HOST, klraw.pages.dev             # 树先生规则
+HOST, img.shields.io              # 规则图标
+
+########################################
+# 其他 (Miscellaneous)
+########################################
+# --- 软件服务 ---
+HOST-SUFFIX, finalshell.com       # FinalShell (旧域名 hostbuf.com)
+HOST-SUFFIX, hostbuf.com          # FinalShell
+HOST-KEYWORD, applovin
+HOST-KEYWORD, applvn
+HOST-KEYWORD, bilin.eu            # App 降级软件检索版本
+HOST-KEYWORD, fontconverter       # 字体转换
+HOST-KEYWORD, fontforge           # 字体合并
+HOST-SUFFIX, wuzhi.vercel.app
+HOST-SUFFIX, quantumult.app       # Quantumult 官网
+HOST-SUFFIX, translate.yandex.net # 翻译插件
+HOST-SUFFIX, translate.goog       # 翻译插件
+HOST-SUFFIX, rapidapi.com         # 文字转语音接口
+HOST-SUFFIX, alist.nn.ci          # Alist
+HOST-SUFFIX, vr3d.cloud           # GeoTwin 试用
+HOST-KEYWORD, metowolf            # 通讯录远程
+
+# --- 新闻与博客 ---
+HOST-KEYWORD, yummy               # 新闻分享博客
+HOST-SUFFIX, theverge.com         # 美国科技媒体
+HOST-SUFFIX, ctech.com            # 优土优木国外技术
+HOST, edition.cnn.com             # CNN
+
+# --- 数据与下载 ---
+HOST, igscb.jpl.nasa.gov          # NASA 数据下载
+
+# --- 浏览器与搜索 ---
+HOST-SUFFIX, search.inetol.net    # SearXNG 搜索引擎
+HOST-KEYWORD, brave               # Brave 浏览器
