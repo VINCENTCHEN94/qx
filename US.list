@@ -8,20 +8,6 @@ host-suffix,postman.co
 host-keyword,postman
 # 扣子ai国际版本
 host-suffix,coze.com
-# gemini
-HOST,ai.google.dev
-HOST,alkalimakersuite-pa.clients6.google.com
-HOST,makersuite.google.com
-HOST-SUFFIX,bard.google.com
-HOST-SUFFIX,deepmind.com
-HOST-SUFFIX,deepmind.google
-HOST-SUFFIX,gemini.google.com
-HOST-SUFFIX,generativeai.google
-HOST-SUFFIX,proactivebackend-pa.googleapis.com
-HOST-SUFFIX,apis.google.com
-HOST-KEYWORD,colab
-HOST-KEYWORD,developerprofiles
-HOST-KEYWORD,generativelanguage
 # GitHub Copilot
 DOMAIN-SUFFIX,github-copilot.com
 DOMAIN-SUFFIX,copilot-proxy.githubusercontent.com
@@ -29,18 +15,3 @@ DOMAIN-SUFFIX,githubusercontent.com
 # 补充 copilot 相关的 API 域名
 DOMAIN,api.githubcopilot.com
 DOMAIN,api.copilot.microsoft.com
-
-# 1password US
-HOST-SUFFIX,1password.com
-HOST-SUFFIX,1passwordservices.com
-HOST-SUFFIX,1passwordusercontent.com
-HOST,accounts.brex.com
-HOST,api.privacy.com
-HOST,api.pwnedpasswords.com
-HOST,cache.agilebits.com
-HOST,in.appcenter.ms
-HOST,jmap.fastmail.com
-HOST,platform.brex.com
-HOST-SUFFIX,1infra.net
-HOST-SUFFIX,fastmail.com
-HOST-SUFFIX,globalsign.com
