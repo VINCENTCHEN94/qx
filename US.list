@@ -12,6 +12,5 @@ host-suffix,coze.com
 DOMAIN-SUFFIX,github-copilot.com
 DOMAIN-SUFFIX,copilot-proxy.githubusercontent.com
 DOMAIN-SUFFIX,githubusercontent.com
-# 补充 copilot 相关的 API 域名
 DOMAIN,api.githubcopilot.com
 DOMAIN,api.copilot.microsoft.com
