@@ -1,5 +1,5 @@
-#!name=Advertising-Vincent
-#!desc=Advertising-Vincent
+#!name=个人去广告
+#!desc=Vincent维护常用去广告
 
 [URL Rewrite]
 # 谷歌服务重定向 //*.google.cn
