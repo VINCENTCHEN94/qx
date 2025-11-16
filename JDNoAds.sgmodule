@@ -1,7 +1,8 @@
 #!name=京东去广告
 #!desc=京东开屏广告
 #!author=树先生
-
+[Rule]
+DOMAIN,dns.jd.com,REJECT
 [Map Local]
 ^https?:\/\/m\.360buyimg\.com\/mobilecms\/s1125x2436_jfs data-type=text data=" " status-code=200
 
