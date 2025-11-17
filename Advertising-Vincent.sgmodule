@@ -6,59 +6,36 @@
 ^https?:\/\/translate\.google\.cn https://translate.google.com 302
 ^https?:\/\/(www.)?(g|google)\.cn https://www.google.com 302
 ^https?:\/\/(ditu|maps).google\.cn https://maps.google.com 302
-# 美团开屏 //flowplus.meituan.net,s3plus.meituan.net
+# 美团去开屏 //flowplus.meituan.net,s3plus.meituan.net
 ^https?:\/\/flowplus\.meituan\.net\/v\d\/\w+\/linglong\/\w+\.(gif|jpg|mp4) - reject
 ^https?:\/\/(s3plus|flowplus)\.meituan\.net\/v\d\/\w+\/linglong\/\w+\.(gif|jpg|mp4) - reject
-# 中信银行去广告// imcs.citicbank.com (需清缓存)
+# 中信银行去开屏// imcs.citicbank.com (需清缓存)
 ^https?:\/\/imcs\.citicbank\.com\/cloud\/[a-zA-Z0-9]{32}\.(jpg|jpeg|png)\?width=(5..|6..|7..|1125|1242|1400|1863|1242|1330|1500|1080)&height=(2436|2688|1624|12..|3031|4032|2688|1137|2880|3248|720|23..|1462) - reject
 ^https?:\/\/api\.ys7\.com\/api\/ads - reject
-# 小程序_乘车码 //ccmsupport-sz.tenpay.com
-^https?:\/\/ccmsupport-sz\.tenpay\.com\/cgi-bin\/common\/ccm_page_element.cgi - reject
-# 收钱吧//api.pinduoduo.com
-^https?:\/\/api\.pinduoduo\.com\/api\/ktt_gateway\/activity\/feeds\/personal_home_page\/ - reject
-
 [Map Local]
-# 向日葵 // client-api.oray.com
+# 向日葵去开屏 // client-api.oray.com
 ^https?:\/\/client-api\.oray\.com\/materials\/SLCC_IOS_STARTUP\?lang=zh-Hans-CN data-type=text data=" " status-code=200
-
-# 石头 //cniot.roborock.com
+# 石头去开屏 //cniot.roborock.com
 ^https?:\/\/cniot\.roborock\.com\/api\/v1\/activity\/banner\/list data-type=text data="{}" status-code=200 header="Content-Type:application/json"
-
-# 福享太平去开屏广告 //ecloud.tppension.cntaiping.com
+# 福享太平去开屏 //ecloud.tppension.cntaiping.com
 ^https?:\/\/ecloud\.tppension\.cntaiping\.com\/fxtpplatform\/common\/anonymous\/common\/page\/queryStartPageNew\?language=zh-CN data-type=text data="{}" status-code=200 header="Content-Type:application/json"
-
-# 萤石云去广告 //api.ys7.com,i.ys7.com
+# 萤石云去开屏 //api.ys7.com,i.ys7.com
 ^http?:\/\/p\d+-be-pack-sign\.pglstatp-toutiao\.com\/(ad-app-package|web\.business\.image)\/ data-type=text data=" " status-code=200
-
 ^https?:\/\/i\.ys7\.com\/api\/user\/tabList data-type=text data="{}" status-code=200 header="Content-Type:application/json"
-
 ^https?:\/\/api\.ys7\.com\/v3\/config\/service\/entrance\/bannerInfo data-type=text data="{}" status-code=200 header="Content-Type:application/json"
-
 ^https?:\/\/api\.ys7\.com\/v3\/intelligent-app\/apps\/linkage data-type=text data="{}" status-code=200 header="Content-Type:application/json"
-
 ^https?:\/\/api\.ys7\.com\/v3\/configurations\/gray\/info\?grayTypes=185 data-type=text data="{}" status-code=200 header="Content-Type:application/json"
-
 ^https?:\/\/api\.ys7\.com\/v3\/videoclips\/square\/video\/query data-type=text data="{}" status-code=200 header="Content-Type:application/json"
-
+# 下厨房去开屏 //api.xiachufang.com
 ^https?:\/\/api\.xiachufang\.com\/v2\/ad\/ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
-
 ^https?:\/\/api\.xiachufang\.com\/v2\/account\/feeds_v7\.json data-type=text data="{}" status-code=200 header="Content-Type:application/json"
-
 ^https?:\/\/api\.xiachufang\.com\/v2\/homepage1810\/init_page\.json data-type=text data="{}" status-code=200 header="Content-Type:application/json"
-
 ^https?:\/\/api\.xiachufang\.com\/v2\/mark_mission\/get_sticker_info\.json data-type=text data="{}" status-code=200 header="Content-Type:application/json"
 
-# 小程序_顺丰速运 //ucmp.sf-express.com,
-^https?:\/\/ucmp\.sf-express\.com\/proxy\/operation-platform\/info-flow-adver\/query$ data-type=text data=" " status-code=200
-
-# 小爱音箱 //info.mina.xiaoaisound.com
-^https?:\/\/info\.mina\.xiaoaisound\.com\/advertise\/ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
-
-^https?:\/\/info\.mina\.xiaoaisound\.com\/payGuide\/userCenter data-type=text data="{}" status-code=200 header="Content-Type:application/json"
 
 [Script]
 # 12306去开屏 //ad.12306.cn
 12306 = type=http-request, pattern=^https?:\/\/ad\.12306\.cn\/ad\/ser\/getAdList, script-path=https://raw.githubusercontent.com/VINCENTCHEN94/qx/refs/heads/main/12306.js, requires-body=true, max-size=-1, timeout=60
 
 [MITM]
-hostname = %APPEND% ad.12306.cn, *.google.cn, flowplus.meituan.net, s3plus.meituan.net, client-api.oray.com, cniot.roborock.com, ecloud.tppension.cntaiping.com, imcs.citicbank.com, api.ys7.com, i.ys7.com, api.xiachufang.com, ucmp.sf-express.com, ccmsupport-sz.tenpay.com, api.pinduoduo.com, info.mina.xiaoaisound.com
+hostname = %APPEND% ad.12306.cn, *.google.cn, flowplus.meituan.net, s3plus.meituan.net, client-api.oray.com, cniot.roborock.com, ecloud.tppension.cntaiping.com, imcs.citicbank.com, api.ys7.com, i.ys7.com, api.xiachufang.com
