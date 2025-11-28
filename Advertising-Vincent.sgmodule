@@ -13,8 +13,6 @@
 ^https?:\/\/imcs\.citicbank\.com\/cloud\/[a-zA-Z0-9]{32}\.(jpg|jpeg|png)\?width=(5..|6..|7..|1125|1242|1400|1863|1242|1330|1500|1080)&height=(2436|2688|1624|12..|3031|4032|2688|1137|2880|3248|720|23..|1462) - reject
 ^https?:\/\/api\.ys7\.com\/api\/ads - reject
 [Map Local]
-# 向日葵去开屏 // client-api.oray.com
-^https?:\/\/client-api\.oray\.com\/materials\/SLCC_IOS_STARTUP\?lang=zh-Hans-CN data-type=text data=" " status-code=200
 # 石头去开屏 //cniot.roborock.com
 ^https?:\/\/cniot\.roborock\.com\/api\/v1\/activity\/banner\/list data-type=text data="{}" status-code=200 header="Content-Type:application/json"
 # 福享太平去开屏 //ecloud.tppension.cntaiping.com
@@ -26,11 +24,6 @@
 ^https?:\/\/api\.ys7\.com\/v3\/intelligent-app\/apps\/linkage data-type=text data="{}" status-code=200 header="Content-Type:application/json"
 ^https?:\/\/api\.ys7\.com\/v3\/configurations\/gray\/info\?grayTypes=185 data-type=text data="{}" status-code=200 header="Content-Type:application/json"
 ^https?:\/\/api\.ys7\.com\/v3\/videoclips\/square\/video\/query data-type=text data="{}" status-code=200 header="Content-Type:application/json"
-# 下厨房去开屏 //api.xiachufang.com
-^https?:\/\/api\.xiachufang\.com\/v2\/ad\/ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
-^https?:\/\/api\.xiachufang\.com\/v2\/account\/feeds_v7\.json data-type=text data="{}" status-code=200 header="Content-Type:application/json"
-^https?:\/\/api\.xiachufang\.com\/v2\/homepage1810\/init_page\.json data-type=text data="{}" status-code=200 header="Content-Type:application/json"
-^https?:\/\/api\.xiachufang\.com\/v2\/mark_mission\/get_sticker_info\.json data-type=text data="{}" status-code=200 header="Content-Type:application/json"
 
 
 [Script]
@@ -38,4 +31,4 @@
 12306 = type=http-request, pattern=^https?:\/\/ad\.12306\.cn\/ad\/ser\/getAdList, script-path=https://raw.githubusercontent.com/VINCENTCHEN94/qx/refs/heads/main/12306.js, requires-body=true, max-size=-1, timeout=60
 
 [MITM]
-hostname = %APPEND% ad.12306.cn, *.google.cn, flowplus.meituan.net, s3plus.meituan.net, client-api.oray.com, cniot.roborock.com, ecloud.tppension.cntaiping.com, imcs.citicbank.com, api.ys7.com, i.ys7.com, api.xiachufang.com
+hostname = %APPEND% ad.12306.cn, *.google.cn, flowplus.meituan.net, s3plus.meituan.net, cniot.roborock.com, ecloud.tppension.cntaiping.com, imcs.citicbank.com, api.ys7.com, i.ys7.com
