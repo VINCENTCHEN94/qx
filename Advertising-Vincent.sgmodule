@@ -26,9 +26,5 @@
 ^https?:\/\/api\.ys7\.com\/v3\/videoclips\/square\/video\/query data-type=text data="{}" status-code=200 header="Content-Type:application/json"
 
 
-[Script]
-# 12306去开屏 //ad.12306.cn
-12306 = type=http-request, pattern=^https?:\/\/ad\.12306\.cn\/ad\/ser\/getAdList, script-path=https://raw.githubusercontent.com/VINCENTCHEN94/qx/refs/heads/main/12306.js, requires-body=true, max-size=-1, timeout=60
-
 [MITM]
-hostname = %APPEND% ad.12306.cn, *.google.cn, flowplus.meituan.net, s3plus.meituan.net, cniot.roborock.com, ecloud.tppension.cntaiping.com, imcs.citicbank.com, api.ys7.com, i.ys7.com
+hostname = *.google.cn, flowplus.meituan.net, s3plus.meituan.net, cniot.roborock.com, ecloud.tppension.cntaiping.com, imcs.citicbank.com, api.ys7.com, i.ys7.com
